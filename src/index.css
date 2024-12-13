@@ -4,10 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Anton&family=Archivo+Black&family=Baumans&family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Concert+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Anton&family=Archivo+Black&family=Baumans&family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Concert+One&display=swap');
  
-    
- 
 @import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
- 
  
 
 @tailwind base;
@@ -18,22 +15,19 @@ body,html {
   font-family: 'Poppins', sans-serif;
 }
  
-
- 
-
-  
 .swiper-pagination-bullet {
-  
+  z-index: 1000;  
+  position: relative;  
   background-color: white !important;
- 
 }
 
 .swiper-pagination-bullet-active {
   background-color: #4CAF50 !important;  
-}
+}     
 
  
 .mySwiper .swiper-pagination-bullet {
+ 
   width: 20px;
   height: 20px;
   transform: scale(1.5);
@@ -41,14 +35,15 @@ body,html {
 
 @media (max-width: 768px) {
   .mySwiper .swiper-pagination-bullet {
+   
     width: 10px; 
     height: 10px;
     transform: scale(1); 
   }
 }
-
-
+ 
 .mySwiper .swiper-pagination {
+ 
   display: flex; 
   flex-direction: column;
   gap: 10px;  
@@ -56,12 +51,12 @@ body,html {
 
 @media (max-width: 768px) {
   .mySwiper .swiper-pagination {
+   
     display: flex; 
     flex-direction: column;
     gap:0px; 
   }
   
 }
-
-
+ 
  

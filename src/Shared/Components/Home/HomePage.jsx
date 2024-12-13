@@ -10,7 +10,7 @@ import GoldResort from '../GoldHill/GoldResort';
 export default function HomePage() {
     return (
         <div className='  mt-[95px]' style={{ height: `calc(100vh - 95px)` }}>
-            <Swiper direction={'vertical'} pagination={{ clickable: true, }} mousewheel={true} modules={[Pagination, Mousewheel]} className="mySwiper h-full"  >
+            <Swiper direction={'vertical'} pagination={{ clickable: true,  }} mousewheel={true} modules={[Pagination, Mousewheel]} className="mySwiper h-full"  >
                 <SwiperSlide>
                     <div className="h-full flex items-center justify-center  bg-[#201E2E] ">
                         <Kiranaa />
