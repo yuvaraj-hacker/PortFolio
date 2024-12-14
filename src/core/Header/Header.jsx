@@ -32,12 +32,14 @@ function Header() {
 
   return (
     <>
-      <div className=" z-50   bg-[#303840] fixed w-full top-0  ">
+      <div className=" z-50   ">
         <header className="max-w-[105rem]  mx-auto px-5">
-          <p className="py-8 text-center uppercase text-white text-3xl">Portfolio</p>
+          <Link to='/'>
+            <p className="flex justify-center items-center uppercase text-white text-3xl">Portfolio</p>
+          </Link>
         </header>
       </div>
-      
+
     </>
   );
 }

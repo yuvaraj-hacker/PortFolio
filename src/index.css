@@ -4,6 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Anton&family=Archivo+Black&family=Baumans&family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Concert+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Anton&family=Archivo+Black&family=Baumans&family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Concert+One&display=swap');
  
+
 @import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
  
 
@@ -21,9 +22,7 @@ body,html {
   background-color: white !important;
 }
 
-.swiper-pagination-bullet-active {
-  background-color: #4CAF50 !important;  
-}     
+
 
  
 .mySwiper .swiper-pagination-bullet {
@@ -58,5 +57,106 @@ body,html {
   }
   
 }
+
+
+.swiper-pagination .swiper-pagination-bullets .swiper-pagination-bullet {
+  margin: 8px 0;
+}
+
+.swiper-pagination .swiper-pagination-bullet {
+  width: 11px;
+  height: 11px;
+  display: block;
+  border-radius: 10px;
+  background: #fff;
+  opacity: 0.2;
+  transition: all 0.3s;
+}
+
+.swiper-pagination .swiper-pagination-bullet-active {
+  opacity: 1;
+  background: #fff;
+  height: 30px;
+  box-shadow: 0px 0px 20px rgba(252, 56, 56, 0.3);
+}
+
+ 
+
+
+.swiper-pagination-bullet-active {
+  background-color: #00B85F !important;
+}
+
+ 
+.swiper-pagination-bullet:nth-child(1) {
+  color: #fff;
+  background-color: #00B85F !important;  
+}
+
+ 
+.swiper-pagination-bullet:nth-child(2) {
+  background-color: #F8BE14 !important;   
+}
+.swiper-pagination-bullet:nth-child(3) {
+  background-color: #00B85F !important;   
+}
+
+
  
  
+
+
+/* star */
+
+.star {
+  --size: 1vmin;
+  --holes: calc(var(--size) * 0.495);
+  width: var(--size);
+  aspect-ratio: 1 / 1;
+  position: fixed;
+  background: white;
+  --mask: radial-gradient(
+      var(--holes) at var(--holes) var(--holes),
+      #0000 99%,
+      #000
+    )
+    calc(var(--holes) * -1) calc(var(--holes) * -1);
+  -webkit-mask: var(--mask);
+  mask: var(--mask);
+  border-radius: 50%;
+  animation: sparkle 3s linear forwards;
+}
+@keyframes sparkle {
+  0% {
+    transform: scale(0);
+  }
+  25% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+html {
+  background: #112;
+  min-height: 100vh;
+}
+
+
+
+
+
+
+
+
+
+body {
+  background-image: url('/assets/images/background/Backimages.png');
+  background-size: cover; /* Makes the image cover the entire background */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents repeating */
+  margin: 0;
+  padding: 0;
+  
+}

@@ -1,13 +1,33 @@
-import React from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import Header from '../Header/Header'
 import { Outlet } from 'react-router-dom'
 import Footer from '../Footer/Footer'
 function Main() {
-  const headerHeight = 100;
+
+
+  const headerRef = useRef(null);
+  const [headerHeight, setHeaderHeight] = useState(0);
+
+  useEffect(() => {
+    if (headerRef.current) {
+      setHeaderHeight(headerRef.current.offsetHeight);
+    }
+
+    const handleResize = () => {
+      if (headerRef.current) {
+        setHeaderHeight(headerRef.current.offsetHeight);
+      }
+    };
+
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
   return (
     <div>
-      <Header />
-      <main style={{ height: `calc(100vh - ${headerHeight}px)` }}>
+      <div ref={headerRef} style={{ background: "black", height: "60px" }} className='flex justify-center items-center fixed w-full top-0'>
+        <Header />
+      </div>
+      <main>
         <Outlet />
       </main>
       <Footer />

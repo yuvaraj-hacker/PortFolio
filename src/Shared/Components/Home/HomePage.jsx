@@ -6,24 +6,42 @@ import { Pagination, Mousewheel } from 'swiper/modules';
 import Kiranaa from '../Kiraana/Kiranaa';
 import Jobezzy from '../Jobezzy/Jobezzy';
 import GoldResort from '../GoldHill/GoldResort';
+import StarBackground from './StarBackground';
 
-export default function HomePage() {
+export default function HomePage(props) {
+    const {swiperHeight} = props;
+  
     return (
-        <div className='  mt-[95px]' style={{ height: `calc(100vh - 95px)` }}>
-            <Swiper direction={'vertical'} pagination={{ clickable: true, }} mousewheel={true} modules={[Pagination, Mousewheel]} className="mySwiper h-full"  >
-                <SwiperSlide>
-                    <div className="h-full flex items-center justify-center  bg-[#201E2E] ">
-                        <Kiranaa />
+        <div className='  mt-[60px] ' >
+            <Swiper direction={'vertical'} pagination={{ clickable: true, }}  effect="fade" fadeEffect={{ crossFade: true }} speed={1400}   centeredSlides={true} slidesPerView={1} mousewheel={true} modules={[Pagination, Mousewheel]} style={{ height: `${swiperHeight}px` }} className="mySwiper">
+                <SwiperSlide >
+                    <div className="  h-full flex justify-center items-center  bg-black"  >
+                        <div className=' '>
+                            <StarBackground />
+                        </div>
+                        <div className='z-10'>
+                            <Kiranaa />
+                        </div>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <div className="h-full flex items-center justify-center   bg-[#201E2E]  ">
-                        <Jobezzy />
+                    <div className=" h-full flex items-center justify-center  bg-black  "  >
+                        <div className=' '>
+                            <StarBackground />
+                        </div>
+                        <div className='z-10'>
+                            <Jobezzy />
+                        </div>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <div className="h-full flex items-center justify-center   bg-[#201E2E]  ">
-                        <GoldResort />
+                    <div className="  h-full  flex items-center justify-center  bg-black  ">
+                        <div className=' '>
+                            <StarBackground />
+                        </div>
+                        <div className='z-10'>
+                            <GoldResort />
+                        </div>
                     </div>
                 </SwiperSlide>
             </Swiper>
