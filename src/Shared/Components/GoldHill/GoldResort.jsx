@@ -37,7 +37,6 @@ function GoldResort() {
                                         </div>
                                     </div>
                                 </Link>
-
                             </div>
                         </div>
                     </div>
