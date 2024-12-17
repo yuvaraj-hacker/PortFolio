@@ -87,22 +87,29 @@ function JobezzyMain() {
                     </div>
                 </div>
             </section>
-
-            {/* <div className="image-container bg-yellow-500 mx-auto relative w-full h-[400px] overflow-hidden">
-                <img className="animated-image" src="/assets/images/JobezzyMain/Group 61.png" alt="" />
-                <img className="animated-image" src="/assets/images/JobezzyMain/Group 62.png" alt="" />
-                <img className="animated-image" src="/assets/images/JobezzyMain/Group 106.png" alt="" />
-                <img className="animated-image" src="/assets/images/JobezzyMain/Group 61.png" alt="" />
-                <img className="animated-image" src="/assets/images/JobezzyMain/Group 62.png" alt="" />
-                <img className="animated-image" src="/assets/images/JobezzyMain/Group 106.png" alt="" />
-            </div> */}
-
-            {/* <div className='flex gap-5   py-20'>
-                <div class='left-right-up-down'>
-                    <img src="/assets/images/JobezzyMain/Group 61.png" alt="" />
+ 
+            <div class=" flex justify-between md:my-20 my-10">
+                <div class="left-right-up-down up-down"  >
+                    <img src="/assets/images/JobezzyMain/Group 61.png" alt="Image 1" />
                 </div>
-            </div> */}
-            <div class=" flex justify-center my-20">
+                <div class="left-right-up-down down-up"  >
+                    <img src="/assets/images/JobezzyMain/Group 61.png" alt="Image 2" />
+                </div>
+                <div class="left-right-up-down up-down"  >
+                    <img src="/assets/images/JobezzyMain/Group 106.png" alt="Image 3" />
+                </div>
+                <div class="left-right-up-down down-up"  >
+                    <img src="/assets/images/JobezzyMain/Group 61.png" alt="Image 4" />
+                </div>
+                <div class="left-right-up-down up-down"  >
+                    <img src="/assets/images/JobezzyMain/Group 62.png" alt="Image 5" />
+                </div>
+                <div class="left-right-up-down down-up"  >
+                    <img src="/assets/images/JobezzyMain/Group 106.png" alt="Image 6" />
+                </div>
+            </div>
+
+            <div class=" flex justify-between   my-20">
                 <div class="left-right-up-down up-down"  >
                     <img src="/assets/images/JobezzyMain/Group 61.png" alt="Image 1" />
                 </div>

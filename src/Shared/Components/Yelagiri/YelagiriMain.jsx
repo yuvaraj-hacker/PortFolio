@@ -1,64 +1,15 @@
-// import React from 'react'
-// import Common from '../CommonSection/Common'
 
-// function YelagiriMain() {
-//     const pageData = {
-//         headerImage: '/assets/images/Third/yelagirihero.png',
-//         name: 'YELAGIRI GOLD HILL RESORT',
-//         category: 'Premium Resort and Holiday Destination',
-//         description: 'Gold Hill Resort offers a serene escape nestled amidst picturesque surroundings, perfect for relaxation and rejuvenation.',
-//         services: 'Luxurious accommodations, fine dining, event hosting, and recreational activities for an unforgettable experience.',
-//         team: '8 specialists',
-//         country: 'India',
-//         descriptionImage: '/assets/images/Third/HillResort.png',
-//         descriptImage: '/assets/images/Third/HillResort.png'
-//     };
-
-
-//     return (
-//         <>
-//             <section>
-//                 <Common name={pageData.name}
-//                     headerImage={pageData.headerImage}
-//                     descriptionImage={pageData.descriptionImage}
-//                     category={pageData.category}
-//                     description={pageData.description}
-//                     services={pageData.services}
-//                     team={pageData.team}
-//                     country={pageData.country}
-//                     descriptImage={pageData.descriptImage}
-//                     categoryColor="text-[#02AC4E]"
-//                    />
-
-//             </section>
-
-//             <section>
-//                 <p className="md:text-3xl text-xl">ABOUT THE PROJECT</p>
-//             </section>
-//         </>
-//     )
-// }
-
-// export default YelagiriMain
-
-
-
-
-import React, { useEffect, useState } from 'react'
+import React   from 'react'
 import { Link } from 'react-router-dom'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/swiper-bundle.css';
 import 'swiper/css/pagination';
 import { Autoplay, Pagination } from 'swiper/modules';
 
-function Common({ headerImage, name, category, description, services, team, country, descriptionImage, descriptImage, categoryColor = 'text-white', }) {
-
-
-
+function Common() {
 
     return (
         <>
-
             <section className="flex justify-center items-center bg-center bg-cover   bg-no-repeat rounded-br-[15rem] 2xl:h-[70vh] py-10  " style={{ backgroundImage: `url(${'/assets/images/Third/yelagirihero.png'})` }}>
                 <div className='max-w-[90rem] mx-auto px-5 '>
                     <div className='grid lg:grid-cols-4 grid-cols-1 gap-5 items-center' >
@@ -224,9 +175,9 @@ function Common({ headerImage, name, category, description, services, team, coun
                 </div>
             </section>
 
-            <section className='my-20 max-w-[70rem] mx-auto'>
+            <section className='md:my-20 my-10 max-w-[70rem] mx-auto'>
                 <div className='grid md:grid-cols-2  gap-10'>
-                    <div className='flex flex-col gap-10'>
+                    <div className='flex flex-col px-5 justify-between gap-10'>
                         <div className="bg-[url('/assets/images/Third/gray.png')] bg-center bg-cover space-y-5 p-5">
                             <p className="text-[#02AC4E] md:text-3xl font-bold">ABOUT THE PROJECT</p>
                             <p className="text-justify">The  <span className='text-[#02AC4E]'> Yelagiri Gold Hill Resort </span> project is a premium website designed to showcase the elegance
@@ -245,7 +196,7 @@ function Common({ headerImage, name, category, description, services, team, coun
                         </div>
                     </div>
                     <div className='  relative '>
-                        <div className='bg-black flex justify-center items-center  rounded-[3.5rem] h-full'>
+                        <div className='bg-[#161B22] flex justify-center items-center  w-full rounded-[3.5rem] md:h-full'>
                             {/* <div className="bg-[url('/assets/images/Third/iphonee.png')]   bg-center bg-cover bg-no-repeat">
                                     <div class="row">
                                         <div class="col-md-4 col-md-offset-4 content">
@@ -256,24 +207,14 @@ function Common({ headerImage, name, category, description, services, team, coun
                                     </div>
                                 <div />
                             </div> */}
-                            <div className="bg-[url('/assets/images/Third/iphonee.png')] relative bg-center bg-cover bg-no-repeat     overflow-hidden  flex items-center justify-center">
-                                <div class=" w-[300px] h-[700px]   overflow-hidden relative  ">
-                                   
-                                    <div class="absolute flex  flex-col inset-0">
-                                        <img
-                                            src="/assets/images/Third/farm.jpg"
-                                            alt="Scrolling content"
-                                             class="w-full h-auto animate-autoscroll"
-                                        />
-                                        <img
-                                            src="/assets/images/Third/farm.jpg"
-                                            alt="Scrolling content"
-                                            class="w-full h-auto animate-autoscroll"
-                                        />
+                            <div className="bg-[url('/assets/images/Third/phones.png')] rounded-[3.5rem] relative bg-center bg-cover bg-no-repeat p-5 pl-6   overflow-hidden  flex items-center justify-center">
+                                <div class=" md:w-[300px] w-[290px] h-[650px]   overflow-hidden relative  ">
+                                    <div class="absolute flex h-[515px] overflow-hidden mt-10  flex-col inset-0">
+                                        <img src="/assets/images/Third/farm.jpg" alt="Scrolling content" class="w-full h-auto animate-autoscroll" />
+                                        <img src="/assets/images/Third/farm.jpg" alt="Scrolling content" class="w-full h-auto animate-autoscroll" />
                                     </div>
                                 </div>
                             </div>
-
                         </div>
                         <img className='w-20 absolute top-1/2 -left-16 ' src="/assets/images/Third/whitestar.png" alt="" />
                     </div>
@@ -330,9 +271,9 @@ function Common({ headerImage, name, category, description, services, team, coun
                     <div className="grid md:grid-cols-4">
                         <div className="flex flex-col justify-between col-span-1">
                             <div></div>
-                            <div className="border-2 rounded-3xl text-center bg-white">
+                            <div className="border-2 rounded-3xl group text-center hover:scale-105 duration-300 bg-white">
                                 <img
-                                    className="rounded-t-3xl"
+                                    className="rounded-t-3xl group-hover:scale-95 overflow-hidden duration-300"
                                     src="/assets/images/Third/room1.png"
                                     alt="Room 1"
                                 />
@@ -352,9 +293,9 @@ function Common({ headerImage, name, category, description, services, team, coun
                             />
                         </div>
                         <div className="flex flex-col justify-between col-span-1">
-                            <div className="border-2 rounded-3xl text-center bg-white">
+                            <div className="border-2 rounded-3xl text-center group  hover:scale-105 duration-300 bg-white">
                                 <img
-                                    className="rounded-t-3xl"
+                                    className="rounded-t-3xl  group-hover:scale-95 overflow-hidden duration-300"
                                     src="/assets/images/Third/room2.png"
                                     alt="Room 2"
                                 />
@@ -363,9 +304,9 @@ function Common({ headerImage, name, category, description, services, team, coun
                                 <p>--------------</p>
                                 <p>3 Peoples in the Room</p>
                             </div>
-                            <div className="border-2 rounded-3xl text-center bg-white">
+                            <div className="border-2 rounded-3xl text-center group   hover:scale-105 duration-300 bg-white">
                                 <img
-                                    className="rounded-t-3xl"
+                                    className="rounded-t-3xl  group-hover:scale-95 overflow-hidden duration-300"
                                     src="/assets/images/Third/room3.png"
                                     alt="Room 3"
                                 />
@@ -380,10 +321,35 @@ function Common({ headerImage, name, category, description, services, team, coun
             </section>
 
 
-            <section className='mx-auto max-w-full  flex justify-center items-center  px-5'>
+            <section className='mx-auto max-w-full  md:my-20  my-10 md:mt-32      flex justify-center items-center  px-5'>
                 <img className='' src="/assets/images/Third/Twoheader.png" alt="" />
             </section>
 
+
+
+            <section className="bg-[#161B22] md:py-20 py-10 w-full bg-no-repeat">
+                <div className='px-5'>
+                    <div className='max-w-[70rem] mx-auto  bg-[#161B22]/30  border rounded-2xl p-5  ' >
+                        <div className='flex justify-center items-center flex-wrap gap-5  text-white'>
+                            <p className="md:text-3xl font-bold  "> "Rediscover luxury and tranquility at Gold Hill Resort!
+                                Your perfect getaway for relaxation, celebrations,
+                                and unforgettable experiences awaits."</p>
+                            <div className='flex gap-4'>
+                                <img className='md:w-24 w-10 md:h-auto h-10' src="/assets/images/KiranaaMain/footimage.png" alt="" />
+                                <div className='md:mt-9 mt-4'>
+                                    <button className='rounded-3xl  md:text-base text-xs bg-[#00B85F] p-1 px-4'>
+                                        <div className='relative'>
+                                            <p className=""> Contact Us</p>
+                                            <img className='absolute top-0 -left-2' src="/assets/images/Contact/top.png" alt="" />
+                                            <img className='absolute bottom-0 -right-2' src="/assets/images/Contact/bottom.png" alt="" />
+                                        </div>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
 
         </>
