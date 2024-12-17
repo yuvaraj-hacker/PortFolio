@@ -29,8 +29,7 @@ function Kiranaa() {
                                 <Link to='/kiranaa'>
                                     <div className='flex w-fit p-2 rounded-t-2xl  rounded-bl-2xl px-5 ml-auto bg-gradient-to-r cursor-pointer relative left-[1px] top-[2px] group from-green-600 to-green-100   items-center'>
                                         <p className="text-black font-bold md:text-base text-xs transition-all duration-300 ease-in-out group-hover:text-white">Read More</p>
-                                        <div>
-                                            <img className='transition-all duration-300 ease-in-out group-hover:translate-x-2 ' src="/assets/images/one/Double Left.png" alt="" />
+                                        <div>   <img className='transition-all duration-300 ease-in-out group-hover:translate-x-2 ' src="/assets/images/one/Double Left.png" alt="" />
                                         </div>
                                     </div>
                                 </Link>

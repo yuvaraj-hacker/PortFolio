@@ -4,7 +4,9 @@ import KiranaaBazaar from '../../Shared/Components/KiraanaBazaar/KiranaaBazaar'
 function KiranaaPage() {
     return (
         <>
-            <KiranaaBazaar />
+            <section className='kiranaa'>
+                <KiranaaBazaar />
+            </section>
         </>
     )
 }

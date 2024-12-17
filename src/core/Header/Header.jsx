@@ -32,8 +32,8 @@ function Header() {
 
   return (
     <>
-      <div className=" z-50   ">
-        <header className="max-w-[105rem]  mx-auto px-5">
+      <div>
+        <header className="max-w-[105rem]   mx-auto px-5">
           <Link to='/'>
             <p className="flex justify-center items-center uppercase text-white text-3xl">Portfolio</p>
           </Link>

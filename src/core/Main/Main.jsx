@@ -24,7 +24,7 @@ function Main() {
   }, []);
   return (
     <div>
-      <div ref={headerRef} style={{ background: "black", height: "60px" }} className='flex justify-center items-center fixed w-full top-0'>
+      <div ref={headerRef} style={{ background: "black", height: "60px" }} className='flex justify-center items-center fixed w-full z-50 top-0'>
         <Header />
       </div>
       <main>
