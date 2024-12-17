@@ -195,8 +195,8 @@ function Common() {
                             <img src="/assets/images/Third/lap.png" alt="" />
                         </div>
                     </div>
-                    <div className='  relative '>
-                        <div className='bg-[#161B22] flex justify-center items-center  w-full rounded-[3.5rem] md:h-full'>
+                    <div className=' md:px-0 px-6  relative '>
+                        <div className='bg-[#161B22] flex justify-center items-center w-full rounded-[3.5rem] md:h-full'>
                             {/* <div className="bg-[url('/assets/images/Third/iphonee.png')]   bg-center bg-cover bg-no-repeat">
                                     <div class="row">
                                         <div class="col-md-4 col-md-offset-4 content">
