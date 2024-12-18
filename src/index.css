@@ -3,31 +3,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Anton&family=Archivo+Black&family=Concert+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Anton&family=Archivo+Black&family=Baumans&family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Concert+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Anton&family=Archivo+Black&family=Baumans&family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Concert+One&display=swap');
- 
+
 
 @import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
- 
+
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-body,html {
+body,
+html {
   font-family: 'Poppins', sans-serif;
-   
+
 }
- 
+
 .swiper-pagination-bullet {
-  z-index: 1000;  
-  position: relative;  
+  z-index: 1000;
+  position: relative;
   background-color: white !important;
 }
 
 
 
- 
+
 .mySwiper .swiper-pagination-bullet {
- 
+
   width: 20px;
   height: 20px;
   transform: scale(1.5);
@@ -35,47 +36,47 @@ body,html {
 
 @media (max-width: 768px) {
   .mySwiper .swiper-pagination-bullet {
-   
-    width: 10px; 
+
+    width: 10px;
     height: 10px;
-    transform: scale(1); 
+    transform: scale(1);
   }
 }
- 
+
 .mySwiper .swiper-pagination {
- 
-  display: flex; 
+
+  display: flex;
   flex-direction: column;
-  gap: 10px;  
+  gap: 10px;
 }
 
 @media (max-width: 768px) {
   .mySwiper .swiper-pagination {
-   
-    display: flex; 
+
+    display: flex;
     flex-direction: column;
-    gap:0px; 
+    gap: 0px;
   }
-  
+
 }
 
 
 @media (max-width: 422px) {
   .toper {
     position: relative;
-    top:90px;
-   
+    top: 90px;
+
   }
-  
+
 }
 
 @media (max-width: 422px) {
   .texts {
     position: relative;
     padding-top: 110px;
-   
+
   }
-  
+
 }
 
 
@@ -101,30 +102,31 @@ body,html {
   box-shadow: 0px 0px 20px rgba(252, 56, 56, 0.3);
 }
 
- 
+
 
 
 .swiper-pagination-bullet-active {
   background-color: #00B85F !important;
 }
 
- 
+
 .swiper-pagination-bullet:nth-child(1) {
   color: #fff;
-  background-color: #00B85F !important;  
+  background-color: #00B85F !important;
 }
 
- 
+
 .swiper-pagination-bullet:nth-child(2) {
-  background-color: #F8BE14 !important;   
+  background-color: #F8BE14 !important;
 }
+
 .swiper-pagination-bullet:nth-child(3) {
-  background-color: #00B85F !important;   
+  background-color: #00B85F !important;
 }
 
 
- 
- 
+
+
 
 
 /* star */
@@ -136,24 +138,24 @@ body,html {
   aspect-ratio: 1 / 1;
   position: fixed;
   background: white;
-  --mask: radial-gradient(
-      var(--holes) at var(--holes) var(--holes),
+  --mask: radial-gradient(var(--holes) at var(--holes) var(--holes),
       #0000 99%,
-      #000
-    )
-    calc(var(--holes) * -1) calc(var(--holes) * -1);
+      #000) calc(var(--holes) * -1) calc(var(--holes) * -1);
   -webkit-mask: var(--mask);
   mask: var(--mask);
   border-radius: 50%;
   animation: sparkle 3s linear forwards;
 }
+
 @keyframes sparkle {
   0% {
     transform: scale(0);
   }
+
   25% {
     opacity: 1;
   }
+
   100% {
     opacity: 0;
   }
@@ -174,8 +176,8 @@ html {
 
 body {
   background-image: url('/assets/images/background/Backimages.png');
- 
-  
+
+
 }
 
 
@@ -193,7 +195,7 @@ body {
 
 /* running container */
 
-  
+
 
 /* .box{
   width:100%;
@@ -226,7 +228,7 @@ body {
   }
 } */
 
-  
+
 /* .flex {
   display: flex;
   gap: 20px;
@@ -243,19 +245,28 @@ body {
 /* Keyframes for combined horizontal and vertical motion */
 @keyframes left-right-up-down {
   0% {
-    transform: translateX(-100%) translateY(40px); /* Start off-screen left, slight down */
+    transform: translateX(-100%) translateY(40px);
+    /* Start off-screen left, slight down */
   }
+
   25% {
-    transform: translateX(25vw) translateY(60px); /* Move right and slightly down */
+    transform: translateX(25vw) translateY(60px);
+    /* Move right and slightly down */
   }
+
   50% {
-    transform: translateX(50vw) translateY(25px); /* Center horizontally, move up */
+    transform: translateX(50vw) translateY(25px);
+    /* Center horizontally, move up */
   }
+
   75% {
-    transform: translateX(75vw) translateY(60px); /* Move right and slightly down */
+    transform: translateX(75vw) translateY(60px);
+    /* Move right and slightly down */
   }
+
   100% {
-    transform: translateX(100vw) translateY(40px); /* End off-screen right, back to start height */
+    transform: translateX(100vw) translateY(40px);
+    /* End off-screen right, back to start height */
   }
 }
 
@@ -266,13 +277,18 @@ body {
 
 @keyframes up-down {
   0% {
-    transform: translateY(40px); /* Start down */
+    transform: translateY(40px);
+    /* Start down */
   }
+
   50% {
-    transform: translateY(60px); /* Move up */
+    transform: translateY(60px);
+    /* Move up */
   }
+
   100% {
-    transform: translateY(40px); /* End down */
+    transform: translateY(40px);
+    /* End down */
   }
 }
 
@@ -283,13 +299,16 @@ body {
 
 @keyframes down-up {
   0% {
-    transform: translateY(40px); /* Start up */
+    transform: translateY(40px);
+    /* Start up */
   }
+
   50% {
-    transform: translateY(-5px);  
+    transform: translateY(-5px);
   }
+
   100% {
-    transform: translateY(40px);  
+    transform: translateY(40px);
   }
 }
 
@@ -313,32 +332,40 @@ body {
   overflow-y: auto;
 } */
 
- 
+
 /* Customizing the scrollbar */
- .kiranaa ::-webkit-scrollbar {
-  width: 15px;  /* Width of the vertical scrollbar */
-  height: 12px; /* Height of the horizontal scrollbar */
+.kiranaa ::-webkit-scrollbar {
+  width: 15px;
+  /* Width of the vertical scrollbar */
+  height: 12px;
+  /* Height of the horizontal scrollbar */
 }
 
 .kiranaa ::-webkit-scrollbar-track {
-  background: #f1f1f1; /* Track color (background of the scrollbar) */
+  background: #f1f1f1;
+  /* Track color (background of the scrollbar) */
 }
 
 .kiranaa ::-webkit-scrollbar-thumb {
-  background: #00B75E; /* Color of the draggable part of the scrollbar */
-  border-radius: 10px; /* Optional: Make the thumb rounded */
+  background: #00B75E;
+  /* Color of the draggable part of the scrollbar */
+  border-radius: 10px;
+  /* Optional: Make the thumb rounded */
 }
 
 .kiranaa ::-webkit-scrollbar-thumb:hover {
-  background: #555; /* Color of the thumb on hover */
+  background: #555;
+  /* Color of the thumb on hover */
 }
 
 .kiranaa ::-webkit-scrollbar-button {
-  background: #00B75E; /* Color of the buttons (up/down) */
+  background: #00B75E;
+  /* Color of the buttons (up/down) */
 }
 
 .kiranaa ::-webkit-scrollbar-button:hover {
-  background:#00B75E; /* Color on hover for buttons */
+  background: #00B75E;
+  /* Color on hover for buttons */
 }
 
 
@@ -377,17 +404,18 @@ body {
   position: relative;
   display: inline-block;
   box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5),
-              7px 7px 20px 0px rgba(0, 0, 0, 0.1),
-              4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+    7px 7px 20px 0px rgba(0, 0, 0, 0.1),
+    4px 4px 5px 0px rgba(0, 0, 0, 0.1);
   outline: none;
 }
- 
+
 .btn-6 span {
   position: relative;
   display: block;
   width: 100%;
   height: 100%;
 }
+
 .btn-6:before,
 .btn-6:after {
   position: absolute;
@@ -400,29 +428,35 @@ body {
     7px 7px 20px 0px rgba(0, 0, 0, 0.4),
     4px 4px 5px 0px rgba(0, 0, 0, 0.3);
 }
+
 .btn-6:before {
   right: 0;
   top: 0;
   transition: all 500ms ease;
 }
+
 .btn-6:after {
   left: 0;
   bottom: 0;
   transition: all 500ms ease;
 }
+
 .btn-6:hover {
   background: transparent;
   color: #76aef1;
   box-shadow: none;
 }
+
 .btn-6:hover:before {
   transition: all 500ms ease;
   height: 100%;
 }
+
 .btn-6:hover:after {
   transition: all 500ms ease;
   height: 100%;
 }
+
 .btn-6 span:before,
 .btn-6 span:after {
   position: absolute;
@@ -433,6 +467,7 @@ body {
     7px 7px 20px 0px rgba(0, 0, 0, 0.4),
     4px 4px 5px 0px rgba(0, 0, 0, 0.3);
 }
+
 .btn-6 span:before {
   left: 0;
   top: 0;
@@ -440,6 +475,7 @@ body {
   height: 0.5px;
   transition: all 500ms ease;
 }
+
 .btn-6 span:after {
   right: 0;
   bottom: 0;
@@ -447,9 +483,11 @@ body {
   height: 0.5px;
   transition: all 500ms ease;
 }
+
 .btn-6 span:hover:before {
   width: 100%;
 }
+
 .btn-6 span:hover:after {
   width: 100%;
 }
@@ -466,43 +504,161 @@ body {
 
 
 /* phone shake */
- 
+
 .movess {
-  -webkit-animation: mover 1s infinite  alternate;
-  animation: mover 1s infinite  alternate;
+  -webkit-animation: mover 1s infinite alternate;
+  animation: mover 1s infinite alternate;
 }
+
 @-webkit-keyframes mover {
-  0% { transform: translateY(0); }
-  100% { transform: translateY(-10px); }
+  0% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(-10px);
+  }
 }
+
 @keyframes mover {
-  0% { transform: translateY(0); }
-  100% { transform: translateY(-10px); }
+  0% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(-10px);
+  }
 }
 
+/* animate-scroll */
 
- 
 
+/* .animate-autoscroll {
+	display: block;
+	width: 300px;
+	overflow: hidden;
+	position: relative;
+	border: 2px solid #b3b3b3;
+	border-radius: 1px;
+	margin: 0 auto;
+  animation: autoscroll 11s linear ;
+}
+
+.animate-autoscroll img {
+	bottom: -1210px;
+	width: 100%;
+	height: auto;
+	position: absolute;
+	z-index: 0;
+  margin:0;
+  padding:0;
+	-webkit-transition: top 11s;
+	-moz-transition: top 11s;
+	-ms-transition: top 11s;
+	-o-transition: top 11s;
+	transition: bottom 11s;
+}
+.animate-autoscroll:hover img {
+  bottom: 0;
+  -webkit-transition: all 11s;
+  -moz-transition: all 11s;
+  -ms-transition: all 11s;
+  -o-transition: all 11s;
+  transition: all 11s;
+} */
+
+
+@keyframes autoscroll {
+  from {
+    top: 0;
+  }
+
+  to {
+    top: -720px;
+  }
+}
 
 .animate-autoscroll {
-  position: absolute;
-  width: 100%;
-  height: auto;
-  animation: autoscroll 11s linear infinite;
+  display: block;
+  width: 310px;
+  height: 513px;
+  overflow: hidden;
+  position: relative;
+  
+ 
+  margin: 0 auto;
 }
 
-/* Make the image take the full width */
 .animate-autoscroll img {
   width: 100%;
   height: auto;
+  position: absolute;
+  z-index: 0;
+  margin: 0;
+  padding: 0;
+  top: 0;
+  animation: autoscroll 11s linear forwards;
 }
 
-/* Infinite scrolling animation */
-@keyframes autoscroll {
-  0% {
-    transform: translateY(0); /* Start just below the visible area */
-  }
+
+.sparkling-star {
+  animation: sparkles 4s infinite, rotate 4s infinite linear;
+  transform-origin: center;
+}
+
+@keyframes sparkles {
+
+  0%,
   100% {
-    transform: translateY(-100%); /* Scroll past the visible area */
+    transform: scale(1);
+    filter: brightness(1);
+  }
+
+  50% {
+    transform: scale(1.2);
+    filter: brightness(1.2);
+  }
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+
+
+ .image-scroll-container {
+  overflow: hidden; /* Hide overflowing content */
+  white-space: nowrap; /* Prevent wrapping */
+  width: 100%; /* Full width container */
+  position: relative; /* Position for alignment */
+}
+
+.image-scroll {
+  display: inline-flex; /* Keep images in a row */
+  animation: scroll-left 20s linear infinite; /* Apply animation */
+}
+
+.image-scroll img {
+  flex-shrink: 0; /* Prevent images from shrinking */
+  width: auto; /* Maintain image aspect ratio */
+  
+  margin-right: 20px; /* Spacing between images */
+}
+
+/* Keyframes for infinite scroll */
+@keyframes scroll-left {
+  from {
+    transform: translateX(0); /* Start from the initial position */
+  }
+  to {
+    transform: translateX(-100%); /* Move to the left */
   }
 }

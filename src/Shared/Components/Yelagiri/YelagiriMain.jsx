@@ -1,16 +1,39 @@
 
-import React   from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/swiper-bundle.css';
 import 'swiper/css/pagination';
 import { Autoplay, Pagination } from 'swiper/modules';
+import { Rain } from 'react-rainfall';
 
-function Common() {
+function YelagiriMain() {
 
+    const [isInView, setIsInView] = useState(false);
+    const sectionRef = useRef(null);
+    useEffect(() => {
+        const observer = new IntersectionObserver(
+            ([entry]) => {
+                if (entry.isIntersecting) {
+                    setIsInView(true);
+                }
+            },
+            { threshold: 0.5 }
+        );
+
+        if (sectionRef.current) {
+            observer.observe(sectionRef.current);
+        }
+
+        return () => {
+            if (sectionRef.current) {
+                observer.unobserve(sectionRef.current);
+            }
+        };
+    }, []);
     return (
         <>
-            <section className="flex justify-center items-center bg-center bg-cover   bg-no-repeat rounded-br-[15rem] 2xl:h-[70vh] py-10  " style={{ backgroundImage: `url(${'/assets/images/Third/yelagirihero.png'})` }}>
+            <section className="flex justify-center items-center bg-center bg-cover   bg-no-repeat rounded-br-[15rem] 3xl:h-[70vh] py-10  " style={{ backgroundImage: `url(${'/assets/images/Third/yelagirihero.png'})` }}>
                 <div className='max-w-[90rem] mx-auto px-5 '>
                     <div className='grid lg:grid-cols-4 grid-cols-1 gap-5 items-center' >
                         <div className='col-span-2'>
@@ -56,7 +79,6 @@ function Common() {
                         <div className='relative right-10 bottom-28'>
                             <div className=' z-20   md:w-24 w-20'>
                                 <Swiper
-
                                     slidesPerView={1}
                                     loop={true}
                                     modules={[Pagination, Autoplay]}
@@ -72,37 +94,22 @@ function Common() {
 
                                     <SwiperSlide >
                                         <div className="bg-[#FFF6D3] z-20  text-center   cursor-pointer">
-                                            <img
-                                                className=" "
-                                                src='/assets/images/Third/avatar.png'
-
-                                            />
-
+                                            <img className=" " src='/assets/images/Third/avatar.png' />
                                         </div>
                                     </SwiperSlide>
-                                    <SwiperSlide >
-                                        <div className="bg-[#FFF6D3] z-20     text-center  cursor-pointer">
-                                            <img
-                                                className=" "
-                                                src='/assets/images/Third/avatar.png'
-
-                                            />
+                                    <SwiperSlide>
+                                        <div className="bg-[#FFF6D3] z-20 text-center cursor-pointer">
+                                            <img className=" " src='/assets/images/Third/avatar.png' />
                                         </div>
                                     </SwiperSlide>
-                                    <SwiperSlide >
-                                        <div className="bg-[#FFF6D3] z-20     text-center   cursor-pointer">
-                                            <img
-                                                className=" "
-                                                src='/assets/images/Third/avatar.png'
-
-                                            />
+                                    <SwiperSlide>
+                                        <div className="bg-[#FFF6D3] z-20 text-center cursor-pointer">
+                                            <img className=" " src='/assets/images/Third/avatar.png' />
                                         </div>
                                     </SwiperSlide>
-
-
                                 </Swiper>
                             </div>
-                            <div className=' relative md:right-20 right-16  bottom-10 z-40   w-20 md:w-24'>
+                            <div className=' relative md:right-20 right-16 bottom-10 z-40 w-20 md:w-24'>
                                 <Swiper
 
                                     slidesPerView={1}
@@ -169,13 +176,13 @@ function Common() {
                                 </Swiper>
                             </div>
                         </div>
-
-
                     </div>
                 </div>
             </section>
 
-            <section className='md:my-20 my-10 max-w-[70rem] mx-auto'>
+
+
+            <section ref={sectionRef} className='md:my-20 my-10 max-w-[70rem] mx-auto'>
                 <div className='grid md:grid-cols-2  gap-10'>
                     <div className='flex flex-col px-5 justify-between gap-10'>
                         <div className="bg-[url('/assets/images/Third/gray.png')] bg-center bg-cover space-y-5 p-5">
@@ -197,21 +204,15 @@ function Common() {
                     </div>
                     <div className=' md:px-0 px-6  relative '>
                         <div className='bg-[#161B22] flex justify-center items-center w-full rounded-[3.5rem] md:h-full'>
-                            {/* <div className="bg-[url('/assets/images/Third/iphonee.png')]   bg-center bg-cover bg-no-repeat">
-                                    <div class="row">
-                                        <div class="col-md-4 col-md-offset-4 content">
-                                            <div class="screen">
-                                                <img src="/assets/images/Third/farm.jpg" />
-                                            </div>
-                                        </div>
-                                    </div>
-                                <div />
-                            </div> */}
-                            <div className="bg-[url('/assets/images/Third/phones.png')] rounded-[3.5rem] relative bg-center bg-cover bg-no-repeat p-5 pl-6   overflow-hidden  flex items-center justify-center">
-                                <div class=" md:w-[300px] w-[290px] h-[650px]   overflow-hidden relative  ">
-                                    <div class="absolute flex h-[515px] overflow-hidden mt-10  flex-col inset-0">
-                                        <img src="/assets/images/Third/farm.jpg" alt="Scrolling content" class="w-full h-auto animate-autoscroll" />
-                                        <img src="/assets/images/Third/farm.jpg" alt="Scrolling content" class="w-full h-auto animate-autoscroll" />
+                            <div className="bg-[url('/assets/images/Third/phones.png')] bg-contain rounded-[3.5rem] relative bg-center   bg-no-repeat p-5 pl-[25px]   overflow-hidden  flex items-center justify-center">
+                                <div class=" md:w-[300px] w-[290px] h-[650px] pt-10 overflow-hidden relative ">
+                                    {/* <div class="absolute flex h-[515px] overflow-hidden mt-10 animate-autoscroll  flex-col inset-0"> */}
+                                    <div
+                                        className={`absolute flex h-[515px] overflow-hidden mt-10 flex-col inset-0 ${isInView ? 'animate-autoscroll' : ''
+                                            }`}
+                                    >
+                                        <img src="/assets/images/Third/farm.jpg" alt="Scrolling content" class="w-full h-auto " />
+                                        <img src="/assets/images/Third/farm.jpg" alt="Scrolling content" class="w-full h-auto  " />
                                     </div>
                                 </div>
                             </div>
@@ -264,75 +265,64 @@ function Common() {
 
 
             <section className="relative bg-[url('/assets/images/Third/cool.png')] md:my-20 my-10 bg-center bg-cover w-full bg-no-repeat">
-
-                <div id="raindrop-container" className="absolute inset-0 z-0 pointer-events-none overflow-hidden"></div>
-
+                <div>
+                    <Rain />
+                </div>
                 <div className="relative z-10 max-w-[60rem] mx-auto px-5 md:py-10 py-5">
-                    <div className="grid md:grid-cols-4">
+                    <div className="grid md:grid-cols-4 md:gap-0 gap-5">
                         <div className="flex flex-col justify-between col-span-1">
                             <div></div>
-                            <div className="border-2 rounded-3xl group text-center hover:scale-105 duration-300 bg-white">
-                                <img
-                                    className="rounded-t-3xl group-hover:scale-95 overflow-hidden duration-300"
-                                    src="/assets/images/Third/room1.png"
-                                    alt="Room 1"
-                                />
-                                <div className="p-2">
-                                    <p className="text-[#02AC4E]">Modern</p>
-                                    <p>1 Bed In Room</p>
-                                    <p>---------------------</p>
-                                    <p>3 Peoples in the Room</p>
+                            <div className="flex flex-col md:gap-10 gap-5">
+                                <div className='border-2 rounded-3xl group  text-center hover:scale-105 duration-300 bg-white'>
+                                    <img className="rounded-t-3xl group-hover:scale-95 overflow-hidden duration-300 w-full  " src="/assets/images/Third/room1.png" alt="Room 1" />
+                                    <div className="p-2">
+                                        <p className="text-[#02AC4E]  md:text-xl">Modern</p>
+                                        <p className='md:text-sm text-xs'>1 Bed In Room</p>
+                                        <p>----------- </p>
+                                        <p className='md:text-sm text-xs'>3 Peoples in the Room</p>
+                                    </div>
+                                </div>
+                                <a href='https://www.goldhillresort.com/' target='_blank'>
+                                    <div className='p-2 text-center rounded-3xl text-white bg-[#02AC4E]'>
+                                        <p className="">www.goldhillresort.com</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div className="col-span-2 relative md:top-28">
+                            <img className="mx-auto" src="/assets/images/Third/coolinside.png" alt="Cool Inside" />
+                        </div>
+                        <div className="flex flex-col justify-between gap-5 col-span-1">
+                            <div className="border-2 rounded-3xl text-center group  hover:scale-105 duration-300 bg-white">
+                                <img className="rounded-t-3xl  group-hover:scale-95 overflow-hidden duration-300 w-full" src="/assets/images/Third/room2.png" alt="Room 2" />
+                                <div className='p-2'>
+                                    <p className="text-[#02AC4E] md:text-xl">Retro</p>
+                                    <p className='md:text-sm text-xs'>1 Bed In Room</p>
+                                    <p>--------- </p>
+                                    <p className='md:text-sm text-xs'>3 Peoples in the Room</p>
                                 </div>
                             </div>
-                        </div>
-                        <div className="col-span-2 relative top-28">
-                            <img
-                                className="mx-auto"
-                                src="/assets/images/Third/coolinside.png"
-                                alt="Cool Inside"
-                            />
-                        </div>
-                        <div className="flex flex-col justify-between col-span-1">
-                            <div className="border-2 rounded-3xl text-center group  hover:scale-105 duration-300 bg-white">
-                                <img
-                                    className="rounded-t-3xl  group-hover:scale-95 overflow-hidden duration-300"
-                                    src="/assets/images/Third/room2.png"
-                                    alt="Room 2"
-                                />
-                                <p className="text-[#02AC4E]">Retro</p>
-                                <p>1 Bed In Room</p>
-                                <p>--------------</p>
-                                <p>3 Peoples in the Room</p>
-                            </div>
                             <div className="border-2 rounded-3xl text-center group   hover:scale-105 duration-300 bg-white">
-                                <img
-                                    className="rounded-t-3xl  group-hover:scale-95 overflow-hidden duration-300"
-                                    src="/assets/images/Third/room3.png"
-                                    alt="Room 3"
-                                />
-                                <p className="text-[#02AC4E]">Classic</p>
-                                <p>1 Bed In Room</p>
-                                <p>---------------</p>
-                                <p>3 Peoples in the Room</p>
+                                <img className="rounded-t-3xl  group-hover:scale-95 overflow-hidden duration-300 w-full" src="/assets/images/Third/room3.png" alt="Room 3" />
+                                <div className='p-2'>
+                                    <p className="text-[#02AC4E] md:text-xl">Classic</p>
+                                    <p className='md:text-sm text-xs'>1 Bed In Room</p>
+                                    <p>-------- </p>
+                                    <p className='md:text-sm text-xs'>3 Peoples in the Room</p>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
-
-
-            <section className='mx-auto max-w-full  md:my-20  my-10 md:mt-32      flex justify-center items-center  px-5'>
-                <img className='' src="/assets/images/Third/Twoheader.png" alt="" />
+            <section className='mx-auto max-w-full   md:my-20  my-10 md:mt-48 flex justify-center items-center  px-5'>
+                <img className='w-[800px] movess' src="/assets/images/Third/Twoheader.png" alt="" />
             </section>
-
-
-
             <section className="bg-[#161B22] md:py-20 py-10 w-full bg-no-repeat">
                 <div className='px-5'>
                     <div className='max-w-[70rem] mx-auto  bg-[#161B22]/30  border rounded-2xl p-5  ' >
                         <div className='flex justify-center items-center flex-wrap gap-5  text-white'>
-                            <p className="md:text-3xl font-bold  "> "Rediscover luxury and tranquility at Gold Hill Resort!
-                                Your perfect getaway for relaxation, celebrations,
+                            <p className="md:text-3xl font-bold "> "Rediscover luxury and tranquility at Gold Hill Resort!  Your perfect getaway for relaxation, celebrations,
                                 and unforgettable experiences awaits."</p>
                             <div className='flex gap-4'>
                                 <img className='md:w-24 w-10 md:h-auto h-10' src="/assets/images/KiranaaMain/footimage.png" alt="" />
@@ -350,10 +340,8 @@ function Common() {
                     </div>
                 </div>
             </section>
-
-
         </>
     )
 }
 
-export default Common
+export default YelagiriMain

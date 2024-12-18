@@ -44,6 +44,8 @@ function Main1() {
                 return { bgColor: '#FFC000', textColor: 'text-white', name: 'JOBEZZY' };
             case '/yelagiri':
                 return { bgColor: '#02AC4E', textColor: 'text-white', name: 'YELAGIRI GOLD HILL RESORT' };
+            case '/folsum':
+                return { bgColor: '#02AC4E', textColor: 'text-white', name: 'FOLSUM PULSE' };
             default:
                 return { bgColor: '#02AC4E', textColor: 'white' };
         }
@@ -53,11 +55,11 @@ function Main1() {
 
     return (
         <div >
-            
-            <div ref={headerRef} style={{ height: '60px', backgroundColor: bgColor,   }}
+
+            <div ref={headerRef} style={{ height: '60px', backgroundColor: bgColor, }}
                 className={`flex  justify-between px-3 items-center fixed w-full z-50 top-0 transition-all  duration-300 ${isScrolled ? 'opacity-100' : 'opacity-0'}`}  >
-                    <div>
-                    </div>
+                <div>
+                </div>
                 <span className={`text-lg md:text-4xl font-bold ${textColor}`}>
                     {name}
                 </span>

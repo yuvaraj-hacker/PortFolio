@@ -6,7 +6,7 @@ function Common({ headerImage, name, category, description, services, team, coun
     return (
         <>
 
-            <section className="flex justify-center items-center bg-center bg-cover   bg-no-repeat rounded-br-[15rem] 2xl:h-[70vh] py-10  " style={{ backgroundImage: `url(${headerImage})` }}>
+            <section className="flex justify-center items-center bg-center bg-cover   bg-no-repeat rounded-br-[15rem] 3xl:h-[70vh] py-10   " style={{ backgroundImage: `url(${headerImage})` }}>
                 <div className='max-w-[90rem] mx-auto px-5 '>
                     <div className='grid lg:grid-cols-2 grid-cols-1 gap-5 items-center' >
                         <div>
