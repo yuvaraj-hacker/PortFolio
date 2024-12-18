@@ -155,15 +155,14 @@ function FolsumMain() {
             </section>
 
             <section className='flex justify-center items-center  my-20'>
-                <img className='w-[800px]' src="/assets/images/Fourth/smallgroup.png" alt="" />
+                <img className='w-[800px] movess' src="/assets/images/Fourth/smallgroup.png" alt="" />
             </section>
 
             <section className="bg-[url('/assets/images/Fourth/folsumfoot.png')]   bg-center bg-cover md:py-20 py-10 w-full bg-no-repeat">
                 <div className='px-5'>
                     <div className='max-w-[70rem] mx-auto text-center    border rounded-2xl p-5  ' >
                         <div className='  justify-center items-center   gap-5 text-white'>
-                            <p className="md:text-3xl text-sm font-bold uppercase">"Stay connected with Folsom Pulse—your gateway
-                                to local events, services, and news!"</p>
+                            <p className="md:text-3xl text-sm font-bold uppercase">"Stay connected with Folsom Pulse—your gateway to local events, services, and news!"</p>
                             <div className='flex justify-center items-center gap-4'>
                                 <div className=' text-center md:mt-7'>
                                     <button className='rounded-3xl text-center mx-auto  md:text-base text-xs bg-[#FEC000] p-1 px-4'>
@@ -174,7 +173,6 @@ function FolsumMain() {
                                         </div>
                                     </button>
                                 </div>
-
                             </div>
                         </div>
                     </div>
