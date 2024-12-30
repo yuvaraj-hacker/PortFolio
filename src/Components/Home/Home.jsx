@@ -13,6 +13,8 @@ function Home() {
         return () => window.removeEventListener('resize', updateHeight);
     }, []);
 
+
+
     return (
         <>
             <HomePage swiperHeight={swiperHeight} />

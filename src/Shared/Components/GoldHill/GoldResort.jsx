@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
+
 function GoldResort() {
     return (
         <>
@@ -10,7 +11,7 @@ function GoldResort() {
                         <div className='md:col-span-3 md:p-0 p-2'>
                             <img className=' xl:h-[450px] p-5' src="/assets/images/Third/Quality2.png" alt="" />
                         </div>
-                        <div className='md:col-span-2  md:p-0 p-2 text-left flex flex-col justify-between'>
+                        <div className='md:col-span-2  text-left flex flex-col justify-between'>
                             <div className=' md:space-y-6 space-y-3 md:mt-10  text-white  xl:p-5 p-2    '>
                                 <p className="lg:block hidden text-sm">Premium Resort and Holiday Destination </p>
                                 <p className="lg:block hidden text-justify text-sm">Gold Hill Resort offers a serene escape nestled amid picturesque surroundings, perfect for relaxation and rejuvenation.</p>

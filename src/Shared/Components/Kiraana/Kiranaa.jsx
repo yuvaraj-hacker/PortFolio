@@ -8,13 +8,13 @@ function Kiranaa() {
                 <section className="max-w-[90rem] mx-auto overflow-hidden  bg-black relative border-2 rounded-t-[3.5rem] rounded-bl-[3.5rem]  w-full ">
                     <div className='grid md:grid-cols-5  grid-cols-1 md:gap-5 md:pl-14  md:pt-10'>
                         <div className='md:col-span-3 md:p-0 p-2 z-10'>
-                            <img className='mx-auto xl:h-[450px] md:p-0 p-2' src="/assets/images/one/Qulaity3.png" alt="" />
+                            <img className='mx-auto xl:h-[450px] md:p-0 p-5' src="/assets/images/one/Qulaity3.png" alt="" />
                         </div>
                         <div className='md:col-span-2  z-10  text-left  flex flex-col justify-between   text-white'>
                             <div className=' md:space-y-6 space-y-3 max-w-[30rem] lg:mt-10 p-2 '>
                                 <p className="lg:block hidden text-sm ">Platform business model</p>
                                 <p className="lg:block hidden text-sm">A convenient platform to buy fresh vegetables, fruits, <br /> flowers and essentials online.</p>
-                                <p className="lg:text-4xl  md:text-2xl    text-lg font-bold">E-COMMERCE WEB APP</p>
+                                <p className="lg:text-4xl md:text-2xl text-lg font-bold">E-COMMERCE WEB APP</p>
                                 <div className='flex gap-3 font-semibold flex-wrap text-xs lg:text-sm'>
                                     <div className='px-3 py-1  bg-white text-black w-fit rounded-2xl'>  Mongo DB </div>
                                     <div className='px-3 py-1 bg-white text-black w-fit rounded-2xl'>   Express.js </div>

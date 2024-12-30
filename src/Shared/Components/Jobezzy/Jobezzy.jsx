@@ -10,7 +10,7 @@ function Jobezzy() {
                         <div className='md:col-span-3 md:p-0 p-2'>
                             <img className='   xl:h-[450px] p-5' src="/assets/images/Second/Quality1.png" alt="" />
                         </div>
-                        <div className='text-left md:col-span-2   md:p-0 p-2 text-white flex flex-col justify-between'>
+                        <div className='text-left md:col-span-2    text-white flex flex-col justify-between'>
                             <div className=' md:space-y-6 space-y-3   lg:mt-10 p-2  pr-5'>
                                 <p className="lg:block hidden text-sm">Job Posting and Recruitment Platform</p>
                                 <p className="lg:block hidden text-sm">A streamlined platform connecting job  seekers with   employers for diverse  opportunities.</p>

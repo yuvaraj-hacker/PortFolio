@@ -45,15 +45,9 @@ function Common({ headerImage, name, category, description, services, team, coun
                                     <p className={`md:text-2xl ${categoryColor}`}>Country:</p>
                                     <p className=" md:text-base text-sm">{country}</p>
                                 </div>
-
                             </div>
                         </div>
-                        
-                            <img src={descriptionImage} alt="" />
-                             
-
-
-                       
+                        <img className='md:w-full w-3/4 mx-auto' src={descriptionImage} alt="" />
                     </div>
                 </div>
             </section>

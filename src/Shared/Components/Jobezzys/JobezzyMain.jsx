@@ -88,44 +88,44 @@ function JobezzyMain() {
                 </div>
             </section>
  
-            <div class=" flex justify-between md:my-20 my-10">
-                <div class="left-right-up-down up-down"  >
+            <div className=" flex justify-between md:my-20 my-10">
+                <div className="left-right-up-down up-down"  >
                     <img src="/assets/images/JobezzyMain/Group 61.png" alt="Image 1" />
                 </div>
-                <div class="left-right-up-down down-up"  >
+                <div className="left-right-up-down down-up"  >
                     <img src="/assets/images/JobezzyMain/Group 61.png" alt="Image 2" />
                 </div>
-                <div class="left-right-up-down up-down"  >
+                <div className="left-right-up-down up-down"  >
                     <img src="/assets/images/JobezzyMain/Group 106.png" alt="Image 3" />
                 </div>
-                <div class="left-right-up-down down-up"  >
+                <div className="left-right-up-down down-up"  >
                     <img src="/assets/images/JobezzyMain/Group 61.png" alt="Image 4" />
                 </div>
-                <div class="left-right-up-down up-down"  >
+                <div className="left-right-up-down up-down"  >
                     <img src="/assets/images/JobezzyMain/Group 62.png" alt="Image 5" />
                 </div>
-                <div class="left-right-up-down down-up"  >
+                <div className="left-right-up-down down-up"  >
                     <img src="/assets/images/JobezzyMain/Group 106.png" alt="Image 6" />
                 </div>
             </div>
 
-            <div class=" flex justify-between   my-20">
-                <div class="left-right-up-down up-down"  >
+            <div className=" flex justify-between   my-20">
+                <div className="left-right-up-down up-down"  >
                     <img src="/assets/images/JobezzyMain/Group 61.png" alt="Image 1" />
                 </div>
-                <div class="left-right-up-down down-up"  >
+                <div className="left-right-up-down down-up"  >
                     <img src="/assets/images/JobezzyMain/Group 61.png" alt="Image 2" />
                 </div>
-                <div class="left-right-up-down up-down"  >
+                <div className="left-right-up-down up-down"  >
                     <img src="/assets/images/JobezzyMain/Group 106.png" alt="Image 3" />
                 </div>
-                <div class="left-right-up-down down-up"  >
+                <div className="left-right-up-down down-up"  >
                     <img src="/assets/images/JobezzyMain/Group 61.png" alt="Image 4" />
                 </div>
-                <div class="left-right-up-down up-down"  >
+                <div className="left-right-up-down up-down"  >
                     <img src="/assets/images/JobezzyMain/Group 62.png" alt="Image 5" />
                 </div>
-                <div class="left-right-up-down down-up"  >
+                <div className="left-right-up-down down-up"  >
                     <img src="/assets/images/JobezzyMain/Group 106.png" alt="Image 6" />
                 </div>
             </div>

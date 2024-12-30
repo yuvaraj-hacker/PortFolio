@@ -12,7 +12,7 @@ export default function HomePage(props) {
     const {swiperHeight} = props;
   
     return (
-        <div className='  mt-[60px] ' >
+        <div className='  mt-[60px] relative ' >
             <Swiper direction={'vertical'} pagination={{ clickable: true, }}  effect="fade" fadeEffect={{ crossFade: true }} speed={1400}   centeredSlides={true} slidesPerView={1} mousewheel={true} modules={[Pagination, Mousewheel]} style={{ height: `${swiperHeight}px` }} className="mySwiper">
                 <SwiperSlide >
                     <div className="  h-full flex justify-center items-center  bg-black"  >
@@ -25,7 +25,7 @@ export default function HomePage(props) {
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <div className=" h-full flex items-center justify-center  bg-black  "  >
+                    <div className=" h-full flex items-center justify-center  bg-black "  >
                         <div className=' '>
                             <StarBackground />
                         </div>

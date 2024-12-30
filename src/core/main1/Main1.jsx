@@ -46,6 +46,12 @@ function Main1() {
                 return { bgColor: '#02AC4E', textColor: 'text-white', name: 'YELAGIRI GOLD HILL RESORT' };
             case '/folsum':
                 return { bgColor: '#02AC4E', textColor: 'text-white', name: 'FOLSUM PULSE' };
+            case '/colors':
+                return { bgColor: '#E63D3D', textColor: 'text-white', name: 'COLORS MONTESSORI' };
+            case '/vivid':
+                return { bgColor: '#FF0000', textColor: 'text-white', name: 'VIVID ENGINEERING CONSULTANTS' };
+            case '/inba':
+                return { bgColor: '#00B453', textColor: 'text-white', name: 'INBA FOODS EAT RIGHT' };
             default:
                 return { bgColor: '#02AC4E', textColor: 'white' };
         }
@@ -66,7 +72,7 @@ function Main1() {
                 <Link to='/' >
                     <div className='   '>
                         <button className='btn-6 custom-btn   '>
-                            <i class="fi fi-ts-house-chimney font-bold text-2xl text-white flex justify-center items-center"></i>
+                            <i className="fi fi-ts-house-chimney font-bold text-2xl text-white flex justify-center items-center"></i>
                         </button>
                     </div>
                 </Link>

@@ -493,16 +493,6 @@ body {
 }
 
 
-
-
-
-
-
-
-
-
-
-
 /* phone shake */
 
 .movess {
@@ -598,6 +588,10 @@ body {
   padding: 0;
   top: 0;
   animation: autoscroll 11s linear forwards;
+   
+}
+.animate-autoscroll img:hover{
+  animation-play-state: paused;
 }
 
 
@@ -649,8 +643,9 @@ body {
 .image-scroll img {
   flex-shrink: 0; /* Prevent images from shrinking */
   width: auto; /* Maintain image aspect ratio */
-  
+ 
   margin-right: 20px; /* Spacing between images */
+ 
 }
 
 /* Keyframes for infinite scroll */
@@ -662,3 +657,57 @@ body {
     transform: translateX(-100%); /* Move to the left */
   }
 }
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+/* swirl effect */
+
+
+/* .background{
+  
+   animation: mate 10s linear infinite;
+}
+
+
+
+@keyframes mate{
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}
+
+
+.background span{
+  position: absolute;
+  width: 500px;
+  height: 150vh;
+  transform: translate(-50%, -50% ) rotate(calc(30deg * var(--i)));
+  transform-origin: bottom right;
+}
+.background span::before{
+  content: "";
+  position: absolute;
+  border-bottom-left-radius:500px ;
+  box-shadow: -90px -90px 0 89.5px #ff0954;
+
+} */
+
+ 
