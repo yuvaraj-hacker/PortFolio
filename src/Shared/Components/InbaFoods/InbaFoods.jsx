@@ -123,21 +123,16 @@ function InbaFoods() {
 
 
                 <section className="bg-[url('/assets/images/seventh/whole.png')] relative w-full bg-center bg-cover bg-no-repeat">
-                    <div className='  md:pt-96 pt-36 md:pb-20  '>
+                    <div className='  lg:pt-96 pt-36 md:pb-20  '>
                         <Marquee speed={100} autoFill={true} direction='right'  >
-
-
-
                             <img className='mr-5 mt-24 md:h-auto h-72' src="/assets/images/seventh/recent1.png" alt="" />
                             <img className='mr-5 mb-32 md:h-auto h-72' src="/assets/images/seventh/recent2.png" alt="" />
                             <img className='mr-5 mb-96 md:h-auto h-72' src="/assets/images/seventh/recent3.png" alt="" />
                             <img className='mr-5 mt-36 md:h-auto h-72' src="/assets/images/seventh/recent4.png" alt="" />
                             <img className='mr-5 mb-60 md:h-auto h-72' src="/assets/images/seventh/recent5.png" alt="" />
-
                         </Marquee>
                     </div>
                 </section>
-
 
                 <section className="bg-[#0F1C38] md:py-10 py-5 w-full bg-no-repeat">
                     <div className='px-5'>
