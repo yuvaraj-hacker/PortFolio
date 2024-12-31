@@ -1,3 +1,4 @@
+import { Divider } from '@nextui-org/react'
 import React from 'react'
 import { Link } from 'react-router-dom'
 
@@ -7,9 +8,9 @@ function Vivid() {
             <section className='bg-white'>
                 <section className="flex justify-center items-center bg-center bg-cover   bg-no-repeat rounded-br-[15rem] 3xl:h-[70vh] py-10  " style={{ backgroundImage: `url(${'/assets/images/Sixth/vivids.png'})` }}>
                     <div className='max-w-[90rem] mx-auto px-5 '>
-                        <div className='grid lg:grid-cols-2 grid-cols-1 gap-5 items-center' >
+                        <div className='grid lg:grid-cols-2 grid-cols-1 md:gap-5 items-center' >
                             <div className=' '>
-                                <nav className="text-sm mb-6">
+                                <nav className="text-sm md:mb-6 mb-3">
                                     <Link to='/' className=" text-white hover:underline">
                                         Home /
                                     </Link>{" "}
@@ -22,8 +23,8 @@ function Vivid() {
                                         VIVID ENGINEERING CONSULTANTS
                                     </a>
                                 </nav>
-                                <h1 className="text-2xl md:text-5xl text-white font-bold mb-6">VIVID ENGINEERING CONSULTANTS</h1>
-                                <div className="md:space-y-4 space-y-2 text-lg md:text-xl text-white">
+                                <h1 className="text-2xl md:text-5xl text-white font-bold md:mb-6 mb-3">VIVID ENGINEERING CONSULTANTS</h1>
+                                <div className="md:space-y-4 space-y-1 text-lg md:text-xl text-white">
                                     <div className='space-y-2'>
                                         <p className="md:text-2xl  text-[#FF0000]">Category:</p>
                                         <p className=" md:text-base text-sm">Engineering Consultancy Services</p>
@@ -51,8 +52,8 @@ function Vivid() {
                             </div>
                             <div className=' mx-auto'>
                                 <div
-                                    className='flex relative lg:top-52  '>
-                                    <img className='w-full md:h-[700px] ' src='/assets/images/Sixth/vividphone.png' alt="" />
+                                    className='flex  relative lg:top-52  '>
+                                    <img className='w-full   ' src='/assets/images/Sixth/vividphone.png' alt="" />
 
                                 </div>
                             </div>
@@ -125,8 +126,8 @@ function Vivid() {
 
 
                 <section className="bg-[url('/assets/images/Sixth/bacccc.png')] bg-center bg-cover bg-no-repeat">
-                    <div className='max-w-[80rem] overflow-hidden mx-auto md:pt-36 md:pb-28 pt-16 pb-16  px-5'>
-                        <div className="grid grid-cols-2  items-center md:grid-cols-5 ">
+                    <div className='max-w-[80rem] overflow-hidden mx-auto md:pt-36 md:pb-28 pt-16 pb-16  px-2'>
+                        <div className="grid grid-cols-2 md:gap-5 gap-3  items-center md:grid-cols-5 ">
                             <div  >
                                 <img src="/assets/images/Sixth/vivid1.png" alt="Mobile Screenshot 1" />
                             </div>
@@ -161,8 +162,8 @@ function Vivid() {
                                         <button className='rounded-3xl text-center mx-auto  md:text-base text-xs bg-[#FE0000] p-1 px-4'>
                                             <div className='relative'>
                                                 <p className="text-white md:text-base text-sm"> Contact Us</p>
-                                                <img className='absolute top-0 -left-2 w-2' src="/assets/images/JobezzyMain/jobarrow1.png" alt="" />
-                                                <img className='absolute bottom-0 -right-2 w-2' src="/assets/images/JobezzyMain/jobarrow2.png" alt="" />
+                                                <img className='absolute top-0 -left-2 w-2' src="/assets/images/seventh/white-flower2.png" alt="" />
+                                                <img className='absolute bottom-0 -right-2 w-2' src="/assets/images/seventh/white-flower.png" alt="" />
                                             </div>
                                         </button>
                                     </div>
@@ -171,7 +172,6 @@ function Vivid() {
                         </div>
                     </div>
                 </section>
-
             </section>
 
         </>

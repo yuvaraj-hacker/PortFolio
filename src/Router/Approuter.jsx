@@ -11,6 +11,7 @@ import ColorsPage from "../Components/ColorsPage/ColorsPage";
 import Contact from "../Components/Contact/Contact";
 import VividPage from "../Components/VividPage/VividPage";
 import InbaPage from "../Components/InbaPage/InbaPage";
+import SriKrishnaPage from "../Components/SriKrishnaPage/SriKrishnaPage";
 
 
 
@@ -32,6 +33,7 @@ function Approuter() {
                     <Route path="/contact" element={<Contact />} />
                     <Route path="/vivid" element={<VividPage />} />
                     <Route path="/inba" element={<InbaPage />} />
+                    <Route path="/sri" element={<SriKrishnaPage />} />
                 </Route>
             </Routes>
         </BrowserRouter>

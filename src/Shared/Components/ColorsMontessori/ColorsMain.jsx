@@ -137,8 +137,8 @@ function ColorsMain() {
                                         <button className='rounded-3xl text-center mx-auto  md:text-base text-xs bg-[#FEC000] p-1 px-4'>
                                             <div className='relative'>
                                                 <p className="text-[#195259] md:text-base text-sm"> Contact Us</p>
-                                                <img className='absolute top-0 -left-2 w-2' src="/assets/images/JobezzyMain/jobarrow1.png" alt="" />
-                                                <img className='absolute bottom-0 -right-2 w-2' src="/assets/images/JobezzyMain/jobarrow2.png" alt="" />
+                                                <img className='absolute top-0 -left-2 w-2' src="/assets/images/Fifth/colortop.png" alt="" />
+                                                <img className='absolute bottom-0 -right-2 w-2' src="/assets/images/Fifth/colorbottom.png" alt="" />
                                             </div>
                                         </button>
                                     </div>

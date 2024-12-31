@@ -54,15 +54,12 @@ function KiranaaBazaar() {
 
                     <div className='max-w-[80rem] mx-auto px-5 '>
                         <div className='grid md:grid-cols-2  gap-5  '>
-                            <div  >
+                            <div>
                                 <img className='mx-auto  w-full' src="/assets/images/KiranaaMain/tab.png" alt="" />
                             </div>
-
                             <div className='w-full flex flex-col gap-5'>
                                 <img className='mx-auto    w-full  ' src="/assets/images/KiranaaMain/gfgfgfg.png" alt="" />
-
                                 <div className='flex items-center gap-5'>
-
                                     <a href='https://kiranaabazaar.com/' target='_blank'>
                                         <div className='rounded-3xl bg-white text-black w-fit py-2  px-3 md:px-7'>
 
@@ -175,8 +172,8 @@ function KiranaaBazaar() {
                                         <button className='rounded-3xl  md:text-base text-xs bg-[#00B85F] p-1 px-4'>
                                             <div className='relative'>
                                                 <p className=""> Contact Us</p>
-                                                <img className='absolute top-0 -left-2' src="/assets/images/Contact/top.png" alt="" />
-                                                <img className='absolute bottom-0 -right-2' src="/assets/images/Contact/bottom.png" alt="" />
+                                                <img className='absolute top-0 -left-2' src="/assets/images/seventh/white-flower2.png" alt="" />
+                                                <img className='absolute bottom-0 -right-2' src="/assets/images/seventh/white-flower.png" alt="" />
                                             </div>
                                         </button>
                                     </div>

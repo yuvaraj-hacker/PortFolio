@@ -204,12 +204,12 @@ function YelagiriMain() {
                     </div>
                     <div className=' md:px-0 px-6  relative '>
                         <div className='bg-[#161B22] flex justify-center items-center w-full rounded-[3.5rem] md:h-full'>
-                            <div className="bg-[url('/assets/images/Third/phones.png')] bg-contain rounded-[3.5rem] relative bg-center   bg-no-repeat p-5 pl-[25px]   overflow-hidden  flex items-center justify-center">
+                            <div className="bg-[url('/assets/images/Third/phones.png')] bg-contain rounded-[3.5rem] relative bg-center   bg-no-repeat p-5 pl-[25px] overflow-hidden  flex items-center justify-center">
                                 <div className=" md:w-[300px] w-[290px] h-[650px] pt-10 overflow-hidden relative ">
                                     {/* <div className="absolute flex h-[515px] overflow-hidden mt-10 animate-autoscroll  flex-col inset-0"> */}
-                                    <div className={`absolute flex h-[515px] w-20 overflow-hidden mt-10 flex-col inset-0 ${isInView ? 'animate-autoscroll' : ''}`} >
+                                    <div className={`absolute flex h-[515px]   overflow-hidden mt-10 flex-col inset-0 ${isInView ? 'animate-autoscroll' : ''}`} >
                                         <img src="/assets/images/Third/farm.jpg" alt="Scrolling content" className="w-full h-auto " />
-                                        <img src="/assets/images/Third/farm.jpg" alt="Scrolling content" className="w-full h-auto  " />
+
                                     </div>
                                 </div>
                             </div>
@@ -324,8 +324,8 @@ function YelagiriMain() {
                                     <button className='rounded-3xl  md:text-base text-xs bg-[#00B85F] p-1 px-4'>
                                         <div className='relative'>
                                             <p className="">Contact Us</p>
-                                            <img className='absolute top-0 -left-2' src="/assets/images/Contact/top.png" alt="" />
-                                            <img className='absolute bottom-0 -right-2' src="/assets/images/Contact/bottom.png" alt="" />
+                                            <img className='absolute top-0 -left-2' src="/assets/images/seventh/white-flower2.png" alt="" />
+                                            <img className='absolute bottom-0 -right-2' src="/assets/images/seventh/white-flower.png" alt="" />
                                         </div>
                                     </button>
                                 </div>

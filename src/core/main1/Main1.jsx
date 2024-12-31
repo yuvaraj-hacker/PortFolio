@@ -50,8 +50,10 @@ function Main1() {
                 return { bgColor: '#E63D3D', textColor: 'text-white', name: 'COLORS MONTESSORI' };
             case '/vivid':
                 return { bgColor: '#FF0000', textColor: 'text-white', name: 'VIVID ENGINEERING CONSULTANTS' };
-            case '/inba':
+            case '/inba': 
                 return { bgColor: '#00B453', textColor: 'text-white', name: 'INBA FOODS EAT RIGHT' };
+            case '/sri':
+                return { bgColor: '#D89C5C', textColor: 'text-white', name: 'SRI KRISHNA' };
             default:
                 return { bgColor: '#02AC4E', textColor: 'white' };
         }

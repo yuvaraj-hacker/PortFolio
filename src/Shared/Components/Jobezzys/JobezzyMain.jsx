@@ -40,7 +40,7 @@ function JobezzyMain() {
                 <section className='max-w-[60rem]  mx-auto px-5'>
                     <div className=' grid md:grid-cols-12 gap-10 items-center'>
                         <div className='col-span-5'>
-                            <img className='w-full h-full' src="/assets/images/JobezzyMain/about 1.png" alt="" />
+                            <img className=' ' src="/assets/images/JobezzyMain/twox.png" alt="" />
                         </div>
                         <div className='rounded-full p-3 flex justify-center items-center bg-[#FFC000] col-span-1'>
                             <img className='w-16' src="/assets/images/JobezzyMain/Stars.png" alt="" />
