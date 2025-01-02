@@ -115,6 +115,13 @@ function Srikrishna() {
                 </section>
 
 
+                <section className='grid grid-cols-3 items-center'>
+                    <img className=' ' src="/assets/images/Eight/Sri_Krishna_bg 2.png" alt="" />
+                    <img className='mx-auto' src="/assets/images/Eight/footer 1.png" alt="" />
+                    <img className='ml-auto ' src="/assets/images/Eight/Sri_Krishna_bg 1.png" alt="" />
+                </section>
+
+
 
 
                 <section className="bg-[#212529]   md:py-10 py-5 w-full bg-no-repeat">

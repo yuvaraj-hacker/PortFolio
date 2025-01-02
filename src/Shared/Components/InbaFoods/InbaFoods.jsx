@@ -123,13 +123,13 @@ function InbaFoods() {
 
 
                 <section className="bg-[url('/assets/images/seventh/whole.png')] relative w-full bg-center bg-cover bg-no-repeat">
-                    <div className='  lg:pt-96 pt-36 md:pb-20  '>
+                    <div className='  lg:pt-96 pt-10 md:pb-20   '>
                         <Marquee speed={100} autoFill={true} direction='right'  >
-                            <img className='mr-5 mt-24 md:h-auto h-72' src="/assets/images/seventh/recent1.png" alt="" />
-                            <img className='mr-5 mb-32 md:h-auto h-72' src="/assets/images/seventh/recent2.png" alt="" />
-                            <img className='mr-5 mb-96 md:h-auto h-72' src="/assets/images/seventh/recent3.png" alt="" />
-                            <img className='mr-5 mt-36 md:h-auto h-72' src="/assets/images/seventh/recent4.png" alt="" />
-                            <img className='mr-5 mb-60 md:h-auto h-72' src="/assets/images/seventh/recent5.png" alt="" />
+                            <img className='mr-5 mt-24 md:h-auto h-44' src="/assets/images/seventh/recent1.png" alt="" />
+                            <img className='mr-5 mb-32 md:h-auto h-44' src="/assets/images/seventh/recent2.png" alt="" />
+                            <img className='mr-5 mb-96 md:h-auto h-44' src="/assets/images/seventh/recent3.png" alt="" />
+                            <img className='mr-5 mt-36 md:h-auto h-44' src="/assets/images/seventh/recent4.png" alt="" />
+                            <img className='mr-5 mb-60 md:h-auto h-44' src="/assets/images/seventh/recent5.png" alt="" />
                         </Marquee>
                     </div>
                 </section>
@@ -137,12 +137,12 @@ function InbaFoods() {
                 <section className="bg-[#0F1C38] md:py-10 py-5 w-full bg-no-repeat">
                     <div className='px-5'>
                         <div className='max-w-[70rem] mx-auto text-center'>
-                            <div className='  justify-center items-center   gap-5 text-white'>
+                            <div className='justify-center items-center gap-5 text-white'>
                                 <p className="md:text-3xl text-sm font-bold uppercase">Experience the power of nutrition with Inba Foods —
                                     wholesome, natural, and millet-based for a healthier you!</p>
                                 <div className='flex justify-center items-center gap-4'>
                                     <div className=' text-center md:mt-7 mt-5'>
-                                        <button className='rounded-3xl text-center mx-auto  md:text-base text-xs bg-[#00B453] p-1 px-4'>
+                                        <button className='rounded-3xl text-center mx-auto md:text-base text-xs bg-[#00B453] p-1 px-4'>
                                             <div className='relative'>
                                                 <p className="text-white md:text-base text-sm"> Contact Us</p>
                                                 <img className='absolute top-0 -left-2 w-2' src="/assets/images/seventh/white-flower2.png" alt="" />

@@ -30,7 +30,7 @@ function GoldResort() {
                                         </div>
                                     </div>
                                 </Link> */}
-                                <Link to='/yelagiri'>
+                                <Link to='/yelagiri-gold-hill-resort'>
                                     <div className='flex w-fit p-2 rounded-t-2xl rounded-bl-2xl px-5 ml-auto bg-gradient-to-r cursor-pointer relative left-[1px] top-[2px] from-green-600 to-green-100 items-center group'>
                                         <p className="text-black font-bold group-hover:text-white transition-all duration-300 ease-in-out">Read More</p>
                                         <div>

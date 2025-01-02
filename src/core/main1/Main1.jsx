@@ -38,22 +38,24 @@ function Main1() {
 
     const getHeaderStyles = () => {
         switch (location.pathname) {
-            case '/kiranaa':
+            case '/kiranaa-bazaar':
                 return { bgColor: '#02AC4E', textColor: 'text-white', name: 'KIRANAA BAZAAR' };
             case '/jobezzy':
                 return { bgColor: '#FFC000', textColor: 'text-white', name: 'JOBEZZY' };
-            case '/yelagiri':
+            case '/yelagiri-gold-hill-resort':
                 return { bgColor: '#02AC4E', textColor: 'text-white', name: 'YELAGIRI GOLD HILL RESORT' };
-            case '/folsum':
+            case '/folsum-pulse':
                 return { bgColor: '#02AC4E', textColor: 'text-white', name: 'FOLSUM PULSE' };
-            case '/colors':
+            case '/colors-montessori':
                 return { bgColor: '#E63D3D', textColor: 'text-white', name: 'COLORS MONTESSORI' };
-            case '/vivid':
+            case '/vivid-engineering-consultants':
                 return { bgColor: '#FF0000', textColor: 'text-white', name: 'VIVID ENGINEERING CONSULTANTS' };
-            case '/inba': 
+            case '/inba-foods':
                 return { bgColor: '#00B453', textColor: 'text-white', name: 'INBA FOODS EAT RIGHT' };
-            case '/sri':
-                return { bgColor: '#D89C5C', textColor: 'text-white', name: 'SRI KRISHNA' };
+            case '/sri-krishna':
+                return { bgColor: '#D89C5C', textColor: 'text-white', name: 'SRI KRISHNA ' };
+            case '/dglholidays':
+                return { bgColor: '#FCCE38', textColor: 'text-white', name: 'DGL HOLIDAYS' };
             default:
                 return { bgColor: '#02AC4E', textColor: 'white' };
         }

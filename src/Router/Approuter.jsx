@@ -12,6 +12,7 @@ import Contact from "../Components/Contact/Contact";
 import VividPage from "../Components/VividPage/VividPage";
 import InbaPage from "../Components/InbaPage/InbaPage";
 import SriKrishnaPage from "../Components/SriKrishnaPage/SriKrishnaPage";
+import DGLholidaysPage from "../Components/DGLPage/DGLholidaysPage";
 
 
 
@@ -25,15 +26,16 @@ function Approuter() {
                     <Route path="/" element={<Home />} />
                 </Route>
                 <Route element={<Main1 />}>
-                    <Route path="/kiranaa" element={<KiranaaPage />} />
+                    <Route path="/kiranaa-bazaar" element={<KiranaaPage />} />
                     <Route path="/jobezzy" element={<JobezzyPage />} />
-                    <Route path="/yelagiri" element={<YelagiriPage />} />
-                    <Route path="/folsum" element={<FolsumPage />} />
-                    <Route path="/colors" element={<ColorsPage />} />
+                    <Route path="/yelagiri-gold-hill-resort" element={<YelagiriPage />} />
+                    <Route path="/folsum-pulse" element={<FolsumPage />} />
+                    <Route path="/colors-montessori" element={<ColorsPage />} />
                     <Route path="/contact" element={<Contact />} />
-                    <Route path="/vivid" element={<VividPage />} />
-                    <Route path="/inba" element={<InbaPage />} />
-                    <Route path="/sri" element={<SriKrishnaPage />} />
+                    <Route path="/vivid-engineering-consultants" element={<VividPage />} />
+                    <Route path="/inba-foods" element={<InbaPage />} />
+                    <Route path="/sri-krishna" element={<SriKrishnaPage />} />
+                    <Route path="/dglholidays" element={<DGLholidaysPage />} />
                 </Route>
             </Routes>
         </BrowserRouter>
