@@ -51,9 +51,7 @@ function DglHolidays() {
 
                             <div className='text-center bg-[#008EE1] p-2 w-fit mx-auto rounded-3xl text-white px-4 cursor-pointer'>
                                 <a href="http://www.dglholidays.com/" target='_blank'>
-                                    <p className="">
-                                        www.dglholidays.com
-                                    </p>
+                                    <p className="">   www.dglholidays.com   </p>
                                 </a>
                             </div>
 
@@ -86,7 +84,7 @@ function DglHolidays() {
                             <div>
                                 <img src="/assets/images/nine/dgl5.png" alt="Mobile Screenshot 3" />
                             </div>
-                            <div  >
+                            <div >
                                 <img src="/assets/images/nine/dgl6.png" alt="Mobile Screenshot 4" />
                             </div>
                         </div>

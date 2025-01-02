@@ -53,7 +53,7 @@ function Srikrishna() {
                                 <div className='grid grid-cols-3 relative items-center  lg:top-40'>
                                     <img className='relative top-28 ' src='/assets/images/Eight/herr1.png' alt="" />
                                     <img className='   z-10 ' src='/assets/images/Eight/herr2.png' alt="" />
-                                    <img className=' w-64 relative right-20   h-64' src='/assets/images/Eight/herr3.png' alt="" />
+                                    <img className=' w-64 relative right-20    h-64' src='/assets/images/Eight/herr3.png' alt="" />
                                 </div>
                             </div>
                         </div>
@@ -112,13 +112,20 @@ function Srikrishna() {
                             </div>
                         </div>
                     </div>
+                    <div className='flex  justify-center items-center relative top-5'>
+                        <a href='https://www.srikrishna.fr/' target='_blank'>
+                            <p className="bg-[#D89C5C] text-white w-fit p-2 px-6 rounded-3xl ">www.srikrishna.fr</p>
+                        </a>
+                    </div>
                 </section>
 
 
-                <section className='grid grid-cols-3 items-center'>
+                <section className='grid grid-cols-4 overflow-hidden'>
                     <img className=' ' src="/assets/images/Eight/Sri_Krishna_bg 2.png" alt="" />
-                    <img className='mx-auto' src="/assets/images/Eight/footer 1.png" alt="" />
-                    <img className='ml-auto ' src="/assets/images/Eight/Sri_Krishna_bg 1.png" alt="" />
+                    <div className='flex justify-center items-center w-full h-full col-span-2'>
+                        <img className=' animate-wiggle-more animate-twice ' src="/assets/images/Eight/footer 1.png" alt="" />
+                    </div>
+                    <img data-aos="fade-left" data-aos-delay="300" className='ml-auto  ' src="/assets/images/Eight/Sri_Krishna_bg 1.png" alt="" />
                 </section>
 
 
