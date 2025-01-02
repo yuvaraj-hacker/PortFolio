@@ -51,7 +51,7 @@ function Main1() {
             case '/vivid-engineering-consultants':
                 return { bgColor: '#FF0000', textColor: 'text-white', name: 'VIVID ENGINEERING CONSULTANTS' };
             case '/inba-foods':
-                return { bgColor: '#00B453', textColor: 'text-white', name: 'INBA FOODS EAT RIGHT' };
+                return { bgColor: '#00B453', textColor: 'text-white', name: 'INBA FOODS  ' };
             case '/sri-krishna':
                 return { bgColor: '#D89C5C', textColor: 'text-white', name: 'SRI KRISHNA ' };
             case '/dglholidays':

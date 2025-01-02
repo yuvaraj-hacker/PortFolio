@@ -21,10 +21,10 @@ function InbaFoods() {
                                     </a>{" "}
                                     /{" "}
                                     <a href="#" className="text-[#00B453] hover:underline uppercase font-semibold">
-                                        Inba Foods Eat Right
+                                        Inba Foods 
                                     </a>
                                 </nav>
-                                <h1 className="text-2xl md:text-5xl uppercase text-white font-bold md:mb-6 mb-3">Inba Foods Eat Right</h1>
+                                <h1 className="text-2xl md:text-5xl uppercase text-white font-bold md:mb-6 mb-3">Inba Foods  </h1>
                                 <div className="md:space-y-4 space-y-1 text-lg md:text-xl text-white">
                                     <div className='space-y-2'>
                                         <p className="md:text-2xl  text-[#00B453]">Category:</p>

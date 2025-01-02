@@ -94,8 +94,6 @@ function Srikrishna() {
                     </div>
 
                 </section>
-
-
                 <section className="bg-[url('/assets/images/Eight/sriii.png')] bg-cover bg-center bg-no-repeat ">
                     <div className='px-5'>
                         <div className='max-w-[70rem] mx-auto py-10 md:py-20'>
