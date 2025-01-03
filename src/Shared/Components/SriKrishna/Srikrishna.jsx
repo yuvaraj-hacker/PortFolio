@@ -60,11 +60,11 @@ function Srikrishna() {
                     </div>
                 </section>
 
-
-
-                <section className="  ">
+                <section className=" ">
                     <div className=' lg:pt-52 pt-28  pb-5  max-w-[80rem] mx-auto px-5  md:space-y-10 space-y-5 '>
-                        <div > <p className="text-[#D89C5C] md:text-3xl text-base font-bold">ABOUT THE PROJECT</p> </div>
+                        <div>
+                            <p className="text-[#D89C5C] md:text-3xl text-base font-bold">ABOUT THE PROJECT</p>
+                        </div>
                         <div className='grid lg:grid-cols-2  items-center    md:gap-10 gap-5 '>
                             <div className='space-y-5 mx-auto  '>
                                 <div className=" w-fit  ">
@@ -123,9 +123,6 @@ function Srikrishna() {
                     </div>
                     <img data-aos="fade-left" data-aos-delay="300" className='ml-auto  ' src="/assets/images/Eight/Sri_Krishna_bg 1.png" alt="" />
                 </section>
-
-
-
 
                 <section className="bg-[#212529]   md:py-10 py-5 w-full bg-no-repeat">
                     <div className='px-5'>

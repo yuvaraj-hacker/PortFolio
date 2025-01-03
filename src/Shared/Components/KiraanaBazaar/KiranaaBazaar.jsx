@@ -53,12 +53,15 @@ function KiranaaBazaar() {
                 <section className="bg-[url('/assets/images/KiranaaMain/Mainsec.png')] md:py-20 py-10 bg-center bg-cover w-full bg-no-repeat my-10  md:my-20">
 
                     <div className='max-w-[80rem] mx-auto px-5 '>
-                        <div className='grid md:grid-cols-2  gap-5  '>
-                            <div>
-                                <img className='mx-auto  w-full' src="/assets/images/KiranaaMain/tab.png" alt="" />
+                        <div className='grid md:grid-cols-2  gap-5   '>
+                            <div className="bg-[url('public/assets/images/KiranaaMain/green.gif')]  flex justify-center items-center p-5 rounded-[3.5rem] bg-cover bg-center bg-no-repeat">
+                                <img className='mx-auto ' src="/assets/images/KiranaaMain/saa.png" alt="" />
                             </div>
                             <div className='w-full flex flex-col gap-5'>
-                                <img className='mx-auto    w-full  ' src="/assets/images/KiranaaMain/gfgfgfg.png" alt="" />
+                            <div className="bg-[url('public/assets/images/KiranaaMain/green.gif')]  flex justify-center items-center pt-5 pr-5 pl-5 rounded-[3.5rem] bg-cover bg-center bg-no-repeat">
+                                    <img className='mx-auto ' src="/assets/images/KiranaaMain/secondonee.png" alt="" /> 
+                                </div>
+
                                 <div className='flex items-center gap-5'>
                                     <a href='https://kiranaabazaar.com/' target='_blank'>
                                         <div className='rounded-3xl bg-white text-black w-fit py-2  px-3 md:px-7'>

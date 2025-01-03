@@ -64,6 +64,30 @@ function JobezzyMain() {
                             <p className="text-justify"> <span className='text-[#FFC000]'>  JOBEZZY  </span> is more than just a platform—it's
                                 a step toward redefining recruitment with efficiency
                                 and innovation.</p>
+
+
+                            <div className='flex justify-between'>
+                                <div className='flex items-center gap-5'>
+                                    <a href='https://www.jobezzy.in/' target='_blank'>
+                                        <div className='rounded-3xl bg-[#FFC000] text-black w-fit py-2  px-3 md:px-7'>
+
+                                            <p className="md:text-lg text-sm text-black">www.jobezzy.in</p>
+                                        </div>
+                                    </a>
+                                    
+                                </div>
+                                <div className='flex items-center gap-5'>
+                                    <a href='https://play.google.com/store/apps/details?id=com.jobezzy.Application&hl=en_IN' target='_blank'>
+                                        <div className='rounded-3xl bg-gray-200 text-black w-fit py-2  px-3 md:px-7'>
+
+                                            <img className='h-6' src="/assets/images/JobezzyMain/googleplay.png" alt="" />
+                                        </div>
+                                    </a>
+                                   
+                                </div>
+                            </div>
+
+
                         </div>
                     </div>
                 </section>
@@ -87,7 +111,7 @@ function JobezzyMain() {
                     </div>
                 </div>
             </section>
- 
+
             <div className=" flex justify-between md:my-20 my-10">
                 <div className="left-right-up-down up-down"  >
                     <img src="/assets/images/JobezzyMain/Group 61.png" alt="Image 1" />

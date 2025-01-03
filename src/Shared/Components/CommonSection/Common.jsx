@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react'
+import Marquee from 'react-fast-marquee'
 import { Link } from 'react-router-dom'
 
 function Common({ headerImage, name, category, description, services, team, country, descriptionImage, descriptImage, categoryColor = 'text-white', }) {
@@ -14,11 +15,11 @@ function Common({ headerImage, name, category, description, services, team, coun
                                 <Link to='/' className="text-blue-400 hover:underline">
                                     Home /
                                 </Link>{" "}
-                                /{" "}
+                                {" "}
                                 <a href="#" className="text-blue-400 hover:underline">
                                     Portfolio /
                                 </a>{" "}
-                                /{" "}
+                                 {" "}
                                 <a href="#" className={`${categoryColor} hover:underline font-semibold`}>
                                     {name}
                                 </a>
@@ -47,6 +48,8 @@ function Common({ headerImage, name, category, description, services, team, coun
                                 </div>
                             </div>
                         </div>
+
+                       
                         <img className='md:w-full w-3/4 mx-auto' src={descriptionImage} alt="" />
                     </div>
                 </div>
