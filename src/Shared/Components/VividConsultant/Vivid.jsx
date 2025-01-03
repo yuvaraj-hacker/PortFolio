@@ -92,7 +92,7 @@ function Vivid() {
                                 </div>
                                 <div>
                                     <a href='https://www.vividenggconsultants.com/' target='_blank'>
-                                        <div className='p-2 bg-[#FF0000] w-fit md:text-base text-xs  text-white rounded-3xl px-4'>
+                                        <div className='md:p-2 py-1 bg-[#FF0000] w-fit md:text-base text-xs  text-white rounded-3xl px-4'>
                                             www.vividenggconsultants.com
                                         </div>
                                     </a>

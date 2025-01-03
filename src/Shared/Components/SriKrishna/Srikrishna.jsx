@@ -63,11 +63,9 @@ function Srikrishna() {
 
 
                 <section className="  ">
-                    <div className=' lg:pt-52 pt-10   max-w-[80rem] mx-auto px-5  md:space-y-10 space-y-5 '>
-                        <div >
-                            <p className="text-[#D89C5C] md:text-3xl text-base font-bold">ABOUT THE PROJECT</p>
-                        </div>
-                        <div className='grid lg:grid-cols-2  items-center    gap-10'>
+                    <div className=' lg:pt-52 pt-28  pb-5  max-w-[80rem] mx-auto px-5  md:space-y-10 space-y-5 '>
+                        <div > <p className="text-[#D89C5C] md:text-3xl text-base font-bold">ABOUT THE PROJECT</p> </div>
+                        <div className='grid lg:grid-cols-2  items-center    md:gap-10 gap-5 '>
                             <div className='space-y-5 mx-auto  '>
                                 <div className=" w-fit  ">
                                     <img className=" " src="/assets/images/Eight/krish.png" alt="Gradient Example" />
@@ -96,7 +94,7 @@ function Srikrishna() {
                 </section>
                 <section className="bg-[url('/assets/images/Eight/sriii.png')] bg-cover bg-center bg-no-repeat ">
                     <div className='px-5'>
-                        <div className='max-w-[70rem] mx-auto py-10 md:py-20'>
+                        <div className='max-w-[70rem] mx-auto py-5 md:py-20'>
                             <div className='grid grid-cols-5'>
                                 <div className=''>
                                     <img src="/assets/images/Eight/right.png" alt="" />
@@ -110,9 +108,9 @@ function Srikrishna() {
                             </div>
                         </div>
                     </div>
-                    <div className='flex  justify-center items-center relative top-5'>
+                    <div className='flex  justify-center items-center relative md:top-5 top-4'>
                         <a href='https://www.srikrishna.fr/' target='_blank'>
-                            <p className="bg-[#D89C5C] text-white w-fit p-2 px-6 rounded-3xl ">www.srikrishna.fr</p>
+                            <p className="bg-[#D89C5C] text-white w-fit md:p-2 md:px-6 p-1 px-3 md:text-base text-sm rounded-3xl ">www.srikrishna.fr</p>
                         </a>
                     </div>
                 </section>

@@ -58,7 +58,7 @@ function ColorsMain() {
                             </div>
                             <div>
                                 <a href='https://www.colorsmontessori.com/' target='_blank'>
-                                    <div className='p-2 bg-[#052E86] w-fit  text-white rounded-3xl px-4'>
+                                    <div className='md:p-2 py-1 bg-[#052E86] w-fit md:text-base text-sm  text-white rounded-3xl px-4'>
                                         www.colorsmontessori.com
                                     </div>
                                 </a>
@@ -87,14 +87,7 @@ function ColorsMain() {
                         </div>
                     </div>
                 </section>
-
-                {/* <section className="bg-[url('/assets/images/Fifth/galleryback.png')] h-[60vh]  bg-center bg-cover bg-no-repeat">
-                <div className='flex justify-center items-center'>
-                    <div>
-                        <img src="/assets/images/Fifth/group-color.png" alt="" />
-                    </div>
-                </div>
-            </section> */}
+ 
 
                 <section className='max-w-[80rem] overflow-hidden mx-auto  md:my-20 my-10 px-5'>
                     <div className="grid grid-cols-2  items-center md:grid-cols-5 ">
@@ -133,7 +126,7 @@ function ColorsMain() {
                                 <p className="md:text-3xl text-sm font-bold uppercase">"Unlock your child's potential with <span className='text-[#FFCB02]'>Colors Montessori's </span>
                                     innovative and holistic learning programs!"</p>
                                 <div className='flex justify-center items-center gap-4'>
-                                    <div className=' text-center md:mt-7'>
+                                    <div className=' text-center md:mt-7 mt-5'>
                                         <button className='rounded-3xl text-center mx-auto  md:text-base text-xs bg-[#FEC000] p-1 px-4'>
                                             <div className='relative'>
                                                 <p className="text-[#195259] md:text-base text-sm"> Contact Us</p>

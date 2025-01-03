@@ -183,38 +183,38 @@ function YelagiriMain() {
 
 
             <section ref={sectionRef} className='md:my-20 my-10 max-w-[70rem] mx-auto'>
-                <div className='grid md:grid-cols-2  gap-10'>
-                    <div className='flex flex-col px-5 justify-between gap-10'>
+                <div className='grid md:grid-cols-2  items-center  md:gap-10 gap-5'>
+                    <div className='flex flex-col   justify-between md:gap-10 gap-3'>
                         <div className="bg-[url('/assets/images/Third/gray.png')] bg-center bg-cover space-y-5 p-5">
                             <p className="text-[#02AC4E] md:text-3xl font-bold">ABOUT THE PROJECT</p>
-                            <p className="text-justify">The  <span className='text-[#02AC4E]'> Yelagiri Gold Hill Resort </span> project is a premium website designed to showcase the elegance
+                            <p className="text-justify md:text-base text-sm">The  <span className='text-[#02AC4E]'> Yelagiri Gold Hill Resort </span> project is a premium website designed to showcase the elegance
                                 and luxury of this holiday destination. Built using modern technologies like Next.js and Tailwind CSS,
                                 the website ensures a seamless, fast, and visually appealing user experience.</p>
-                            <p className="text-justify">Our 8-member team collaborated to create an intuitive and responsive design,
+                            <p className="text-justify md:text-base text-sm">Our 8-member team collaborated to create an intuitive and responsive design,
                                 highlighting the resort’s stunning amenities and picturesque location. Special attention
                                 was given to performance optimization and mobile-friendliness to cater to diverse user
                                 needs.</p>
-                            <p className=" text-justify ">This project reflects our commitment to delivering cutting-edge
+                            <p className=" text-justify md:text-base text-sm ">This project reflects our commitment to delivering cutting-edge
                                 web solutions that elevate brand identity and enhance customer
                                 engagement.</p>
                         </div>
                         <div>
-                            <img src="/assets/images/Third/lap.png" alt="" />
+                            <img className='md:px-0 px-2' src="/assets/images/Third/lap.png" alt="" />
                         </div>
                     </div>
-                    <div className=' md:px-0 px-6  relative '>
-                        <div className='bg-[#161B22] flex justify-center items-center w-full rounded-[3.5rem] md:h-full'>
-                            <div className="bg-[url('/assets/images/Third/phones.png')] bg-contain rounded-[3.5rem] relative bg-center   bg-no-repeat p-5 pl-[25px] overflow-hidden  flex items-center justify-center">
-                                <div className=" md:w-[300px] w-[290px] h-[650px] pt-10 overflow-hidden relative ">
-                                    {/* <div className="absolute flex h-[515px] overflow-hidden mt-10 animate-autoscroll  flex-col inset-0"> */}
-                                    <div className={`absolute flex h-[515px]   overflow-hidden mt-10 flex-col inset-0 ${isInView ? 'animate-autoscroll' : ''}`} >
+                    <div className='  relative '>
+                        <div className='   '>
+                            <div className="bg-[url('/assets/images/Third/fmn.png')] bg-contain   relative bg-center   bg-no-repeat p-4 pl-[18.5px]   overflow-hidden  flex items-center justify-center">
+                                <div className=" md:w-[300px] w-[287px] h-[648px] pt-10 overflow-hidden  relative ">
+                                   
+                                    <div className={`absolute flex h-[515px] overflow-hidden mt-10 flex-col inset-0 ${isInView ? 'animate-autoscroll' : ''}`} >
                                         <img src="/assets/images/Third/farm.jpg" alt="Scrolling content" className="w-full h-auto " />
 
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <img className='w-20 absolute top-1/2 -left-16 ' src="/assets/images/Third/whitestar.png" alt="" />
+                        <img className='w-20 absolute top-1/2 -left-7 md:block hidden ' src="/assets/images/Third/whitestar.png" alt="" />
                     </div>
                 </div>
             </section>
@@ -316,7 +316,7 @@ function YelagiriMain() {
                 <div className='px-5'>
                     <div className='max-w-[70rem] mx-auto  bg-[#161B22]/30  border rounded-2xl p-5  ' >
                         <div className='flex justify-center items-center flex-wrap gap-5  text-white'>
-                            <p className="md:text-3xl font-bold "> "Rediscover luxury and tranquility at Gold Hill Resort!  Your perfect gateway for relaxation, celebrations,
+                            <p className="md:text-3xl font-bold  text-sm"> "Rediscover luxury and tranquility at Gold Hill Resort!  Your perfect gateway for relaxation, celebrations,
                                 and unforgettable experiences awaits."</p>
                             <div className='flex gap-4'>
                                 <img className='md:w-24 w-10 md:h-auto h-10' src="/assets/images/KiranaaMain/footimage.png" alt="" />

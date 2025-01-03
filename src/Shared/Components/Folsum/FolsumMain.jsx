@@ -156,7 +156,7 @@ function FolsumMain() {
                         <div className='  justify-center items-center   gap-5 text-white'>
                             <p className="md:text-3xl text-sm font-bold uppercase">"Stay connected with Folsom Pulse—your gateway to local events, services, and news!"</p>
                             <div className='flex justify-center items-center gap-4'>
-                                <div className=' text-center md:mt-7'>
+                                <div className=' text-center md:mt-7 mt-5'>
                                     <button className='rounded-3xl text-center mx-auto  md:text-base text-xs bg-[#FEC000] p-1 px-4'>
                                         <div className='relative'>
                                             <p className="text-[#195259] md:text-base text-sm"> Contact Us</p>

@@ -51,7 +51,7 @@ function DglHolidays() {
 
                             <div className='text-center bg-[#008EE1] p-2 w-fit mx-auto rounded-3xl text-white px-4 cursor-pointer'>
                                 <a href="http://www.dglholidays.com/" target='_blank'>
-                                    <p className="">   www.dglholidays.com   </p>
+                                    <p className=""> www.dglholidays.com   </p>
                                 </a>
                             </div>
 
@@ -59,9 +59,9 @@ function DglHolidays() {
                     </div>
 
                 </section>
-                <section className="bg-[url('/assets/images/nine/abbb.png')] 2xl:h-[500px]    2xl:mt-96 xl:mt-80 lg:mt-72  md:mt-60  mt-40   ">
+                <section className="bg-[url('/assets/images/nine/abbb.png')] 2xl:h-[500px] 2xl:mt-96 xl:mt-80 lg:mt-72  md:mt-60  mt-28   ">
                     <div>
-                        <img className='mx-auto relative 2xl:bottom-80 xl:bottom-72 lg:bottom-60 md:bottom-40 bottom-16  px-5' src="/assets/images/nine/holi.png" alt="" />
+                        <img className='mx-auto relative 2xl:bottom-80 xl:bottom-72 lg:bottom-60 md:bottom-40 bottom-16 px-5' src="/assets/images/nine/holi.png" alt="" />
                     </div>
                 </section>
 

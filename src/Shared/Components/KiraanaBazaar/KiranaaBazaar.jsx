@@ -165,7 +165,7 @@ function KiranaaBazaar() {
                     <div className='px-5'>
                         <div className='max-w-[70rem] mx-auto    border rounded-2xl p-5  ' >
                             <div className='flex justify-center items-center flex-wrap gap-5 text-white'>
-                                <p className="md:text-3xl font-bold"> Elevate your project with our  AI-powered expertise!</p>
+                                <p className="md:text-3xl text-sm font-bold"> Elevate your project with our  AI-powered expertise!</p>
                                 <div className='flex gap-4'>
                                     <img className='md:w-24 w-10 md:h-auto h-10' src="/assets/images/KiranaaMain/footimage.png" alt="" />
                                     <div className='md:mt-9 mt-4'>
