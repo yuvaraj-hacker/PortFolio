@@ -61,11 +61,11 @@ function Srikrishna() {
                 </section>
 
                 <section className=" ">
-                    <div className=' lg:pt-52 pt-28  pb-5  max-w-[80rem] mx-auto px-5  md:space-y-10 space-y-5 '>
+                    <div className=' lg:pt-52 pt-28 pb-5 max-w-[80rem] mx-auto px-5 md:space-y-10 space-y-5 '>
                         <div>
                             <p className="text-[#D89C5C] md:text-3xl text-base font-bold">ABOUT THE PROJECT</p>
                         </div>
-                        <div className='grid lg:grid-cols-2  items-center    md:gap-10 gap-5 '>
+                        <div className='grid lg:grid-cols-2  items-center md:gap-10 gap-5 '>
                             <div className='space-y-5 mx-auto  '>
                                 <div className=" w-fit  ">
                                     <img className=" " src="/assets/images/Eight/krish.png" alt="Gradient Example" />
@@ -75,8 +75,7 @@ function Srikrishna() {
                                 <div className='text-justify md:text-base md:space-y-5 space-y-3 text-sm  '>
                                     <p className="">The <span className='text-[#D89C5C]'>Sri Krishna</span>  website was developed to create an engaging and user-friendly platform that reflects
                                         the authenticity and charm of the restaurant's Indian cuisine. Designed using <span className='text-[#D89C5C]'> Bootstrap, HTML,</span> and <span className='text-[#D89C5C]'>  CSS,</span> the
-                                        website
-                                        features a clean and responsive layout, ensuring seamless navigation across all devices.</p>
+                                        website features a clean and responsive layout, ensuring seamless navigation across all devices.</p>
                                     <p className="">Our team of five developers collaborated to craft a visually appealing and functionally
                                         robust website that showcases the restaurant’s menu, ambiance, and services. Special attention was
                                         given to integrating an intuitive design that highlights key sections, such as the menu, gallery,
