@@ -180,8 +180,6 @@ function YelagiriMain() {
                 </div>
             </section>
 
-
-
             <section ref={sectionRef} className='md:my-20 my-10 max-w-[70rem] mx-auto'>
                 <div className='grid md:grid-cols-2  items-center  md:gap-10 gap-5'>
                     <div className='flex flex-col   justify-between md:gap-10 gap-3'>
@@ -204,12 +202,10 @@ function YelagiriMain() {
                     </div>
                     <div className='  relative '>
                         <div className='   '>
-                            <div className="bg-[url('/assets/images/Third/fmn.png')] bg-contain   relative bg-center   bg-no-repeat p-4 pl-[18.5px]   overflow-hidden  flex items-center justify-center">
-                                <div className=" md:w-[300px] w-[287px] h-[648px] pt-10 overflow-hidden  relative ">
-                                   
-                                    <div className={`absolute flex h-[515px] overflow-hidden mt-10 flex-col inset-0 ${isInView ? 'animate-autoscroll' : ''}`} >
-                                        <img src="/assets/images/Third/farm.jpg" alt="Scrolling content" className="w-full h-auto " />
-
+                            <div className="bg-[url('/assets/images/Third/fmn.png')] bg-contain   relative bg-center   bg-no-repeat  p-[25.9px] pl-[30px]    overflow-hidden  flex items-center justify-center">
+                                <div className=" md:w-[310px] w-[287px] h-[648px] pt-6 overflow-hidden  relative ">   
+                                    <div className={`absolute flex h-[515px] overflow-hidden mt-6 flex-col inset-0 ${isInView ? 'animate-autoscroll' : ''}`} >
+                                        <img src="/assets/images/Third/yelagir.jpg" alt="Scrolling content" className="w-full h-auto " />
                                     </div>
                                 </div>
                             </div>
@@ -218,8 +214,6 @@ function YelagiriMain() {
                     </div>
                 </div>
             </section>
-
-
             {/* <section className="bg-[url('/assets/images/Third/cool.png')]  md:my-20 my-10 bg-center bg-cover w-full bg-no-repeat">
                 <div className='max-w-[60rem]  mx-auto px-5 md:py-10 py-5  '>
                     <div className='grid md:grid-cols-4  '>

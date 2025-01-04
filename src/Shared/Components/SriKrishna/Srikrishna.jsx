@@ -53,7 +53,7 @@ function Srikrishna() {
                                 <div className='grid grid-cols-3 relative items-center  lg:top-40'>
                                     <img className='relative top-28 ' src='/assets/images/Eight/herr1.png' alt="" />
                                     <img className='   z-10 ' src='/assets/images/Eight/herr2.png' alt="" />
-                                    <img className=' w-64 relative right-20    h-64' src='/assets/images/Eight/herr3.png' alt="" />
+                                    <img className=' md:w-64 w-full  relative md:right-20 right-7    md:h-64' src='/assets/images/Eight/herr3.png' alt="" />
                                 </div>
                             </div>
                         </div>

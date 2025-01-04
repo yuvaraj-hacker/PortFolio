@@ -63,19 +63,22 @@ function FolsumMain() {
                 </div>
             </section>
 
-            <div className='max-w-[90rem] md:mt-[400px] mt-16 md:mb-[200px] mb-10 mx-auto px-5'>
-                <p className="text-[#FC9D4A] font-bold md:text-4xl">ABOUT THE PROJECT</p>
+            <div className='max-w-[90rem] lg:mt-[400px] mt-16 md:mb-[200px] mb-10 mx-auto px-5'>
+                <p className="text-[#FC9D4A] font-bold text-xl md:text-4xl">ABOUT THE PROJECT</p>
             </div>
             <section className='space-y-5'>
                 <div className='max-w-[90rem] mx-auto px-5'>
                     <div className='grid lg:grid-cols-4 gap-10 items-center'>
                         <div className='relative col-span-2 space-y-3 '>
                             <img className='mx-auto rounded-3xl' src="/assets/images/Fourth/imag.png" alt="" />
-                            <svg className="sparkling-star absolute -top-10  right-28 " width="51" height="51" viewBox="0 0 51 51" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <img className='absolute md:-top-16 -top-10 md:right-44' src="/assets/images/Fourth/education.png" alt="" />
+                            <img className='absolute  top-20 right-5' src="/assets/images/Fourth/deals.png" alt="" />
+                            <img className='absolute  bottom-28 left-5' src="/assets/images/Fourth/general.png" alt="" />
+                            <svg className="sparkling-star absolute -top-10  md:right-28 right-0 " width="51" height="51" viewBox="0 0 51 51" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M0 25.5C8.41019 25.5 25.1417 20.5072 25.4943 0.64151C25.4931 0.422791 25.495 0.208835 25.5 0C25.5 0.215541 25.4981 0.429373 25.4943 0.64151C25.544 9.32507 30.6274 25.5 51 25.5H0Z" fill="#FC9D4A" />
                                 <path d="M0 25.5C8.41019 25.5 25.1417 30.4928 25.4943 50.3585C25.4931 50.5772 25.495 50.7912 25.5 51C25.5 50.7845 25.4981 50.5706 25.4943 50.3585C25.544 41.6749 30.6274 25.5 51 25.5H0Z" fill="#FC9D4A" />
                             </svg>
-                            <svg className="sparkling-star absolute bottom-8  left-28 " width="51" height="51" viewBox="0 0 51 51" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <svg className="sparkling-star absolute bottom-8  md:left-28 left-0 " width="51" height="51" viewBox="0 0 51 51" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M0 25.5C8.41019 25.5 25.1417 20.5072 25.4943 0.64151C25.4931 0.422791 25.495 0.208835 25.5 0C25.5 0.215541 25.4981 0.429373 25.4943 0.64151C25.544 9.32507 30.6274 25.5 51 25.5H0Z" fill="#FC9D4A" />
                                 <path d="M0 25.5C8.41019 25.5 25.1417 30.4928 25.4943 50.3585C25.4931 50.5772 25.495 50.7912 25.5 51C25.5 50.7845 25.4981 50.5706 25.4943 50.3585C25.544 41.6749 30.6274 25.5 51 25.5H0Z" fill="#FC9D4A" />
                             </svg>

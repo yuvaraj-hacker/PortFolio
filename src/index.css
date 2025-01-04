@@ -124,6 +124,33 @@ html {
   background-color: #00B85F !important;
 }
 
+.swiper-pagination-bullet:nth-child(4) {
+  background-color: #FC9D4A !important;
+}
+
+
+.swiper-pagination-bullet:nth-child(5) {
+  background-color: #E63D3D !important;
+}
+
+
+.swiper-pagination-bullet:nth-child(6) {
+  background-color: #FF0000 !important;
+}
+
+.swiper-pagination-bullet:nth-child(7) {
+  background-color: #00B453 !important;
+}
+
+.swiper-pagination-bullet:nth-child(8) {
+  background-color: #D89C5C !important;
+}
+
+.swiper-pagination-bullet:nth-child(9) {
+  background-color: #40A44C !important;
+}
+
+
 
 
 
@@ -311,19 +338,7 @@ body {
     transform: translateY(40px);
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
+ 
 /* scrollbar */
 
 
@@ -367,22 +382,9 @@ body {
   background: #00B75E;
   /* Color on hover for buttons */
 }
-
-
-
-
-
-
-
-
-
-
-
-
+ 
 /* button-animate */
-
-
-
+ 
 
 .frame {
   width: 90%;
@@ -564,14 +566,14 @@ body {
   }
 
   to {
-    top: -720px;
+    top: -7100px;
   }
 }
 
 .animate-autoscroll {
   display: block;
   width: 310px;
-  height: 513px;
+  height: 540px;
   overflow: hidden;
   position: relative;
 
@@ -587,7 +589,7 @@ body {
   margin: 0;
   padding: 0;
   top: 0;
-  animation: autoscroll 11s linear forwards;
+  animation: autoscroll 35s linear forwards;
 
 }
 
