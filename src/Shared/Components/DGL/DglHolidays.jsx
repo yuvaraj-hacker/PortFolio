@@ -27,8 +27,8 @@ function DglHolidays() {
                         </div>
                         <div className='grid lg:grid-cols-1  items-center     md:space-y-5 space-y-3'>
                             <div className='space-y-5 mx-auto  '>
-                                <div className=" w-fit  ">
-                                    <img className=" " src="/assets/images/nine/groupss.png" alt="Gradient Example" />
+                                <div className=" w-fit ">
+                                    <img data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000" className=" " src="/assets/images/nine/groupss.png" alt="Gradient Example" />
                                 </div>
                             </div>
                             <div className=' flex flex-col gap-5 '>

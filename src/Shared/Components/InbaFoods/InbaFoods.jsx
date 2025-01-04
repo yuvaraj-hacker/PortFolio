@@ -53,8 +53,7 @@ function InbaFoods() {
                             <div className=' mx-auto'>
                                 <div
                                     className='flex relative lg:top-52  '>
-                                    <img className='w-full   ' src='/assets/images/seventh/inbas.png' alt="" />
-
+                                    <img data-aos="flip-up" data-aos-delay="600" className='w-full   ' src='/assets/images/seventh/inbas.png' alt="" />
                                 </div>
                             </div>
                         </div>
@@ -71,7 +70,7 @@ function InbaFoods() {
                         <div className='grid lg:grid-cols-2      gap-10'>
                             <div className='space-y-5 mx-auto  '>
                                 <div className=" w-fit  ">
-                                    <img className=" " src="/assets/images/seventh/insane.png" alt="Gradient Example" />
+                                    <img data-aos="fade-up" data-aos-delay="600" className=" " src="/assets/images/seventh/insane.png" alt="Gradient Example" />
                                 </div>
                             </div>
                             <div className=' flex   flex-col  gap-5   '>

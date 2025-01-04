@@ -70,7 +70,7 @@ function Vivid() {
                             <div className='space-y-5 mx-auto'>
                                 <div className=" w-fit   z-10    ">
                                     <div className='bg-[#FFF5F5] rounded-3xl md:pt-10 pt-5 pr-5 pl-5 md:pr-10 md:pl-10'>
-                                        <img className="md:w-[400px]" src="/assets/images/Sixth/fold.png" alt="Gradient Example" />
+                                        <img data-aos="fade-up" data-aos-delay="600" className="md:w-[400px]" src="/assets/images/Sixth/fold.png" alt="Gradient Example" />
                                     </div>
                                 </div>
                             </div>
@@ -109,15 +109,15 @@ function Vivid() {
                     <div className='max-w-[60rem] mx-auto py-10 '>
                         <div className='grid grid-cols-4'>
                             <div className='flex md:justify-evenly justify-between ml-auto relative left-10 z-10  md:mt-20 flex-col'>
-                                <img className='w-36' src="/assets/images/Sixth/includes.png" alt="" />
-                                <img className='w-36' src="/assets/images/Sixth/dss.png" alt="" />
+                                <img data-aos="fade-right" data-aos-delay="600"  className='w-36' src="/assets/images/Sixth/includes.png" alt="" />
+                                <img data-aos="fade-right" data-aos-delay="600" className='w-36' src="/assets/images/Sixth/dss.png" alt="" />
                             </div>
                             <div className='col-span-2   '>
                                 <img className=' w-full  relative  top-20  ' src="/assets/images/Sixth/folds.png" alt="" />
                             </div>
                             <div className='flex md:justify-evenly justify-between    relative right-10  md:mt-20 flex-col'>
-                                <img className='w-36' src="/assets/images/Sixth/dss2.png" alt="" />
-                                <img className='w-36' src="/assets/images/Sixth/dss3.png" alt="" />
+                                <img data-aos="fade-left" data-aos-delay="600" className='w-36' src="/assets/images/Sixth/dss2.png" alt="" />
+                                <img data-aos="fade-left" data-aos-delay="600" className='w-36' src="/assets/images/Sixth/dss3.png" alt="" />
                             </div>
                         </div>
                     </div>
