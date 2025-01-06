@@ -20,9 +20,7 @@ function Kiranaa() {
                                     <div className='px-3 py-1 bg-white text-black w-fit rounded-2xl'>   Express.js </div>
                                     <div className='px-3 py-1 bg-white text-black w-fit rounded-2xl'>  ReactJS </div>
                                     <div className='px-3 py-1 bg-white text-black w-fit rounded-2xl'>  Tailwind CSS  </div>
-                                    <div className='px-3 py-1 bg-white text-black w-fit rounded-2xl'>
-                                        AWS
-                                    </div>
+                                    <div className='px-3 py-1 bg-white text-black w-fit rounded-2xl'>  AWS </div>
                                 </div>
                             </div>
                             <div>

@@ -180,10 +180,10 @@ function YelagiriMain() {
                 </div>
             </section>
 
-            <section ref={sectionRef} className='md:my-20 my-10 max-w-[70rem] mx-auto'>
+            <section ref={sectionRef} className='md:my-20 my-5 max-w-[70rem] mx-auto'>
                 <div className='grid md:grid-cols-2  items-center  md:gap-10 gap-5'>
-                    <div className='flex flex-col   justify-between md:gap-10 gap-3'>
-                        <div className="bg-[url('/assets/images/Third/gray.png')] bg-center bg-cover space-y-5 p-5">
+                    <div className='flex flex-col px-2   justify-between md:gap-10 gap-3'>
+                        <div className="bg-[url('/assets/images/Third/gray.png')] bg-center bg-cover space-y-5 px-3 md:px-5 p-5">
                             <p className="text-[#02AC4E] md:text-3xl font-bold">ABOUT THE PROJECT</p>
                             <p className="text-justify md:text-base text-sm">The  <span className='text-[#02AC4E]'> Yelagiri Gold Hill Resort </span> project is a premium website designed to showcase the elegance
                                 and luxury of this holiday destination. Built using modern technologies like Next.js and Tailwind CSS,
@@ -200,12 +200,12 @@ function YelagiriMain() {
                             <img className='md:px-0 px-2' src="/assets/images/Third/lap.png" alt="" />
                         </div>
                     </div>
-                    <div className='  relative '>
-                        <div className='   '>
-                            <div className="bg-[url('/assets/images/Third/fmn.png')] bg-contain   relative bg-center   bg-no-repeat  p-[25.9px] pl-[30px]    overflow-hidden  flex items-center justify-center">
-                                <div className=" md:w-[310px] w-[287px] h-[648px] pt-6 overflow-hidden  relative ">   
-                                    <div className={`absolute flex h-[515px] overflow-hidden mt-6 flex-col inset-0 ${isInView ? 'animate-autoscroll' : ''}`} >
-                                        <img src="/assets/images/Third/yelagir.jpg" alt="Scrolling content" className="w-full h-auto " />
+                    <div className=' relative '>
+                        <div className='  '>
+                            <div className="bg-[url('/assets/images/Third/fmn.png')] bg-contain relative bg-center bg-no-repeat md:p-6 p-3 overflow-hidden  flex items-center justify-center">
+                                <div className=" md:w-[310px] w-[287px] h-[648px] pt-6    relative ">
+                                    <div className={`absolute flex h-[515px]   mt-6 flex-col inset-0 ${isInView ? 'animate-autoscroll' : ''}`} >
+                                        <img src="/assets/images/Third/yelagir.jpg" alt="Scrolling content" className="w-full h-auto relative md:left-1" />
                                     </div>
                                 </div>
                             </div>
@@ -304,7 +304,16 @@ function YelagiriMain() {
                 </div>
             </section>
             <section className='mx-auto max-w-full   md:my-20  my-10 md:mt-48 flex justify-center items-center  px-5'>
-                <img className='w-[800px] movess' src="/assets/images/Third/Twoheader.png" alt="" />
+                <div className='relative'>
+                    <img className='w-[800px] ' src="/assets/images/Third/Twoheader.png" alt="" />
+                    <div className='w-40 '>
+                        <div className="absolute top-0 right-0  md:w-2/6 w-3/6 text-center   py-2 bg-[#02AC4E] rounded-3xl md:text-xl  text-white text-xs">Comfortable rooms</div>
+                        <img className='absolute md:top-10 top-6 lg:right-52 md:right-64 right-32  w-5 z-10    ' src="/assets/images/Third/downarrow.png" alt="" />
+                        <img className='absolute md:top-24 top-16 right-5 w-5 z-10  ' src="/assets/images/Third/downarrow.png" alt="" />
+                        <div className="absolute md:top-14  top-10 right-0 md:w-2/6 w-3/6  text-center py-2 bg-[#02AC4E] rounded-3xl text-white  md:text-xl  text-xs">Private resorts</div>
+                        <div className="absolute md:top-28  top-20 right-0  md:w-2/6 w-3/6 text-center py-2 bg-[#02AC4E] rounded-3xl text-white  md:text-xl  text-xs">Catering & dining </div>
+                    </div>
+                </div>
             </section>
             <section className="bg-[#161B22] md:py-20 py-10 w-full bg-no-repeat">
                 <div className='px-5'>
@@ -318,8 +327,8 @@ function YelagiriMain() {
                                     <button className='rounded-3xl  md:text-base text-xs bg-[#00B85F] p-1 px-4'>
                                         <div className='relative'>
                                             <p className="">Contact Us</p>
-                                            <img className='absolute top-0 -left-2' src="/assets/images/seventh/white-flower2.png" alt="" />
-                                            <img className='absolute bottom-0 -right-2' src="/assets/images/seventh/white-flower.png" alt="" />
+                                            <img className='absolute top-0 md:-left-2   w-2 -left-3' src="/assets/images/seventh/white-flower2.png" alt="" />
+                                            <img className='absolute bottom-0     w-2 md:-right-2 -right-3' src="/assets/images/seventh/white-flower.png" alt="" />
                                         </div>
                                     </button>
                                 </div>

@@ -7,7 +7,6 @@ function FolsumMain() {
 
     return (
         <>
-
             <section className="flex justify-center items-center bg-center bg-cover   bg-no-repeat rounded-br-[15rem] 3xl:h-[70vh] py-10  " style={{ backgroundImage: `url(${'/assets/images/Third/yelagirihero.png'})` }}>
                 <div className='max-w-[90rem] mx-auto px-5 '>
                     <div className='grid lg:grid-cols-2 grid-cols-1 gap-5 items-center' >
@@ -53,9 +52,8 @@ function FolsumMain() {
                             </div>
                         </div>
                         <div className=' mx-auto'>
-                            <div
-                                className='flex relative  lg:top-52'>
-                                <img data-aos="fade-right" data-aos-delay="600" className=' ' src='/assets/images/Fourth/folsummain.png' alt="" />
+                            <div className='flex relative  lg:top-52'>
+                                <img data-aos="fade-right" data-aos-delay="600" className=' md:w-full w-3/4 mx-auto' src='/assets/images/Fourth/folsummain.png' alt="" />
                                 <img data-aos="fade-left" data-aos-delay="300" className=' absolute xl:-right-1/3 lg:-right-12 md:-right-1/4   xl:w-auto w-52  top-48 sm:block hidden  xl:top-44' src='/assets/images/Fourth/folsummain2.png' alt="" />
                             </div>
                         </div>
@@ -84,7 +82,7 @@ function FolsumMain() {
                             </svg>
                             <div>
                                 <a href='https://www.folsompulse.com/' target='_blank'>
-                                    <div className='p-2 px-4 bg-[#236C76] w-fit rounded-3xl text-white'>
+                                    <div className='py-1 px-4 bg-[#236C76] w-fit rounded-3xl text-white'>
                                         www.folsompulse.com
                                     </div>
                                 </a>
@@ -95,8 +93,7 @@ function FolsumMain() {
                         <div className='md:space-y-5 col-span-2 md:text-base text-sm space-y-3 text-justify'>
                             <p> <span className='text-[#FC9D4A]'>Folsom Pulse</span> is a dynamic community and lifestyle platform designed to connect residents with local events,
                                 services, and news, fostering a vibrant and engaged community. Our 8-member team collaborated to develop
-                                this user-centric platform using modern web technologies, including  <span className='text-[#FC9D4A]'> Next.js, Tailwind CSS,  </span> and  <span className='text-[#FC9D4A]'> AWS,</span>
-                                ensuring scalability, performance, and a seamless experience for all users.
+                                this user-centric platform using modern web technologies, including  <span className='text-[#FC9D4A]'> Next.js, Tailwind CSS,  </span> and  <span className='text-[#FC9D4A]'> AWS,</span>  ensuring scalability, performance, and a seamless experience for all users.
                             </p>
                             <p>
                                 The primary objective of this project was to create an intuitive and visually
@@ -118,7 +115,7 @@ function FolsumMain() {
                                         <img className='w-10' src="/assets/images/Fourth/google-play.png" alt="" />
                                         <div className='flex flex-col   '>
                                             <p className="text-xs font-semibold">Get it on   </p>
-                                            <p className="font-bold md:text-xl text-sm">Google Play</p>
+                                            <p className="font-bold md:text-xl text-xs">Google Play</p>
                                         </div>
                                     </div>
                                 </a>
@@ -127,7 +124,7 @@ function FolsumMain() {
                                         <img className='w-10' src="/assets/images/Logo/AppleLogo.png" alt="" />
                                         <div className='flex flex-col'>
                                             <p className="text-xs font-semibold">Download on the </p>
-                                            <p className="font-bold md:text-xl text-sm">App Store</p>
+                                            <p className="font-bold md:text-xl text-xs">App Store</p>
                                         </div>
                                     </div>
                                 </a>
@@ -138,7 +135,7 @@ function FolsumMain() {
             </section>
 
             <section className=" bg-[url('/assets/images/Fourth/vsc.png')] rounded-b-[3.5rem] bg-center bg-cover lg:mt-[400px] w-full   mt-24">
-                <Marquee speed={100} autoFill={true} pauseOnHover={true} direction='right' className='relative bottom-20 overflow-visible'>
+                <Marquee speed={100} autoFill={true} direction='right' className='relative bottom-20 overflow-visible'>
                     <img className='mr-5' src="/assets/images/Fourth/new1.png" alt="" />
                     <img className='mr-5' src="/assets/images/Fourth/new2.png" alt="" />
                     <img className='mr-5' src="/assets/images/Fourth/new3.png" alt="" />
@@ -147,15 +144,15 @@ function FolsumMain() {
                 </Marquee>
             </section>
 
-            
 
-            <section className='flex justify-center items-center  mt-20'>
-                <img className='w-[800px]  ' src="/assets/images/Fourth/groups.png" alt="" />
+
+            <section className='flex justify-center items-center  md:mt-10 mt-5 '>
+                <img data-aos="zoom-in" className='w-[800px]  ' src="/assets/images/Fourth/groups.png" alt="" />
             </section>
 
             <section className="bg-[url('/assets/images/Fourth/folsumfoot.png')] bg-center bg-cover md:py-20 py-10 w-full bg-no-repeat">
                 <div className='px-5'>
-                    <div className='max-w-[70rem] mx-auto text-center       ' >
+                    <div className='max-w-[70rem] mx-auto text-center ' >
                         <div className='  justify-center items-center   gap-5 text-white'>
                             <p className="md:text-3xl text-sm font-bold uppercase">"Stay connected with Folsom Pulse—your gateway to local events, services, and news!"</p>
                             <div className='flex justify-center items-center gap-4'>

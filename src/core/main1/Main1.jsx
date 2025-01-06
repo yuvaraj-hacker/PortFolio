@@ -75,8 +75,8 @@ function Main1() {
                 </span>
                 <Link to='/' >
                     <div className='   '>
-                        <button className='btn-6 custom-btn   '>
-                            <i className="fi fi-ts-house-chimney font-bold text-2xl text-white flex justify-center items-center"></i>
+                        <button className='btn-6 custom-btn     '>
+                            <i className="fi fi-ts-house-chimney font-bold text-sm   text-white flex justify-center items-center"></i>
                         </button>
                     </div>
                 </Link>

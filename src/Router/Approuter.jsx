@@ -14,6 +14,7 @@ import InbaPage from "../Components/InbaPage/InbaPage";
 import SriKrishnaPage from "../Components/SriKrishnaPage/SriKrishnaPage";
 import DGLholidaysPage from "../Components/DGLPage/DGLholidaysPage";
 import GltfViewer from "../Components/GLTF/Gltfviewer";
+import ContactUsPage from "../Components/Contactus/ContactUsPage";
 
 
 
@@ -38,6 +39,7 @@ function Approuter() {
                     <Route path="/sri-krishna" element={<SriKrishnaPage />} />
                     <Route path="/dglholidays" element={<DGLholidaysPage />} />
                     <Route path="/gltf" element={<GltfViewer />} />
+                    <Route path="/contact-us" element={<ContactUsPage />} />
                 </Route>
             </Routes>
         </BrowserRouter>

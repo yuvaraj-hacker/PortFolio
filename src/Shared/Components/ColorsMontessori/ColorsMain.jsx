@@ -16,7 +16,7 @@ function ColorsMain() {
         category: 'Montessori Preschool and Early Education',
         description: 'Colors Montessori nurtures young minds with a holistic, child-centered learning approach in a vibrant environment.',
         services: 'Montessori-based education, interactive learning, and skill development programs for early childhood growth.',
-        team: '5 specialists',
+        team: '2 specialists',
         country: 'United State',
         descriptionImage: '/assets/images/Fifth/colors.png'
     };
@@ -36,13 +36,13 @@ function ColorsMain() {
                         categoryColor="text-[#FFC000]"
                     />
                 </section>
-                <section className='md:my-20 my-10 max-w-[90rem] mx-auto px-5  '>
-                    <div className='grid lg:grid-cols-2 gap-10'>
-                        <div className='space-y-5'>
+                <section className='md:my-20 my-5 max-w-[90rem] mx-auto px-5  '>
+                    <div className='grid lg:grid-cols-2 md:gap-10 gap-5'>
+                        <div className='md:space-y-5 space-y-3'>
                             <div>
                                 <p className="text-[#E63D3D] md:text-3xl text-base font-bold">ABOUT THE PROJECT</p>
                             </div>
-                            <div className='text-justify md:text-base text-sm space-y-4'>
+                             <div className='text-justify md:text-base text-sm space-y-4'>
                                 <p className="">The <span className='text-[#E63D3D]'>Colors Montessori</span> project is a thoughtfully designed website showcasing the preschool's
                                     commitment to holistic, child-centered education. Our 5-member team developed this platform to create a
                                     seamless and engaging online experience for parents and educators alike.</p>
@@ -57,12 +57,14 @@ function ColorsMain() {
                                     <span className='text-[#E63D3D]'> Colors Montessori's</span> online presence is now a testament to its dedication to nurturing young minds.</p>
                             </div>
                             <div>
-                                <a href='https://www.colorsmontessori.com/' target='_blank'>
-                                    <div className='md:p-2 py-1 bg-[#052E86] w-fit md:text-base text-sm  text-white rounded-3xl px-4'>
+
+                                <div className='  py-1 bg-[#052E86] w-fit md:text-base text-sm  text-white rounded-3xl px-4'>
+                                    <a href='https://www.colorsmontessori.com/' target='_blank'>
                                         www.colorsmontessori.com
-                                    </div>
-                                </a>
-                            </div>
+                                    </a>
+                                </div>
+
+                              </div>
                         </div>
                         <div className='flex  relative'>
                             <div className='bg-[#052E86] w-1/2 h-2/3 absolute bottom-0 left-1/4 mx-auto rounded-3xl'>
@@ -87,39 +89,39 @@ function ColorsMain() {
                         </div>
                     </div>
                 </section>
- 
+
 
                 <section className='max-w-[80rem] overflow-hidden mx-auto  md:my-20 my-10 px-5'>
-                    <div className="grid grid-cols-2  items-center md:grid-cols-5 ">
+                    <div className="grid grid-cols-2 gap-5  items-center md:grid-cols-5 ">
 
-                        <div data-aos="fade-right" data-aos-delay="300"
-                            data-aos-anchor-placement="bottom-center">
+                        <div
+                        >
                             <img src="/assets/images/Fifth/col1.png" alt="Mobile Screenshot 1" />
                         </div>
-                        <div data-aos="fade-right" data-aos-delay="50"
-                            data-aos-anchor-placement="bottom-center ">
+                        <div
+                        >
                             <img src="/assets/images/Fifth/col2.png" alt="Mobile Screenshot 2" />
                         </div>
-                        <div data-aos="fade-down-left" data-aos-delay="400"
-                            data-aos-anchor-placement="bottom-center" className='md:col-span-3 col-span-2 ml-auto'>
+                        <div
+                            className='md:col-span-3 col-span-2 ml-auto'>
                             <img src="/assets/images/Fifth/col3.png" alt="Tablet Screenshot 1" />
                         </div>
-                        <div data-aos="fade-up-right" data-aos-delay="400"
-                            data-aos-anchor-placement="bottom-center" className='md:col-span-3 col-span-2' >
+                        <div
+                            className='md:col-span-3 col-span-2' >
                             <img src="/assets/images/Fifth/col4.png" alt="Tablet Screenshot 2" />
                         </div>
-                        <div data-aos="fade-left" data-aos-delay="50"
-                            data-aos-anchor-placement="bottom-center">
+                        <div
+                        >
                             <img src="/assets/images/Fifth/col5.png" alt="Mobile Screenshot 3" />
                         </div>
-                        <div data-aos="fade-left" data-aos-delay="300"
-                            data-aos-anchor-placement="bottom-center">
+                        <div
+                        >
                             <img src="/assets/images/Fifth/col6.png" alt="Mobile Screenshot 4" />
                         </div>
                     </div>
                 </section>
 
-                <section className="bg-[#0F1C38] py-10 w-full bg-no-repeat">
+                <section className="bg-[#0F1C38] md:py-10 py-5 w-full bg-no-repeat">
                     <div className='px-5'>
                         <div className='max-w-[70rem] mx-auto text-center     ' >
                             <div className='  justify-center items-center   gap-5 text-white'>

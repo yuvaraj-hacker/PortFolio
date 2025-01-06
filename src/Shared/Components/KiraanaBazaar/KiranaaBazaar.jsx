@@ -22,7 +22,7 @@ function KiranaaBazaar() {
                     <Common name={pageData.name} headerImage={pageData.headerImage} descriptionImage={pageData.descriptionImage} categoryColor="text-[#00B75E]" category={pageData.category} description={pageData.description} services={pageData.services} team={pageData.team} country={pageData.country} />
                 </section>
                 <section className=' '>
-                    <p className="md:text-5xl text-2xl   relative md:top-28 top-16 text-center font-bold text-[#00B75E]">ABOUT THE PROJECT</p>
+                    <p className="md:text-5xl text-2xl   relative md:top-28 top-12 text-center font-bold text-[#00B75E]">ABOUT THE PROJECT</p>
                     <div className='max-w-[65rem] px-10 mx-auto z-10  relative lg:top-52 md:top-44 sm:top-36  top-28 toper'>
                         <div className="   p-10  bg-center bg-cover  rounded-[3.5rem] bg-no-repeat bg-[url('/assets/images/KiranaaMain/inner.png')]">
                             <img src="/assets/images/KiranaaMain/kira1.png" alt="" />
@@ -64,7 +64,7 @@ function KiranaaBazaar() {
 
                                 <div className='flex items-center gap-5'>
                                     <a href='https://kiranaabazaar.com/' target='_blank'>
-                                        <div className='rounded-3xl bg-white text-black w-fit py-2  px-3 md:px-7'>
+                                        <div className='rounded-3xl bg-white text-black w-fit  py-1  px-3 md:px-7'>
 
                                             <p className="md:text-xl text-sm text-[#00B85F]">www.kiranaabazaar.com</p>
                                         </div>
@@ -79,7 +79,7 @@ function KiranaaBazaar() {
                 </section>
                 <section className='max-w-[80rem] mx-auto  md:my-20 my-10 px-5'>
 
-                    <div className="grid grid-cols-2  items-center md:grid-cols-5 ">
+                    <div className="grid grid-cols-2 gap-5  items-center md:grid-cols-5 ">
                         {/* Each image container */}
                         <div>
                             <img src="/assets/images/KiranaaMain/kiran10.png" alt="Mobile Screenshot 1" />
@@ -102,7 +102,7 @@ function KiranaaBazaar() {
                     </div>
                 </section>
 
-                <section className="bg-[url('/assets/images/KiranaaMain/foot.png')]   bg-center bg-cover md:py-20 py-10 w-full bg-no-repeat">
+                <section className="bg-[url('/assets/images/KiranaaMain/foot.png')]   bg-center bg-cover lg:py-20 py-10 w-full bg-no-repeat">
                     <div className='px-5'>
                         <div className='max-w-[70rem] mx-auto    border rounded-2xl p-5  ' >
                             <div className='flex justify-center items-center flex-wrap gap-5 text-white'>
@@ -113,8 +113,8 @@ function KiranaaBazaar() {
                                         <button className='rounded-3xl  md:text-base text-xs bg-[#00B85F] p-1 px-4'>
                                             <div className='relative'>
                                                 <p className=""> Contact Us</p>
-                                                <img className='absolute top-0 -left-2' src="/assets/images/seventh/white-flower2.png" alt="" />
-                                                <img className='absolute bottom-0 -right-2' src="/assets/images/seventh/white-flower.png" alt="" />
+                                                <img className='absolute top-0 md:-left-2 -left-3 w-2' src="/assets/images/seventh/white-flower2.png" alt="" />
+                                                <img className='absolute bottom-0 md:-right-2 -right-3 w-2' src="/assets/images/seventh/white-flower.png" alt="" />
                                             </div>
                                         </button>
                                     </div>

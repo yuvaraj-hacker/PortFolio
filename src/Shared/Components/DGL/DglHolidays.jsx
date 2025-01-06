@@ -1,7 +1,14 @@
-import React from 'react'
+import React  from 'react'
 import Common from '../CommonSection/Common'
+ 
+
 
 function DglHolidays() {
+    
+
+   
+
+  
 
     const pageData = {
         headerImage: '/assets/images/nine/dgll.png',
@@ -22,7 +29,7 @@ function DglHolidays() {
 
                 <section className=" md:my-20 my-10 ">
                     <div className=' max-w-[80rem] mx-auto px-5  md:space-y-10 space-y-5 '>
-                        <div >
+                        <div>
                             <p className="text-[#40A44C] md:text-4xl text-xl text-center font-bold">ABOUT THE PROJECT</p>
                         </div>
                         <div className='grid lg:grid-cols-1  items-center     md:space-y-5 space-y-3'>
@@ -67,7 +74,7 @@ function DglHolidays() {
 
 
                 <section className="bg-[#F7F7F7]  md:py-20 py-10">
-                    <div className='max-w-[80rem] overflow-hidden mx-auto   px-2'>
+                    <div className='max-w-[80rem] overflow-hidden mx-auto px-2'>
                         <div className="grid grid-cols-2 md:gap-5 gap-3  items-center md:grid-cols-5 ">
                             <div>
                                 <img src="/assets/images/nine/dgl1.png" alt="Mobile Screenshot 1" />
@@ -98,7 +105,8 @@ function DglHolidays() {
                         <div className='max-w-[70rem] mx-auto text-center     ' >
                             <div className='  justify-center items-center   gap-5 text-white'>
                                 <p className="md:text-3xl text-sm font-bold uppercase">"Turn your travel dreams into reality with DGL Holidays'
-                                    tailored and unforgettable holiday experiences!</p>
+                                    tailored and unforgettable holiday experiences!
+                                </p>
                                 <div className='flex justify-center items-center gap-4'>
                                     <div className=' text-center md:mt-7 mt-5'>
                                         <button className='rounded-3xl text-center mx-auto  md:text-base text-xs bg-[#FEC000] p-1 px-4'>

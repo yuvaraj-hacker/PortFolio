@@ -53,7 +53,7 @@ function Vivid() {
                             <div className=' mx-auto'>
                                 <div
                                     className='flex  relative lg:top-52  '>
-                                    <img className='w-full   ' src='/assets/images/Sixth/vividphone.png' alt="" />
+                                    <img className='w-4/5       ml-auto ' src='/assets/images/Sixth/vividphone.png' alt="" />
 
                                 </div>
                             </div>
@@ -92,7 +92,7 @@ function Vivid() {
                                 </div>
                                 <div>
                                     <a href='https://www.vividenggconsultants.com/' target='_blank'>
-                                        <div className='md:p-2 py-1 bg-[#FF0000] w-fit md:text-base text-xs  text-white rounded-3xl px-4'>
+                                        <div className='  py-1 bg-[#FF0000] w-fit md:text-base text-xs  text-white rounded-3xl px-4'>
                                             www.vividenggconsultants.com
                                         </div>
                                     </a>
@@ -104,29 +104,26 @@ function Vivid() {
 
                 </section>
 
-
-                <section className="bg-[url('/assets/images/Sixth/images.png')] bg-center bg-cover   bg-no-repeat" >
+                <section className="bg-[url('/assets/images/Sixth/images.png')] bg-center bg-cover    bg-no-repeat" >
                     <div className='max-w-[60rem] mx-auto py-10 '>
                         <div className='grid grid-cols-4'>
                             <div className='flex md:justify-evenly justify-between ml-auto relative left-10 z-10  md:mt-20 flex-col'>
-                                <img data-aos="fade-right" data-aos-delay="600"  className='w-36' src="/assets/images/Sixth/includes.png" alt="" />
-                                <img data-aos="fade-right" data-aos-delay="600" className='w-36' src="/assets/images/Sixth/dss.png" alt="" />
+                                <img   className='w-36' src="/assets/images/Sixth/includes.png" alt="" />
+                                <img   className='w-36' src="/assets/images/Sixth/dss.png" alt="" />
                             </div>
                             <div className='col-span-2   '>
-                                <img className=' w-full  relative  top-20  ' src="/assets/images/Sixth/folds.png" alt="" />
+                                <img className=' w-full  relative  top-28  ' src="/assets/images/Sixth/folds.png" alt="" />
                             </div>
                             <div className='flex md:justify-evenly justify-between    relative right-10  md:mt-20 flex-col'>
-                                <img data-aos="fade-left" data-aos-delay="600" className='w-36' src="/assets/images/Sixth/dss2.png" alt="" />
-                                <img data-aos="fade-left" data-aos-delay="600" className='w-36' src="/assets/images/Sixth/dss3.png" alt="" />
+                                <img   className='w-36' src="/assets/images/Sixth/dss2.png" alt="" />
+                                <img   className='w-36' src="/assets/images/Sixth/dss3.png" alt="" />
                             </div>
                         </div>
                     </div>
                 </section>
 
-
-
                 <section className="bg-[url('/assets/images/Sixth/bacccc.png')] bg-center bg-cover bg-no-repeat">
-                    <div className='max-w-[80rem] overflow-hidden mx-auto md:pt-36 md:pb-28 pt-16 pb-16  px-2'>
+                    <div className='max-w-[80rem] overflow-hidden mx-auto md:pt-36 md:pb-28 pt-28 pb-10  px-2'>
                         <div className="grid grid-cols-2 md:gap-5 gap-3  items-center md:grid-cols-5 ">
                             <div  >
                                 <img src="/assets/images/Sixth/vivid1.png" alt="Mobile Screenshot 1" />

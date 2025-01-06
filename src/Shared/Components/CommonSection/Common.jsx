@@ -10,21 +10,23 @@ function Common({ headerImage, name, category, description, services, team, coun
 
             <section className="flex justify-center items-center bg-center bg-cover   bg-no-repeat rounded-br-[15rem] 3xl:h-[70vh] py-10   " style={{ backgroundImage: `url(${headerImage})` }}>
                 <div className='max-w-[90rem] mx-auto px-5 '>
-                    <div className='grid lg:grid-cols-2 grid-cols-1 gap-5 items-center' >
+                    <div className='grid lg:grid-cols-2 grid-cols-1 gap-5 items-center ' >
                         <div>
-                            <nav className="text-sm mb-6">
-                                <Link to='/' className="text-blue-400 hover:underline">
+                            <div className="text-sm mb-6 flex  flex-wrap gap-3  ">
+                                    <div className='hover:underline cursor-pointer text-blue-400'>
                                     Home /
-                                </Link>{" "}
-                                {" "}
-                                <a href="#" className="text-blue-400 hover:underline">
-                                    Portfolio /
-                                </a>{" "}
-                                {" "}
-                                <a href="#" className={`${categoryColor} hover:underline font-semibold`}>
-                                    {name}
-                                </a>
-                            </nav>
+                                </div>
+                                 <div className='hover:under    line'>
+                                    <a href="#" className="text-blue-400 hover:underline">
+                                       Portfolio /
+                                    </a>
+                                </div>
+                                   <div>
+                                    <a href="#" className={`${categoryColor} hover:underline font-semibold`}>
+                                        {name}
+                                     </a>
+                                </div>
+                            </div>
                             <h1 className="text-2xl md:text-5xl text-white font-bold mb-6">{name}</h1>
                             <div className="md:space-y-4 space-y-2 text-lg md:text-xl text-white">
                                 <div className='space-y-2'>

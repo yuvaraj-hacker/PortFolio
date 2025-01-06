@@ -21,7 +21,7 @@ function InbaFoods() {
                                     </a>{" "}
                                     /{" "}
                                     <a href="#" className="text-[#00B453] hover:underline uppercase font-semibold">
-                                        Inba Foods 
+                                        Inba Foods
                                     </a>
                                 </nav>
                                 <h1 className="text-2xl md:text-5xl uppercase text-white font-bold md:mb-6 mb-3">Inba Foods  </h1>
@@ -62,12 +62,12 @@ function InbaFoods() {
 
 
 
-                <section className="bg-[url('/assets/images/Sixth/backimage.png')] bg-cover bg-center w-full ">
+                <section className="  bg-cover bg-center w-full ">
                     <div className=' lg:pt-52 pt-10   max-w-[80rem] mx-auto px-5  md:space-y-10 space-y-5 '>
                         <div >
                             <p className="text-[#00B453] md:text-5xl text-xl   font-bold">ABOUT THE PROJECT</p>
                         </div>
-                        <div className='grid lg:grid-cols-2      gap-10'>
+                        <div className='grid lg:grid-cols-2 gap-10'>
                             <div className='space-y-5 mx-auto  '>
                                 <div className=" w-fit  ">
                                     <img data-aos="fade-up" data-aos-delay="600" className=" " src="/assets/images/seventh/insane.png" alt="Gradient Example" />
@@ -87,34 +87,32 @@ function InbaFoods() {
                                         advanced technologies ensures scalability and optimal performance. This project not only embodies Inba Foods’
                                         values but also stands as a testament to our team’s ability to deliver high-quality, impactful web solutions.</p>
                                 </div>
-                                <div>
-                                    <a href='https://www.inbafoods.in/home' target='_blank'>
-                                        <div className='p-2 bg-[#00B453] w-fit md:text-base text-xs  text-white rounded-3xl px-4'>
+                                <div className='xl:mb-0 mb-10'>
+                                    <div className='p-2 bg-[#00B453] w-fit md:text-base text-xs  text-white rounded-3xl px-4'>
+                                        <a href='https://www.inbafoods.in/home' target='_blank'>
                                             www.inbafoods.in
-                                        </div>
-                                    </a>
+                                        </a>
+                                    </div>
                                 </div>
-
                             </div>
                         </div>
                     </div>
-
                 </section>
 
 
-                <section className="bg-[url('/assets/images/seventh/Inba-sec.png')] w-full z-20 relative bottom-9      bg-center bg-cover md:h-[40vh] sm:h-[20vh] h-[20vh] bg-no-repeat">
+                <section className="bg-[url('/assets/images/seventh/Inba-sec.png')] w-full z-20 relative xl:bottom-9 bg-center bg-cover md:h-[40vh] sm:h-[20vh] h-[20vh] bg-no-repeat">
                     <div className='max-w-[90rem] mx-auto px-4  '>
                         <div className='grid grid-cols-8'>
                             <div className='flex flex-col justify-evenly mt-14'>
-                                <img className='mx-auto md:h-48 relative left-24 md:block hidden animate-bounce' src="/assets/images/seventh/lap1.png" alt="" />
-                                <img className='mx-auto relative left-40 md:h-48 md:block hidden animate-bounce' src="/assets/images/seventh/lap2.png" alt="" />
+                                <img className='mx-auto xl:h-48  relative left-24 md:block hidden animate-bounce' src="/assets/images/seventh/lap1.png" alt="" />
+                                <img className='mx-auto relative left-40 xl:h-48 md:block hidden animate-bounce' src="/assets/images/seventh/lap2.png" alt="" />
                             </div>
                             <div className='col-span-6'>
                                 <img className='mx-auto md:pt-14 pt-10 ' src="/assets/images/Eight/Macbook-Air-www.inbafoods.in 1 (2).png" alt="" />
                             </div>
                             <div className='flex flex-col justify-evenly mt-14'>
-                                <img className='mx-auto md:h-48 relative right-24 md:block hidden animate-bounce' src="/assets/images/seventh/lap1.png" alt="" />
-                                <img className='mx-auto  relative right-40  md:h-48 md:block hidden animate-bounce' src="/assets/images/seventh/lap2.png" alt="" />
+                                <img className='mx-auto xl:h-48 relative right-24 md:block hidden animate-bounce' src="/assets/images/seventh/lap1.png" alt="" />
+                                <img className='mx-auto  relative right-40  xl:h-48 md:block hidden animate-bounce' src="/assets/images/seventh/lap2.png" alt="" />
                             </div>
                         </div>
                     </div>
@@ -122,13 +120,13 @@ function InbaFoods() {
 
 
                 <section className="bg-[url('/assets/images/seventh/whole.png')] relative w-full bg-center bg-cover bg-no-repeat">
-                    <div className='  lg:pt-96 pt-10 md:pb-20   '>
+                    <div className='  lg:pt-96 pt-64 md:pb-20   '>
                         <Marquee speed={100} autoFill={true} direction='right'  >
-                            <img className='mr-5 mt-24 md:h-auto h-44' src="/assets/images/seventh/recent1.png" alt="" />
-                            <img className='mr-5 mb-32 md:h-auto h-44' src="/assets/images/seventh/recent2.png" alt="" />
-                            <img className='mr-5 mb-96 md:h-auto h-44' src="/assets/images/seventh/recent3.png" alt="" />
-                            <img className='mr-5 mt-36 md:h-auto h-44' src="/assets/images/seventh/recent4.png" alt="" />
-                            <img className='mr-5 mb-60 md:h-auto h-44' src="/assets/images/seventh/recent5.png" alt="" />
+                            <img className='mr-5 md:mt-24 mt-10 md:h-auto h-44' src="/assets/images/seventh/recent1.png" alt="" />
+                            <img className='mr-5 md:mb-32 mb-16 md:h-auto h-44' src="/assets/images/seventh/recent2.png" alt="" />
+                            <img className='mr-5 md:mb-96 mb-28 md:h-auto h-44' src="/assets/images/seventh/recent3.png" alt="" />
+                            <img className='mr-5 md:mt-36 mt-20 md:h-auto h-44' src="/assets/images/seventh/recent4.png" alt="" />
+                            <img className='mr-5 md:mb-60 mb-24 md:h-auto h-44' src="/assets/images/seventh/recent5.png" alt="" />
                         </Marquee>
                     </div>
                 </section>
@@ -137,8 +135,7 @@ function InbaFoods() {
                     <div className='px-5'>
                         <div className='max-w-[70rem] mx-auto text-center'>
                             <div className='justify-center items-center gap-5 text-white'>
-                                <p className="md:text-3xl text-sm font-bold uppercase">Experience the power of nutrition with Inba Foods —
-                                    wholesome, natural, and millet-based for a healthier you!</p>
+                                <p className="md:text-3xl text-sm font-bold uppercase">Experience the power of nutrition with Inba Foods — wholesome, natural, and millet-based for a healthier you!</p>
                                 <div className='flex justify-center items-center gap-4'>
                                     <div className=' text-center md:mt-7 mt-5'>
                                         <button className='rounded-3xl text-center mx-auto md:text-base text-xs bg-[#00B453] p-1 px-4'>
@@ -154,9 +151,6 @@ function InbaFoods() {
                         </div>
                     </div>
                 </section>
-
-
-
             </section>
         </>
     )

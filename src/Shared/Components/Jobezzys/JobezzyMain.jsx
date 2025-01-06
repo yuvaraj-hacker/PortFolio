@@ -29,16 +29,14 @@ function JobezzyMain() {
                 />
 
             </section>
-            <section className='md:my-20 my-10  space-y-10'>
-
+            <section className='md:my-20 my-10  md:space-y-10 space-y-5'>
 
                 <section className='max-w-[90rem]  mx-auto px-5'>
                     <p className="text-[#FFC000] font-bold md:text-3xl">ABOUT THE PROJECT</p>
                 </section>
 
-
                 <section className='max-w-[60rem]  mx-auto px-5'>
-                    <div className=' grid md:grid-cols-12 gap-10 items-center'>
+                    <div className=' grid md:grid-cols-12 md:gap-10 gap-5    items-center'>
                         <div className='col-span-5'>
                             <img className=' ' src="/assets/images/JobezzyMain/twox.png" alt="" />
                         </div>
@@ -69,21 +67,19 @@ function JobezzyMain() {
                             <div className='flex justify-between'>
                                 <div className='flex items-center gap-5'>
                                     <a href='https://www.jobezzy.in/' target='_blank'>
-                                        <div className='rounded-3xl bg-[#FFC000] text-black w-fit py-2  px-3 md:px-7'>
+                                        <div className='rounded-3xl bg-[#FFC000] text-black w-fit py-1  px-3 md:px-7'>
 
                                             <p className="md:text-lg text-sm text-black">www.jobezzy.in</p>
                                         </div>
                                     </a>
-                                    
+
                                 </div>
                                 <div className='flex items-center gap-5'>
                                     <a href='https://play.google.com/store/apps/details?id=com.jobezzy.Application&hl=en_IN' target='_blank'>
-                                        <div className='rounded-3xl bg-gray-200 text-black w-fit py-2  px-3 md:px-7'>
-
+                                        <div className='rounded-3xl bg-gray-200 text-black w-fit py-1  px-3 md:px-7'>
                                             <img className='h-6' src="/assets/images/JobezzyMain/googleplay.png" alt="" />
                                         </div>
                                     </a>
-                                   
                                 </div>
                             </div>
 
@@ -93,13 +89,9 @@ function JobezzyMain() {
                 </section>
             </section>
 
-
-
-
-
             <section className="bg-[url('/assets/images/JobezzyMain/backpage.png')] bg-cover bg-center bg-no-repeat ">
                 <div className='px-5'>
-                    <div className='max-w-[70rem] mx-auto py-10 md:py-20'>
+                    <div className='max-w-[70rem] mx-auto py-5 md:py-20'>
                         <div className='grid grid-cols-5'>
                             <div className='col-span-3'>
                                 <img src="/assets/images/JobezzyMain/taqb2.png" alt="" />
@@ -112,49 +104,49 @@ function JobezzyMain() {
                 </div>
             </section>
 
-            <div className=" flex justify-between md:my-20 my-10">
+            <div className=" flex justify-between md:my-10 my-5 md:px-0 px-2">
                 <div className="left-right-up-down up-down"  >
-                    <img src="/assets/images/JobezzyMain/Group 61.png" alt="Image 1" />
+                    <img src="/assets/images/Second/job1.png" alt="Image 1" />
                 </div>
                 <div className="left-right-up-down down-up"  >
-                    <img src="/assets/images/JobezzyMain/Group 61.png" alt="Image 2" />
+                    <img src="/assets/images/Second/job2.png" alt="Image 2" />
                 </div>
                 <div className="left-right-up-down up-down"  >
-                    <img src="/assets/images/JobezzyMain/Group 106.png" alt="Image 3" />
+                    <img src="/assets/images/Second/job3.png" alt="Image 3" />
                 </div>
                 <div className="left-right-up-down down-up"  >
-                    <img src="/assets/images/JobezzyMain/Group 61.png" alt="Image 4" />
+                    <img src="/assets/images/Second/job4.png" alt="Image 4" />
                 </div>
                 <div className="left-right-up-down up-down"  >
-                    <img src="/assets/images/JobezzyMain/Group 62.png" alt="Image 5" />
+                    <img src="/assets/images/Second/random.png" alt="Image 5" />
                 </div>
                 <div className="left-right-up-down down-up"  >
-                    <img src="/assets/images/JobezzyMain/Group 106.png" alt="Image 6" />
+                    <img src="/assets/images/Second/job8.png" alt="Image 6" />
                 </div>
             </div>
 
-            <div className=" flex justify-between   my-20">
+            <div className=" flex justify-between   my-20 md:px-0 px-2">
                 <div className="left-right-up-down up-down"  >
-                    <img src="/assets/images/JobezzyMain/Group 61.png" alt="Image 1" />
+                    <img src="/assets/images/Second/job7.png" alt="Image 1" />
                 </div>
                 <div className="left-right-up-down down-up"  >
-                    <img src="/assets/images/JobezzyMain/Group 61.png" alt="Image 2" />
+                    <img src="/assets/images/Second/job8.png" alt="Image 2" />
                 </div>
                 <div className="left-right-up-down up-down"  >
-                    <img src="/assets/images/JobezzyMain/Group 106.png" alt="Image 3" />
+                    <img src="/assets/images/Second/job9.png" alt="Image 3" />
                 </div>
                 <div className="left-right-up-down down-up"  >
-                    <img src="/assets/images/JobezzyMain/Group 61.png" alt="Image 4" />
+                    <img src="/assets/images/Second/job1.png" alt="Image 4" />
                 </div>
                 <div className="left-right-up-down up-down"  >
-                    <img src="/assets/images/JobezzyMain/Group 62.png" alt="Image 5" />
+                    <img src="/assets/images/Second/job2.png" alt="Image 5" />
                 </div>
                 <div className="left-right-up-down down-up"  >
-                    <img src="/assets/images/JobezzyMain/Group 106.png" alt="Image 6" />
+                    <img src="/assets/images/Second/job3.png" alt="Image 6" />
                 </div>
             </div>
 
-            <section className="bg-[url('/assets/images/KiranaaMain/foot.png')]   bg-center bg-cover md:py-20 py-10 w-full bg-no-repeat">
+            <section className="bg-[url('/assets/images/KiranaaMain/foot.png')]   bg-center bg-cover lg:py-20 py-10 w-full bg-no-repeat">
                 <div className='px-5'>
                     <div className='max-w-[70rem] mx-auto text-center    border rounded-2xl p-5  ' >
                         <div className='  justify-center items-center   gap-5 text-white'>
