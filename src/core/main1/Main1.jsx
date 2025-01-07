@@ -56,6 +56,8 @@ function Main1() {
                 return { bgColor: '#D89C5C', textColor: 'text-white', name: 'SRI KRISHNA ' };
             case '/dglholidays':
                 return { bgColor: '#FCCE38', textColor: 'text-white', name: 'DGL HOLIDAYS' };
+            case '/valluvas':
+                return { bgColor: '#025450', textColor: 'text-white', name: 'VALLUVAS' };
             default:
                 return { bgColor: '#02AC4E', textColor: 'white' };
         }
@@ -75,7 +77,7 @@ function Main1() {
                 </span>
                 <Link to='/' >
                     <div className='   '>
-                        <button className='btn-6 custom-btn     '>
+                        <button className='btn-6 custom-btn'>
                             <i className="fi fi-ts-house-chimney font-bold text-sm   text-white flex justify-center items-center"></i>
                         </button>
                     </div>

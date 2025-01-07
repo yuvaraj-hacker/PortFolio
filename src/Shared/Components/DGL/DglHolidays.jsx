@@ -1,14 +1,14 @@
-import React  from 'react'
+import React from 'react'
 import Common from '../CommonSection/Common'
- 
+
 
 
 function DglHolidays() {
-    
 
-   
 
-  
+
+
+
 
     const pageData = {
         headerImage: '/assets/images/nine/dgll.png',
@@ -71,7 +71,6 @@ function DglHolidays() {
                         <img className='mx-auto relative 2xl:bottom-80 xl:bottom-72 lg:bottom-60 md:bottom-40 bottom-16 px-5' src="/assets/images/nine/holi.png" alt="" />
                     </div>
                 </section>
-
 
                 <section className="bg-[#F7F7F7]  md:py-20 py-10">
                     <div className='max-w-[80rem] overflow-hidden mx-auto px-2'>

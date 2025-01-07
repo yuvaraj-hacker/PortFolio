@@ -147,11 +147,7 @@ function YelagiriMain() {
                                     slidesPerView={1}
                                     loop={true}
                                     modules={[Pagination, Autoplay]}
-                                    autoplay={{
-                                        delay: 2000,
-                                        disableOnInteraction: false,
-                                        reverseDirection: true
-                                    }}
+                                    autoplay={{ delay: 2000, disableOnInteraction: false, reverseDirection: true }}
                                     breakpoints={{
                                         640: { slidesPerView: 1 },
                                         768: { slidesPerView: 1 },
