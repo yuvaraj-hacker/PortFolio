@@ -27,15 +27,15 @@ function Valluvas() {
                                     </a>
                                 </nav>
                                 <h1 className="text-2xl md:text-5xl text-white font-bold uppercase mb-6">
-                                    <TypeAnimation
+                                Valluva's
+                                    {/* <TypeAnimation
                                         sequence={['Valluvas', 1000, 'Valluvas', 1000, 'Valluvas', 1000, 'Valluvas', 1000]}
                                         wrapper="span"
                                         speed={0}
                                         cursor={false}
                                         style={{ fontSize: '70px', display: 'inline-block' }}
                                         repeat={Infinity}
-                                    />
-
+                                    /> */}
                                 </h1>
                                 <div className="md:space-y-4 space-y-2 text-lg md:text-xl text-white">
                                     <div className='space-y-2'>
