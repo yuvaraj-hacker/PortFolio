@@ -1,8 +1,11 @@
-import React from 'react'
-import Marquee from 'react-fast-marquee'
+import React, { useEffect } from 'react'
 import { Link } from 'react-router-dom'
+import { motion } from 'framer-motion'
+import { fadeIn } from '../../Variants'
+import { TypeAnimation } from 'react-type-animation'
 
 function Valluvas() {
+
     return (
         <>
             <section className="bg-white ">
@@ -23,7 +26,17 @@ function Valluvas() {
                                         Valluva's
                                     </a>
                                 </nav>
-                                <h1 className="text-2xl md:text-5xl text-white font-bold uppercase mb-6"> Valluva's</h1>
+                                <h1 className="text-2xl md:text-5xl text-white font-bold uppercase mb-6">
+                                    <TypeAnimation
+                                        sequence={['Valluvas', 1000, 'Valluvas', 1000, 'Valluvas', 1000, 'Valluvas', 1000]}
+                                        wrapper="span"
+                                        speed={0}
+                                        cursor={false}
+                                        style={{ fontSize: '70px', display: 'inline-block' }}
+                                        repeat={Infinity}
+                                    />
+
+                                </h1>
                                 <div className="md:space-y-4 space-y-2 text-lg md:text-xl text-white">
                                     <div className='space-y-2'>
                                         <p className="md:text-2xl  text-[#F4E316]">Category:</p>
@@ -62,15 +75,21 @@ function Valluvas() {
 
                 <section className="bg-[url('/assets/images/Valluva/real.png')] bg-center bg-cover bg-repeat     w-full  md:pt-60 pt-10 md:pb-20 pb-10 ">
                     <div className='max-w-[70rem] mx-auto md:space-y-10 space-y-5'>
-                        <p className="md:text-3xl text-lg font-bold text-[#025450] px-5">ABOUT THE PROJECT</p>
+                        <motion.p variants={fadeIn("left", 0.2)}
+                            initial="hidden"
+                            whileInView="show"
+                            viewport={{ once: false, amount: 0.2 }} className="md:text-3xl text-lg font-bold text-[#025450] px-5">ABOUT THE PROJECT</motion.p>
                         <div className='grid lg:grid-cols-3 items-center lg:gap-0 gap-5 mx-5'>
                             <div className='bg-[#025450] rounded-tl-[2.5rem] rounded-bl-[2.5rem] lg:rounded-br-[0rem] rounded-br-[2.5rem] lg:rounded-tr-[0rem] rounded-tr-[2.5rem] p-[25px] space-y-8   relative lg:left-5 '>
-                                <div className=''>
-                                    <p className="text-justify xl:text-lg  lg:text-base text-xs text-white  ">The <span className='text-[#F4E316]'>Valluva’s</span>  Education website was developed to provide a streamlined platform for distance
+                                <div className='overflow-hidden'>
+                                    <motion.p variants={fadeIn("left", 0.2)}
+                                        initial="hidden"
+                                        whileInView="show"
+                                        viewport={{ once: false, amount: 0.2 }} className="text-justify xl:text-lg  lg:text-base text-xs text-white  ">The <span className='text-[#F4E316]'>Valluva’s</span>  Education website was developed to provide a streamlined platform for distance
                                         education seekers. Utilizing <span className='text-[#F4E316]'>Express.js, ReactJS,</span>  and  <span className='text-[#F4E316]'>Tailwind CSS, </span> the site ensures a responsive, fast,
                                         and user-friendly experience. Designed by a team of five, it features intuitive navigation, robust performance,
                                         and elegant styling to reflect Valluva’s mission. The project emphasizes scalability, offering a hassle-free interface
-                                        for services like admissions, exam preparation, and certifications, aligning perfectly with Valluva’s goal of empowering learners.</p>
+                                        for services like admissions, exam preparation, and certifications, aligning perfectly with Valluva’s goal of empowering learners.</motion.p>
                                 </div>
                                 <div className='py-1 px-5 bg-[#F4E316] w-fit rounded-3xl mx-auto  text-[#025450]'>
                                     <a href="https://www.valluvas.com/" target='_blank'>
@@ -79,8 +98,11 @@ function Valluvas() {
                                 </div>
                             </div>
                             <img className='mx-auto' src="/assets/images/Valluva/center-phone.png" alt="" />
-                            <div className='bg-[#025450] rounded-tr-[2.5rem] rounded-br-[2.5rem] lg:rounded-tl-[0rem] rounded-tl-[2.5rem] lg:rounded-bl-[0rem] rounded-bl-[2.5rem]  relative lg:right-5 '>
-                                <img className='lg:pt-[170px] mx-auto' src="/assets/images/Valluva/valluvagirl.png" alt="" />
+                            <div className='bg-[#025450] rounded-tr-[2.5rem] rounded-br-[2.5rem] overflow-hidden lg:rounded-tl-[0rem] rounded-tl-[2.5rem] lg:rounded-bl-[0rem] rounded-bl-[2.5rem]  relative lg:right-5 '>
+                                <motion.img variants={fadeIn("right", 0.2)}
+                                    initial="hidden"
+                                    whileInView="show"
+                                    viewport={{ once: false, amount: 0.2 }} className='lg:pt-[170px] mx-auto' src="/assets/images/Valluva/valluvagirl.png" alt="" />
                             </div>
                         </div>
                     </div>
@@ -101,21 +123,27 @@ function Valluvas() {
 
 
                 <img src="/assets/images/Valluva/student.png" alt="" />
-                <section className="bg-[#212529]   md:py-10 py-5 w-full bg-no-repeat">
+                <section className="bg-[#212529]   md:py-10 py-5 w-full bg-no-repeat md:overflow-hidden">
                     <div className='px-5'>
                         <div className='max-w-[70rem] mx-auto text-center ' >
                             <div className='  justify-center items-center   gap-5 text-white'>
-                                <p className="md:text-3xl text-sm font-bold uppercase">Empower your future with <span className='text-[#F4E316]'>Valluva's</span> , where quality education and
-                                    end-to-end academic solutions meet your goals!</p>
+                                <motion.p variants={fadeIn("up", 0.2)} // Change to "left", "right", "down", or "up"
+                                    initial="hidden"
+                                    whileInView="show"
+                                    viewport={{ once: false, amount: 0.2 }} className="md:text-3xl text-sm font-bold uppercase">Empower your future with <span className='text-[#F4E316]'>Valluva's</span> , where quality education and
+                                    end-to-end academic solutions meet your goals!</motion.p>
                                 <div className='flex justify-center items-center  gap-4'>
                                     <div className=' text-center md:mt-7 mt-4'>
-                                        <button className='rounded-3xl text-center mx-auto  md:text-base text-xs bg-[#F4E316] p-1 px-4'>
+                                        <motion.button variants={fadeIn("up", 0.4)} // Change to "left", "right", "down", or "up"
+                                            initial="hidden"
+                                            whileInView="show"
+                                            viewport={{ once: false, amount: 0.2 }} className='rounded-3xl text-center mx-auto  md:text-base text-xs bg-[#F4E316] p-1 px-4'>
                                             <div className='relative'>
                                                 <p className="text-[#025450] md:text-base font-bold text-sm"> Contact Us</p>
                                                 <img className='absolute top-0 -left-2 w-2' src="/assets/images/Valluva/topvalluva.png" alt="" />
                                                 <img className='absolute bottom-0 -right-2 w-2' src="/assets/images/Valluva/bottomvalluva.png" alt="" />
                                             </div>
-                                        </button>
+                                        </motion.button>
                                     </div>
                                 </div>
                             </div>

@@ -1,25 +1,11 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import Common from '../CommonSection/Common';
-import AOS from "aos";
 import "aos/dist/aos.css";
 
-function ColorsMain() {
-    useEffect(() => {
-        AOS.init({
-            duration: 1000,
-            once: true,
-        });
-    }, []);
-    const pageData = {
-        headerImage: '/assets/images/Fifth/colorsheader.png',
-        name: 'COLORS MONTESSORI',
-        category: 'Montessori Preschool and Early Education',
-        description: 'Colors Montessori nurtures young minds with a holistic, child-centered learning approach in a vibrant environment.',
-        services: 'Montessori-based education, interactive learning, and skill development programs for early childhood growth.',
-        team: '2 specialists',
-        country: 'United State',
-        descriptionImage: '/assets/images/Fifth/colors.png'
-    };
+function ColorsMain(props) {
+
+
+    const { pageData } = props;
 
     return (
         <>
@@ -42,7 +28,7 @@ function ColorsMain() {
                             <div>
                                 <p className="text-[#E63D3D] md:text-3xl text-base font-bold">ABOUT THE PROJECT</p>
                             </div>
-                             <div className='text-justify md:text-base text-sm space-y-4'>
+                            <div className='text-justify md:text-base text-sm space-y-4'>
                                 <p className="">The <span className='text-[#E63D3D]'>Colors Montessori</span> project is a thoughtfully designed website showcasing the preschool's
                                     commitment to holistic, child-centered education. Our 5-member team developed this platform to create a
                                     seamless and engaging online experience for parents and educators alike.</p>
@@ -64,7 +50,7 @@ function ColorsMain() {
                                     </a>
                                 </div>
 
-                              </div>
+                            </div>
                         </div>
                         <div className='flex  relative'>
                             <div className='bg-[#052E86] w-1/2 h-2/3 absolute bottom-0 left-1/4 mx-auto rounded-3xl'>

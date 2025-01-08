@@ -1,11 +1,40 @@
-import React from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import YelagiriMain from '../../Shared/Components/Yelagiri/YelagiriMain'
+import { textFlag } from 'cursor-effects';
 
 function YelagiriPage() {
-    return (
+    useEffect(() => {
+        const effect = new textFlag({
+            text: "Yelagiri Gold Hill Resort",
+            color: ["#02AC4E"],
+        });
+        return () => effect.destroy();
+    }, []);
+    const [isInView, setIsInView] = useState(false);
+    const sectionRef = useRef(null);
+    useEffect(() => {
+        const observer = new IntersectionObserver(
+            ([entry]) => {
+                if (entry.isIntersecting) {
+                    setIsInView(true);
+                }
+            },
+            { threshold: 0.5 }
+        );
 
+        if (sectionRef.current) {
+            observer.observe(sectionRef.current);
+        }
+
+        return () => {
+            if (sectionRef.current) {
+                observer.unobserve(sectionRef.current);
+            }
+        };
+    }, []);
+    return (
         <>
-            <YelagiriMain />
+            <YelagiriMain isInView={isInView} sectionRef={sectionRef} />
         </>
     )
 }

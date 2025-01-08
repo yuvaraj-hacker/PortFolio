@@ -1,5 +1,5 @@
 
-import React, { useEffect, useRef, useState } from 'react'
+import React from 'react'
 import { Link } from 'react-router-dom'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/swiper-bundle.css';
@@ -7,30 +7,10 @@ import 'swiper/css/pagination';
 import { Autoplay, Pagination } from 'swiper/modules';
 import { Rain } from 'react-rainfall';
 
-function YelagiriMain() {
+function YelagiriMain(props) {
 
-    const [isInView, setIsInView] = useState(false);
-    const sectionRef = useRef(null);
-    useEffect(() => {
-        const observer = new IntersectionObserver(
-            ([entry]) => {
-                if (entry.isIntersecting) {
-                    setIsInView(true);
-                }
-            },
-            { threshold: 0.5 }
-        );
-
-        if (sectionRef.current) {
-            observer.observe(sectionRef.current);
-        }
-
-        return () => {
-            if (sectionRef.current) {
-                observer.unobserve(sectionRef.current);
-            }
-        };
-    }, []);
+    const {isInView , sectionRef } = props;
+ 
     return (
         <>
             <section className="flex justify-center items-center bg-center bg-cover   bg-no-repeat rounded-br-[15rem] 3xl:h-[70vh] py-10  " style={{ backgroundImage: `url(${'/assets/images/Third/yelagirihero.png'})` }}>
@@ -188,9 +168,7 @@ function YelagiriMain() {
                                 highlighting the resort’s stunning amenities and picturesque location. Special attention
                                 was given to performance optimization and mobile-friendliness to cater to diverse user
                                 needs.</p>
-                            <p className=" text-justify md:text-base text-sm ">This project reflects our commitment to delivering cutting-edge
-                                web solutions that elevate brand identity and enhance customer
-                                engagement.</p>
+                            <p className=" text-justify md:text-base text-sm ">This project reflects our commitment to delivering cutting-edge  web solutions that elevate brand identity and enhance customer  engagement.</p>
                         </div>
                         <div>
                             <img className='md:px-0 px-2' src="/assets/images/Third/lap.png" alt="" />
@@ -199,8 +177,8 @@ function YelagiriMain() {
                     <div className=' relative '>
                         <div className='  '>
                             <div className="bg-[url('/assets/images/Third/fmn.png')] bg-contain relative bg-center bg-no-repeat md:p-6 p-3 overflow-hidden  flex items-center justify-center">
-                                <div className=" md:w-[310px] w-[287px] h-[648px] pt-6    relative ">
-                                    <div className={`absolute flex h-[515px]   mt-6 flex-col inset-0 ${isInView ? 'animate-autoscroll' : ''}`} >
+                                <div className=" md:w-[310px] w-[287px] h-[648px] pt-6 relative ">
+                                    <div className={`absolute flex h-[515px] mt-6 flex-col inset-0 ${isInView ? 'animate-autoscroll' : ''}`} >
                                         <img src="/assets/images/Third/yelagir.jpg" alt="Scrolling content" className="w-full h-auto relative md:left-1" />
                                     </div>
                                 </div>
@@ -210,50 +188,13 @@ function YelagiriMain() {
                     </div>
                 </div>
             </section>
-            {/* <section className="bg-[url('/assets/images/Third/cool.png')]  md:my-20 my-10 bg-center bg-cover w-full bg-no-repeat">
-                <div className='max-w-[60rem]  mx-auto px-5 md:py-10 py-5  '>
-                    <div className='grid md:grid-cols-4  '>
-                        <div className='flex flex-col justify-between col-span-1'>
-                            <div>
-                            </div>
-                            <div className='border-2 rounded-3xl text-center   bg-white'>
-                                <img className='rounded-t-3xl' src="/assets/images/Third/room1.png" alt="" />
-                                <div className='p-2'>
-                                    <p className="text-[#02AC4E]">Modern</p>
-                                    <p className="">1 Bed In Room</p>
-                                    <p className="">---------------------</p>
-                                    <p className="">3 Peoples in the Room</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div className='col-span-2 relative top-28'>
-                            <img className='mx-auto' src="/assets/images/Third/coolinside.png" alt="" />
-                        </div>
-                        <div className='flex flex-col justify-between col-span-1'>
-                            <div className='border-2 rounded-3xl text-center   bg-white'>
-                                <img className='rounded-t-3xl' src="/assets/images/Third/room2.png" alt="" />
-                                <p className="text-[#02AC4E]">Retro</p>
-                                <p className="">1 Bed In Room</p>
-                                <p className="">-------------- </p>
-                                <p className="">3 Peoples in the Room</p>
-                            </div>
-                            <div className='border-2 rounded-3xl text-center   bg-white'>
-                                <img className='rounded-t-3xl' src="public/assets/images/Third/room3.png" alt="" />
-                                <p className="text-[#02AC4E]">Classic</p>
-                                <p className="">1 Bed In Room</p>
-                                <p className="">--------------- </p>
-                                <p className="">3 Peoples in the Room</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section> */}
+           
             <section className="relative bg-[url('/assets/images/Third/cool.png')] md:my-20 my-10 bg-center bg-cover w-full bg-no-repeat">
                 <div>
                     <Rain />
                 </div>
                 <div className="relative z-10 max-w-[60rem] mx-auto px-5 md:py-10 py-5">
-                    <div className="grid md:grid-cols-4 md:gap-0 gap-5">
+                    <div className="grid md:grid-cols-4  md:gap-0  ">
                         <div className="flex flex-col justify-between col-span-1">
                             <div></div>
                             <div className="flex flex-col md:gap-10 gap-5">

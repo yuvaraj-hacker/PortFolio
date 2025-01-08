@@ -1,8 +1,11 @@
 import { Divider } from '@nextui-org/react'
-import React from 'react'
+import { textFlag } from 'cursor-effects';
+import React, { useEffect } from 'react'
 import { Link } from 'react-router-dom'
 
 function Vivid() {
+
+    
     return (
         <>
             <section className='bg-white'>

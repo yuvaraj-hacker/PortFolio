@@ -1,25 +1,11 @@
-import React from 'react'
+import React  from 'react'
 import Common from '../CommonSection/Common'
+import { motion } from 'framer-motion'
+import { fadeIn } from '../../Variants'
 
-
-
-function DglHolidays() {
-
-
-
-
-
-
-    const pageData = {
-        headerImage: '/assets/images/nine/dgll.png',
-        name: 'DGL HOLIDAYS',
-        category: 'Travel and Tourism Services',
-        description: 'Tailored holiday packages and exceptional travel experiences.',
-        services: 'Custom travel planning, accommodations, transportation, and guided tours.',
-        team: '5 specialists',
-        country: 'India',
-        descriptionImage: '/assets/images/nine/dglherosection.png'
-    };
+function DglHolidays(props) {
+    const {pageData} = props;
+    
     return (
         <>
             <section className='bg-white'>
@@ -40,19 +26,28 @@ function DglHolidays() {
                             </div>
                             <div className=' flex flex-col gap-5 '>
                                 <div className='text-justify md:text-base md:space-y-5 space-y-3 text-sm  '>
-                                    <p className="">The <span className='text-[#40A44C]'>DGL Holidays</span>  website was designed and developed to provide a seamless
+                                    <motion.p variants={fadeIn("up", 0.1)}
+                                        initial="hidden"
+                                        whileInView="show"
+                                        viewport={{ once: false, amount: 0.2 }} className="">The <span className='text-[#40A44C]'>DGL Holidays</span>  website was designed and developed to provide a seamless
                                         platform for showcasing premium travel and tourism services. Leveraging modern web
                                         technologies such as <span className='text-[#40A44C]'> Bootstrap, HTML, CSS, </span> and  <span className='text-[#40A44C]'> PHP, </span> our team of five developers collaborated
                                         to create a user-friendly and visually appealing website that reflects the company’s dedication
-                                        to delivering exceptional travel experiences.</p>
-                                    <p className="">The site features a clean, responsive design that adapts effortlessly across devices,
+                                        to delivering exceptional travel experiences.</motion.p>
+                                    <motion.p variants={fadeIn("up", 0.2)}
+                                        initial="hidden"
+                                        whileInView="show"
+                                        viewport={{ once: false, amount: 0.2 }} className="">The site features a clean, responsive design that adapts effortlessly across devices,
                                         ensuring accessibility for all users. Key functionalities include detailed service descriptions
                                         , easy navigation, and a vibrant interface to engage potential customers. We also integrated robust
-                                        back-end features to support efficient management of travel packages and inquiries.</p>
-                                    <p className="">This project is a testament to our team’s expertise in combining aesthetics with functionality.
+                                        back-end features to support efficient management of travel packages and inquiries.</motion.p>
+                                    <motion.p variants={fadeIn("up", 0.3)}
+                                        initial="hidden"
+                                        whileInView="show"
+                                        viewport={{ once: false, amount: 0.2 }} className="">This project is a testament to our team’s expertise in combining aesthetics with functionality.
                                         By aligning the website's design with DGL Holidays’ commitment to customer satisfaction and excellence,
                                         we have created a digital presence that enhances the company's ability to connect with travel enthusiasts
-                                        worldwide.</p>
+                                        worldwide.</motion.p>
                                 </div>
                             </div>
 
@@ -73,54 +68,86 @@ function DglHolidays() {
                 </section>
 
                 <section className="bg-[#F7F7F7]  md:py-20 py-10">
-                    <div className='max-w-[80rem] overflow-hidden mx-auto px-2'>
+                    <div className='max-w-[80rem]   mx-auto px-2'>
                         <div className="grid grid-cols-2 md:gap-5 gap-3  items-center md:grid-cols-5 ">
-                            <div>
+                            <motion.div variants={fadeIn("down", 0.1)}
+                                initial="hidden"
+                                whileInView="show"
+                                viewport={{ once: false, amount: 0.2 }}>
                                 <img src="/assets/images/nine/dgl1.png" alt="Mobile Screenshot 1" />
-                            </div>
-                            <div>
+                            </motion.div>
+                            <motion.div
+                                variants={fadeIn("down", 0.2)}
+                                initial="hidden"
+                                whileInView="show"
+                                viewport={{ once: false, amount: 0.2 }}>
                                 <img src="/assets/images/nine/dgl2.png" alt="Mobile Screenshot 2" />
-                            </div>
-                            <div className='md:col-span-3 col-span-2 ml-auto'>
+                            </motion.div>
+                            <motion.div
+                                variants={fadeIn("down", 0.3)}
+                                initial="hidden"
+                                whileInView="show"
+                                viewport={{ once: false, amount: 0.2 }} className='md:col-span-3 col-span-2 ml-auto'>
                                 <img src="/assets/images/nine/dgl3.png" alt="Tablet Screenshot 1" />
-                            </div>
-                            <div className='md:col-span-3 col-span-2' >
+                            </motion.div>
+                            <motion.div
+                                variants={fadeIn("up", 0.1)}
+                                initial="hidden"
+                                whileInView="show"
+                                viewport={{ once: false, amount: 0.2 }} className='md:col-span-3 col-span-2' >
                                 <img src="/assets/images/nine/dgl4.png" alt="Tablet Screenshot 2" />
-                            </div>
-                            <div>
+                            </motion.div>
+                            <motion.div
+                                variants={fadeIn("up", 0.2)}
+                                initial="hidden"
+                                whileInView="show"
+                                viewport={{ once: false, amount: 0.2 }}>
                                 <img src="/assets/images/nine/dgl5.png" alt="Mobile Screenshot 3" />
-                            </div>
-                            <div >
+                            </motion.div>
+                            <motion.div
+                                variants={fadeIn("up", 0.3)}
+                                initial="hidden"
+                                whileInView="show"
+                                viewport={{ once: false, amount: 0.2 }}>
                                 <img src="/assets/images/nine/dgl6.png" alt="Mobile Screenshot 4" />
-                            </div>
+                            </motion.div>
                         </div>
                     </div>
                 </section>
 
 
                 <img className=' ' src="/assets/images/nine/Footerr.png" alt="" />
-                <section className="bg-[#0F0F0F] md:py-10 py-5 w-full bg-no-repeat  ">
+                <section className="bg-[#0F0F0F] md:py-10 py-5 w-full bg-no-repeat md:overflow-hidden ">
                     <div className='px-5'>
                         <div className='max-w-[70rem] mx-auto text-center     ' >
                             <div className='  justify-center items-center   gap-5 text-white'>
-                                <p className="md:text-3xl text-sm font-bold uppercase">"Turn your travel dreams into reality with DGL Holidays'
+                                <motion.p variants={fadeIn("up", 0.2)}
+                                    initial="hidden"
+                                    whileInView="show"
+                                    viewport={{ once: false, amount: 0.2 }} className="md:text-3xl text-sm font-bold uppercase">"Turn your travel dreams into reality with DGL Holidays'
                                     tailored and unforgettable holiday experiences!
-                                </p>
+                                </motion.p>
                                 <div className='flex justify-center items-center gap-4'>
                                     <div className=' text-center md:mt-7 mt-5'>
-                                        <button className='rounded-3xl text-center mx-auto  md:text-base text-xs bg-[#FEC000] p-1 px-4'>
+                                        <motion.button variants={fadeIn("up", 0.4)}
+                                            initial="hidden"
+                                            whileInView="show"
+                                            viewport={{ once: false, amount: 0.2 }} className='rounded-3xl text-center mx-auto  md:text-base text-xs bg-[#FEC000] p-1 px-4'>
                                             <div className='relative'>
                                                 <p className="text-white md:text-base text-sm"> Contact Us</p>
                                                 <img className='absolute top-0 -left-2 w-2' src="/assets/images/seventh/white-flower2.png" alt="" />
                                                 <img className='absolute bottom-0 -right-2 w-2' src="/assets/images/seventh/white-flower.png" alt="" />
                                             </div>
-                                        </button>
+                                        </motion.button>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </section>
+
+
+
             </section>
         </>
     )

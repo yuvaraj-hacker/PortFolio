@@ -1,7 +1,11 @@
+
 import React from 'react'
 import { Link } from 'react-router-dom'
+import { motion } from 'framer-motion';
+import { fadeIn } from '../../Variants';
 
 function Srikrishna() {
+
     return (
         <>
             <section className='bg-white'>
@@ -73,18 +77,27 @@ function Srikrishna() {
                             </div>
                             <div className=' flex flex-col gap-5 '>
                                 <div className='text-justify md:text-base md:space-y-5 space-y-3 text-sm  '>
-                                    <p className="">The <span className='text-[#D89C5C]'>Sri Krishna</span>  website was developed to create an engaging and user-friendly platform that reflects
+                                    <motion.p variants={fadeIn("right", 0.1)}
+                                        initial="hidden"
+                                        whileInView="show"
+                                        viewport={{ once: false, amount: 0.2 }} className="">The <span className='text-[#D89C5C]'>Sri Krishna</span>  website was developed to create an engaging and user-friendly platform that reflects
                                         the authenticity and charm of the restaurant's Indian cuisine. Designed using <span className='text-[#D89C5C]'> Bootstrap, HTML,</span> and <span className='text-[#D89C5C]'>  CSS,</span> the
-                                        website features a clean and responsive layout, ensuring seamless navigation across all devices.</p>
-                                    <p className="">Our team of five developers collaborated to craft a visually appealing and functionally
+                                        website features a clean and responsive layout, ensuring seamless navigation across all devices.</motion.p>
+                                    <motion.p variants={fadeIn("right", 0.2)}
+                                        initial="hidden"
+                                        whileInView="show"
+                                        viewport={{ once: false, amount: 0.2 }} className="">Our team of five developers collaborated to craft a visually appealing and functionally
                                         robust website that showcases the restaurant’s menu, ambiance, and services. Special attention was
                                         given to integrating an intuitive design that highlights key sections, such as the menu, gallery,
                                         and contact information, while maintaining a warm and inviting aesthetic that mirrors the restaurant’s
-                                        brand identity.</p>
-                                    <p className="">The use of modern web technologies ensured optimal performance and scalability,
+                                        brand identity.</motion.p>
+                                    <motion.p variants={fadeIn("right", 0.3)}
+                                        initial="hidden"
+                                        whileInView="show"
+                                        viewport={{ once: false, amount: 0.2 }} className="">The use of modern web technologies ensured optimal performance and scalability,
                                         while the responsive design guarantees accessibility for customers on both desktop and mobile
                                         devices. This project demonstrates our ability to deliver tailored web solutions that align with
-                                        the client’s vision and industry standards.</p>
+                                        the client’s vision and industry standards.</motion.p>
                                 </div>
                             </div>
                         </div>
@@ -118,26 +131,35 @@ function Srikrishna() {
                 <section className='grid grid-cols-4 overflow-hidden'>
                     <img className=' ' src="/assets/images/Eight/Sri_Krishna_bg 2.png" alt="" />
                     <div className='flex justify-center items-center w-full h-full col-span-2'>
-                        <img className=' animate-wiggle-more animate-twice ' src="/assets/images/Eight/footer 1.png" alt="" />
+                        <img src="/assets/images/Eight/footer 1.png" alt="" />
                     </div>
-                    <img data-aos="fade-left" data-aos-delay="300" className='ml-auto  ' src="/assets/images/Eight/Sri_Krishna_bg 1.png" alt="" />
+                    <motion.img variants={fadeIn("right", 0.2)}
+                        initial="hidden"
+                        whileInView="show"
+                        viewport={{ once: false, amount: 0.2 }} className='ml-auto  ' src="/assets/images/Eight/Sri_Krishna_bg 1.png" alt="" />
                 </section>
 
-                <section className="bg-[#212529]   md:py-10 py-5 w-full bg-no-repeat">
+                <section className="bg-[#212529]   md:py-10 py-5 w-full bg-no-repeat md:overflow-hidden">
                     <div className='px-5'>
                         <div className='max-w-[70rem] mx-auto text-center ' >
                             <div className='  justify-center items-center   gap-5 text-white'>
-                                <p className="md:text-3xl text-sm font-bold uppercase">Bring your culinary dreams to life with <span className='text-[#D89C5C]'>Sri Krishna,</span>  where  authentic
-                                    flavors and quality ingredients come together in every bite!</p>
+                                <motion.p variants={fadeIn("up", 0.2)}
+                                    initial="hidden"
+                                    whileInView="show"
+                                    viewport={{ once: false, amount: 0.2 }} className="md:text-3xl text-sm font-bold uppercase">Bring your culinary dreams to life with <span className='text-[#D89C5C]'>Sri Krishna,</span>  where  authentic
+                                    flavors and quality ingredients come together in every bite!</motion.p>
                                 <div className='flex justify-center items-center  gap-4'>
                                     <div className=' text-center md:mt-7 mt-4'>
-                                        <button className='rounded-3xl text-center mx-auto  md:text-base text-xs bg-[#D89C5C] p-1 px-4'>
+                                        <motion.button variants={fadeIn("up", 0.4)}
+                                            initial="hidden"
+                                            whileInView="show"
+                                            viewport={{ once: false, amount: 0.2 }} className='rounded-3xl text-center mx-auto  md:text-base text-xs bg-[#D89C5C] p-1 px-4'>
                                             <div className='relative'>
                                                 <p className="text-white md:text-base text-sm"> Contact Us</p>
                                                 <img className='absolute top-0 -left-2 w-2' src="/assets/images/seventh/white-flower2.png" alt="" />
                                                 <img className='absolute bottom-0 -right-2 w-2' src="/assets/images/seventh/white-flower.png" alt="" />
                                             </div>
-                                        </button>
+                                        </motion.button>
                                     </div>
                                 </div>
                             </div>
