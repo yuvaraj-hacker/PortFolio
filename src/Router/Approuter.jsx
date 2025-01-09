@@ -16,6 +16,7 @@ import DGLholidaysPage from "../Components/DGLPage/DGLholidaysPage";
 import GltfViewer from "../Components/GLTF/Gltfviewer";
 import ContactUsPage from "../Components/Contactus/ContactUsPage";
 import ValluvasPage from "../Components/ValluvaPage/ValluvasPage";
+import MalabarPage from "../Components/MalabarPage/MalabarPage";
 
 
 
@@ -42,6 +43,7 @@ function Approuter() {
                     <Route path="/gltf" element={<GltfViewer />} />
                     <Route path="/contact-us" element={<ContactUsPage />} />
                     <Route path="/valluvas" element={<ValluvasPage />} />
+                    <Route path="/malabar" element={<MalabarPage />} />
                 </Route>
             </Routes>
         </BrowserRouter>
