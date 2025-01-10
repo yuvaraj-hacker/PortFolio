@@ -6,8 +6,6 @@ function Malabar() {
     return (
         <>
             <section className='bg-white'>
-
-
                 <section className="flex justify-center items-center bg-center bg-cover   bg-no-repeat rounded-br-[15rem] 3xl:h-[70vh] py-10  " style={{ backgroundImage: `url(${'/assets/images/Valluva/valluhero.png'})` }}>
                     <div className='max-w-[90rem] mx-auto px-5 '>
                         <div className='grid lg:grid-cols-2 grid-cols-1 gap-5 items-center' >
@@ -101,16 +99,11 @@ function Malabar() {
                                     <div className='flex items-center gap-5'>
                                         <a href='https://www.malabarindiangroceries.com/' target='_blank'>
                                             <div className='rounded-3xl bg-[#045C43] text-black w-fit py-1  px-3 md:px-7'>
-
                                                 <p className="md:text-lg text-sm text-white">www.malabarindiangroceries.com</p>
                                             </div>
                                         </a>
-
                                     </div>
-
                                 </div>
-
-
                             </div>
                         </div>
                     </section>

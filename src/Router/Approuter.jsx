@@ -17,6 +17,8 @@ import GltfViewer from "../Components/GLTF/Gltfviewer";
 import ContactUsPage from "../Components/Contactus/ContactUsPage";
 import ValluvasPage from "../Components/ValluvaPage/ValluvasPage";
 import MalabarPage from "../Components/MalabarPage/MalabarPage";
+import CarouselPage from "../Components/3dCarousel/CarouselPage";
+import PageFlip from "../Shared/Components/PageFlip/PageFlip";
 
 
 
@@ -44,6 +46,8 @@ function Approuter() {
                     <Route path="/contact-us" element={<ContactUsPage />} />
                     <Route path="/valluvas" element={<ValluvasPage />} />
                     <Route path="/malabar" element={<MalabarPage />} />
+                    <Route path="/carous" element={<CarouselPage />} />
+                    <Route path="/flip" element={<PageFlip />} />
                 </Route>
             </Routes>
         </BrowserRouter>

@@ -26,7 +26,7 @@ function YelagiriMain(props) {
                                     Portfolio /
                                 </a>{" "}
                                 /{" "}
-                                <a href="#" className="text-[#02AC4E] hover:underline font-semibold">
+                                <a href="#" className="text-[#02AC4E] hover:underline uppercase font-semibold">
                                     YELAGIRI GOLD HILL RESORT
                                 </a>
                             </nav>
