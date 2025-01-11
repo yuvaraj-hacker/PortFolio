@@ -4,13 +4,18 @@ import { textFlag } from 'cursor-effects';
 
 function ColorsPage() {
 
-    useEffect(() => {
-        const effect = new textFlag({
-            text: "Colors Montessori",
-            color: ["#E63D3D"],
-        });
-        return () => effect.destroy();
-    }, []);
+   useEffect(() => {
+          const isMobile = window.matchMedia("(max-width: 768px)").matches;
+  
+          if (!isMobile) {
+              const effect = new textFlag({
+                  text: "Colors Montessori",
+                  color: ["#FFCB02"],
+              });
+  
+              return () => effect.destroy();
+          }
+      }, []);
 
     const pageData = {
         headerImage: '/assets/images/Fifth/colorsheader.png',

@@ -5,12 +5,17 @@ import { textFlag } from 'cursor-effects';
 function FolsumPage() {
 
     useEffect(() => {
-        const effect = new textFlag({
-            text: "Folsum Pulse",
-            color: ["#FC9D4A"],
-        });
-        return () => effect.destroy();
-    }, []);
+           const isMobile = window.matchMedia("(max-width: 768px)").matches;
+   
+           if (!isMobile) {
+               const effect = new textFlag({
+                   text: "Folsom Pulse",
+                   color: ["#FC9D4A"],
+               });
+   
+               return () => effect.destroy();
+           }
+       }, []);
     return (
         <>
             <FolsumMain />

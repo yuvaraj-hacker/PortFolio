@@ -27,7 +27,7 @@ function Valluvas() {
                                     </a>
                                 </nav>
                                 <h1 className="text-2xl md:text-5xl text-white font-bold uppercase mb-6">
-                                Valluva's
+                                    Valluva's
                                     {/* <TypeAnimation
                                         sequence={['Valluvas', 1000, 'Valluvas', 1000, 'Valluvas', 1000, 'Valluvas', 1000]}
                                         wrapper="span"
@@ -63,8 +63,8 @@ function Valluvas() {
 
                                 </div>
                             </div>
-                            <div className=' mx-auto'>
-                                <img className='  relative md:top-[218px]' src='/assets/images/Valluva/crt.png' alt="" />
+                            <div className='mx-auto'>
+                                <img className='relative md:top-[218px]' src='/assets/images/Valluva/crt.png' alt="" />
                             </div>
                         </div>
                     </div>
@@ -73,7 +73,7 @@ function Valluvas() {
 
 
 
-                <section className="bg-[url('/assets/images/Valluva/real.png')] bg-center bg-cover bg-repeat     w-full  md:pt-60 pt-10 md:pb-20 pb-10 ">
+                <section className="bg-[url('/assets/images/Valluva/real.png')] bg-center bg-cover bg-repeat w-full md:pt-60 pt-10 md:pb-20 pb-10 ">
                     <div className='max-w-[70rem] mx-auto md:space-y-10 space-y-5'>
                         <motion.p variants={fadeIn("left", 0.2)}
                             initial="hidden"

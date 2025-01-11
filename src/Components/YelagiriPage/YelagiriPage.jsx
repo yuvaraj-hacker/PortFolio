@@ -4,11 +4,16 @@ import { textFlag } from 'cursor-effects';
 
 function YelagiriPage() {
     useEffect(() => {
-        const effect = new textFlag({
-            text: "Yelagiri Gold Hill Resort",
-            color: ["#02AC4E"],
-        });
-        return () => effect.destroy();
+        const isMobile = window.matchMedia("(max-width: 768px)").matches;
+
+        if (!isMobile) {
+            const effect = new textFlag({
+                text: "Yelagiri Gold Hill Resort",
+                color: ["#02AC4E"],
+            });
+
+            return () => effect.destroy();
+        }
     }, []);
     const [isInView, setIsInView] = useState(false);
     const sectionRef = useRef(null);

@@ -4,12 +4,17 @@ import { textFlag } from 'cursor-effects';
 
 function InbaPage() {
     useEffect(() => {
-        const effect = new textFlag({
-            text: "Inba Foods",
-            color: ["#00B453"],
-        });
-        return () => effect.destroy();
-    }, []);
+           const isMobile = window.matchMedia("(max-width: 768px)").matches;
+   
+           if (!isMobile) {
+               const effect = new textFlag({
+                   text: "Inba Foods",
+                   color: ["#00B453"],
+               });
+   
+               return () => effect.destroy();
+           }
+       }, []);
     return (
         <>
             <InbaFoods />

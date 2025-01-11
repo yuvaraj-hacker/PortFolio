@@ -4,11 +4,16 @@ import { textFlag } from 'cursor-effects';
 
 function KiranaaPage() {
     useEffect(() => {
-        const effect = new textFlag({
-            text: "Kiranaa Bazaar",
-            color: ["#00B75E"],
-        });
-        return () => effect.destroy();
+        const isMobile = window.matchMedia("(max-width: 768px)").matches;
+
+        if (!isMobile) {
+            const effect = new textFlag({
+                text: "Kiranaa Bazaar",
+                color: ["#00B75E"],
+            });
+
+            return () => effect.destroy();
+        }
     }, []);
     const pageData = {
         headerImage: '/assets/images/one/hero.png',

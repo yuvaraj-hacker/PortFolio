@@ -4,7 +4,7 @@ import { textFlag } from 'cursor-effects';
 
 function JobezzyMain(props) {
 
-   const {pageData} = props;
+    const { pageData } = props;
 
 
     return (

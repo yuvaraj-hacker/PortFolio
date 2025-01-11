@@ -4,12 +4,17 @@ import { textFlag } from 'cursor-effects';
 
 function JobezzyPage() {
     useEffect(() => {
-        const effect = new textFlag({
-            text: "Jobezzy",
-            color: ["#FFC000"],
-        });
-        return () => effect.destroy();
-    }, []);
+           const isMobile = window.matchMedia("(max-width: 768px)").matches;
+   
+           if (!isMobile) {
+               const effect = new textFlag({
+                   text: "Jobezzy",
+                   color: ["#FFC000"],
+               });
+   
+               return () => effect.destroy();
+           }
+       }, []);
     const pageData = {
         headerImage: '/assets/images/Second/sizes.png',
         name: 'JOBEZZY',

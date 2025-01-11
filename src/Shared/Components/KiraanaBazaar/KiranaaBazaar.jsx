@@ -70,7 +70,7 @@ function KiranaaBazaar(props) {
                 <section className='max-w-[80rem] mx-auto  md:my-20 my-10 px-5'>
 
                     <div className="grid grid-cols-2 gap-5  items-center md:grid-cols-5 ">
-                        {/* Each image container */}
+                        
                         <div>
                             <img src="/assets/images/KiranaaMain/kiran10.png" alt="Mobile Screenshot 1" />
                         </div>

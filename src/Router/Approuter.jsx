@@ -15,10 +15,12 @@ import SriKrishnaPage from "../Components/SriKrishnaPage/SriKrishnaPage";
 import DGLholidaysPage from "../Components/DGLPage/DGLholidaysPage";
 import GltfViewer from "../Components/GLTF/Gltfviewer";
 import ContactUsPage from "../Components/Contactus/ContactUsPage";
-import ValluvasPage from "../Components/ValluvaPage/ValluvasPage";
-import MalabarPage from "../Components/MalabarPage/MalabarPage";
+
+
 import CarouselPage from "../Components/3dCarousel/CarouselPage";
 import PageFlip from "../Shared/Components/PageFlip/PageFlip";
+import ValluvasPage from "../Components/ValluvaPage/ValluvasPage";
+import MalabarPage from "../Components/MalabarPage/MalabarPage";
 
 
 

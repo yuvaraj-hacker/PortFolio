@@ -4,12 +4,17 @@ import { textFlag } from 'cursor-effects';
 
 function DGLholidaysPage() {
     useEffect(() => {
-        const effect = new textFlag({
-            text: "DGL Holidays",
-            color: ["#FCCE38"],
-        });
-        return () => effect.destroy();
-    }, []);
+           const isMobile = window.matchMedia("(max-width: 768px)").matches;
+   
+           if (!isMobile) {
+               const effect = new textFlag({
+                   text: "DGL Holidays",
+                   color: ["#FCCE38"],
+               });
+   
+               return () => effect.destroy();
+           }
+       }, []);
     const pageData = {
         headerImage: '/assets/images/nine/dgll.png',
         name: 'DGL HOLIDAYS',
