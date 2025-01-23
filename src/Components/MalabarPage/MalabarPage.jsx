@@ -1,13 +1,13 @@
 import React, { useEffect } from 'react'
 import Malabar from '../../Shared/Components/Malabar/Malabar'
-import { textFlag } from 'cursor-effects';
+import {  followingDotCursor } from 'cursor-effects';
 
 function MalabarPage() {
     useEffect(() => {
         const isMobile = window.matchMedia("(max-width: 768px)").matches;
 
         if (!isMobile) {
-            const effect = new textFlag({
+            const effect = new  followingDotCursor({
                 text: "Malabar Indian Groceries",
                 color: ["#FE7826"],
             });

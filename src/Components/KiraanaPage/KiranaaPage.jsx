@@ -1,13 +1,13 @@
 import React, { useEffect } from 'react'
 import KiranaaBazaar from '../../Shared/Components/KiraanaBazaar/KiranaaBazaar'
-import { textFlag } from 'cursor-effects';
+import {  followingDotCursor } from 'cursor-effects';
 
 function KiranaaPage() {
     useEffect(() => {
         const isMobile = window.matchMedia("(max-width: 768px)").matches;
 
         if (!isMobile) {
-            const effect = new textFlag({
+            const effect = new  followingDotCursor({
                 text: "Kiranaa Bazaar",
                 color: ["#00B75E"],
             });

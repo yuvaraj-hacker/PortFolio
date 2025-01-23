@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import FolsumMain from '../../Shared/Components/Folsum/FolsumMain'
-import { textFlag } from 'cursor-effects';
+import {  followingDotCursor } from 'cursor-effects';
 
 function FolsumPage() {
 
@@ -8,7 +8,7 @@ function FolsumPage() {
            const isMobile = window.matchMedia("(max-width: 768px)").matches;
    
            if (!isMobile) {
-               const effect = new textFlag({
+               const effect = new  followingDotCursor({
                    text: "Folsom Pulse",
                    color: ["#FC9D4A"],
                });

@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import Common from '../CommonSection/Common'
-import { textFlag } from 'cursor-effects';
+import {  followingDotCursor } from 'cursor-effects';
 
 function JobezzyMain(props) {
 

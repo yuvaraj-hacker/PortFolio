@@ -1,5 +1,5 @@
 import { Divider } from '@nextui-org/react'
-import { textFlag } from 'cursor-effects';
+import {  followingDotCursor } from 'cursor-effects';
 import React, { useEffect } from 'react'
 import { Link } from 'react-router-dom'
 

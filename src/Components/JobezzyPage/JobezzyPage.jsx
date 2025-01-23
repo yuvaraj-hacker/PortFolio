@@ -1,13 +1,13 @@
 import React, { useEffect } from 'react'
 import JobezzyMain from '../../Shared/Components/Jobezzys/JobezzyMain'
-import { textFlag } from 'cursor-effects';
+import {  followingDotCursor } from 'cursor-effects';
 
 function JobezzyPage() {
     useEffect(() => {
            const isMobile = window.matchMedia("(max-width: 768px)").matches;
    
            if (!isMobile) {
-               const effect = new textFlag({
+               const effect = new  followingDotCursor({
                    text: "Jobezzy",
                    color: ["#FFC000"],
                });

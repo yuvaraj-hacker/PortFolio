@@ -1,13 +1,13 @@
 import React, { useEffect, useRef, useState } from 'react'
 import YelagiriMain from '../../Shared/Components/Yelagiri/YelagiriMain'
-import { textFlag } from 'cursor-effects';
+import {  followingDotCursor } from 'cursor-effects';
 
 function YelagiriPage() {
     useEffect(() => {
         const isMobile = window.matchMedia("(max-width: 768px)").matches;
 
         if (!isMobile) {
-            const effect = new textFlag({
+            const effect = new  followingDotCursor({
                 text: "Yelagiri Gold Hill Resort",
                 color: ["#02AC4E"],
             });

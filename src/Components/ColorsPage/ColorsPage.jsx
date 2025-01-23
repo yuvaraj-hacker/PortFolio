@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import ColorsMain from '../../Shared/Components/ColorsMontessori/ColorsMain'
-import { textFlag } from 'cursor-effects';
+import {  followingDotCursor } from 'cursor-effects';
 
 function ColorsPage() {
 
@@ -8,7 +8,7 @@ function ColorsPage() {
           const isMobile = window.matchMedia("(max-width: 768px)").matches;
   
           if (!isMobile) {
-              const effect = new textFlag({
+              const effect = new  followingDotCursor({
                   text: "Colors Montessori",
                   color: ["#FFCB02"],
               });

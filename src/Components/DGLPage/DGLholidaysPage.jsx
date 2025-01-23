@@ -1,20 +1,18 @@
 import React, { useEffect } from 'react'
 import DglHolidays from '../../Shared/Components/DGL/DglHolidays'
-import { textFlag } from 'cursor-effects';
+import { followingDotCursor } from 'cursor-effects';
 
 function DGLholidaysPage() {
     useEffect(() => {
-           const isMobile = window.matchMedia("(max-width: 768px)").matches;
-   
-           if (!isMobile) {
-               const effect = new textFlag({
-                   text: "DGL Holidays",
-                   color: ["#FCCE38"],
-               });
-   
-               return () => effect.destroy();
-           }
-       }, []);
+        const isMobile = window.matchMedia("(max-width: 768px)").matches;
+        if (!isMobile) {
+            const effect = new followingDotCursor({
+                text: "DGL Holidays",
+                color: ["#FCCE38"],
+            });
+            return () => effect.destroy();
+        }
+    }, []);
     const pageData = {
         headerImage: '/assets/images/nine/dgll.png',
         name: 'DGL HOLIDAYS',
