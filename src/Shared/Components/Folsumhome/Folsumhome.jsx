@@ -14,12 +14,13 @@ function Folsumhome() {
                         <div className='md:col-span-2  text-left flex flex-col justify-between'>
                             <div className=' md:space-y-6 space-y-3 md:mt-10  text-white  xl:p-5 p-2    '>
                                 <p className="lg:block hidden text-sm">Premium Resort and Holiday Destination </p>
-                                <p className="lg:block hidden text-justify text-sm">Gold Hill Resort offers a serene escape nestled amid picturesque surroundings, perfect for relaxation and rejuvenation.</p>
-                                <p className="lg:text-4xl md:text-2xl text-lg font-bold">BOOKING WEB APP</p>
+                                <p className="lg:block hidden text-justify text-sm">Event updates, community news, service directories, and a
+                                platform for local engagement..</p>
+                                <p className="lg:text-4xl md:text-2xl text-lg font-bold">Pulse  APP</p>
                                 <div className='flex gap-5 font-semibold flex-wrap text-xs md:text-sm'>
-                                    <div className='px-3 py-1  bg-white text-black w-fit rounded-2xl'> Next.js  </div>
-                                    <div className='px-3 py-1 bg-white text-black w-fit rounded-2xl'> Tailwind CSS </div>
-                                </div>
+                                    <div className='px-3 py-1  bg-white text-black w-fit rounded-2xl'> Flutter </div>
+                                    <div className='px-3 py-1 bg-white text-black w-fit rounded-2xl'> Java </div>
+                                </div>s
                             </div>
                             <div>
                                 {/* <Link to='/yelagiri'>

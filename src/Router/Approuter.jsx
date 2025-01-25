@@ -50,7 +50,7 @@ function Approuter() {
                     <Route path="/malabar" element={<MalabarPage />} />
                     <Route path="/carous" element={<CarouselPage />} />
                     <Route path="/flip" element={<PageFlip />} />
-                </Route>
+                </Route>    
             </Routes>
         </BrowserRouter>
     );

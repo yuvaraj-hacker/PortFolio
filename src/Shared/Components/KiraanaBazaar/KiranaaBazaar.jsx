@@ -44,11 +44,11 @@ function KiranaaBazaar(props) {
 
                     <div className='max-w-[80rem] mx-auto px-5 '>
                         <div className='grid md:grid-cols-2  gap-5   '>
-                            <div className="bg-[url('public/assets/images/KiranaaMain/green.gif')]  flex justify-center items-center p-5 rounded-[3.5rem] bg-cover bg-center bg-no-repeat">
+                            <div className="bg-[url('/assets/images/KiranaaMain/green.gif')]  flex justify-center items-center p-5 rounded-[3.5rem] bg-cover bg-center bg-no-repeat">
                                 <img className='mx-auto ' src="/assets/images/KiranaaMain/saa.png" alt="" />
                             </div>
                             <div className='w-full flex flex-col gap-5'>
-                                <div className="bg-[url('public/assets/images/KiranaaMain/green.gif')]  flex justify-center items-center pt-5 pr-5 pl-5 rounded-[3.5rem] bg-cover bg-center bg-no-repeat">
+                                <div className="bg-[url('/assets/images/KiranaaMain/green.gif')]  flex justify-center items-center pt-5 pr-5 pl-5 rounded-[3.5rem] bg-cover bg-center bg-no-repeat">
                                     <img className='mx-auto ' src="/assets/images/KiranaaMain/secondonee.png" alt="" />
                                 </div>
 
@@ -70,7 +70,7 @@ function KiranaaBazaar(props) {
                 <section className='max-w-[80rem] mx-auto  md:my-20 my-10 px-5'>
 
                     <div className="grid grid-cols-2 gap-5  items-center md:grid-cols-5 ">
-                        
+
                         <div>
                             <img src="/assets/images/KiranaaMain/kiran10.png" alt="Mobile Screenshot 1" />
                         </div>

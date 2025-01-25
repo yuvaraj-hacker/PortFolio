@@ -3,8 +3,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Anton&family=Archivo+Black&family=Concert+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Anton&family=Archivo+Black&family=Baumans&family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Concert+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Anton&family=Archivo+Black&family=Baumans&family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Concert+One&display=swap');
-
-
 @import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 
@@ -16,8 +14,6 @@ body,
 html {
   font-family: 'Poppins', sans-serif;
   color: #000;
-
-
 }
 
 .swiper-pagination-bullet {
@@ -26,13 +22,11 @@ html {
   background-color: white !important;
 }
 
-
 ::-webkit-scrollbar {
   display: none;
 }
 
 .mySwiper .swiper-pagination-bullet {
-
   width: 20px;
   height: 20px;
   transform: scale(1.5);
@@ -40,7 +34,6 @@ html {
 
 @media (max-width: 768px) {
   .mySwiper .swiper-pagination-bullet {
-
     width: 10px;
     height: 10px;
     transform: scale(1);
@@ -83,8 +76,6 @@ html {
 
 }
 
-
-
 .swiper-pagination .swiper-pagination-bullets .swiper-pagination-bullet {
   margin: 8px 0;
 }
@@ -105,9 +96,6 @@ html {
   height: 30px;
   box-shadow: 0px 0px 20px rgba(252, 56, 56, 0.3);
 }
-
-
-
 
 .swiper-pagination-bullet-active {
   background-color: #00B85F !important;
@@ -154,15 +142,9 @@ html {
   background-color: #40A44C !important;
 }
 
-
-
-
-
-
-
 /* star */
 
-.star {
+/* .star {
   --size: 1vmin;
   --holes: calc(var(--size) * 0.495);
   width: var(--size);
@@ -176,7 +158,7 @@ html {
   mask: var(--mask);
   border-radius: 50%;
   animation: sparkle 3s linear forwards;
-}
+} */
 
 @keyframes sparkle {
   0% {
@@ -231,7 +213,7 @@ body {
   height:100px;
   background:#000;
 }
-  
+
   */
 
 /* .left-right-up-down {
@@ -691,7 +673,7 @@ body {
 
 
 /* .background{
-  
+
    animation: mate 10s linear infinite;
 }
 
@@ -722,7 +704,7 @@ body {
 
 } */
 
-/*  
+/*
 
 
 .key{
@@ -731,7 +713,7 @@ body {
 
 @keyframes keys{
   0%{
-    transform: translate(0%); 
+    transform: translate(0%);
   }
   50%{
     transform: translate(100%);

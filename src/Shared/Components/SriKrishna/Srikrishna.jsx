@@ -8,7 +8,7 @@ function Srikrishna() {
 
     return (
         <>
-            <section className='bg-white'>
+            <section className='bg-white overflow-hidden'>
                 <section className="flex justify-center items-center bg-center bg-cover   bg-no-repeat rounded-br-[15rem] 3xl:h-[70vh] py-10  " style={{ backgroundImage: `url(${'/assets/images/Third/yelagirihero.png'})` }}>
                     <div className='max-w-[90rem] mx-auto px-5 '>
                         <div className='grid lg:grid-cols-2 grid-cols-1 gap-5 items-center' >
@@ -148,7 +148,7 @@ function Srikrishna() {
                                     whileInView="show"
                                     viewport={{ once: false, amount: 0.2 }} className="md:text-3xl text-sm font-bold uppercase">Bring your culinary dreams to life with <span className='text-[#D89C5C]'>Sri Krishna,</span>  where  authentic
                                     flavors and quality ingredients come together in every bite!</motion.p>
-                                <div className='flex justify-center items-center  gap-4'>
+                                <div className='flex justify-center items-center   gap-4'>
                                     <div className=' text-center md:mt-7 mt-4'>
                                         <motion.button variants={fadeIn("up", 0.4)}
                                             initial="hidden"

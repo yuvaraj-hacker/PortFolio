@@ -6,7 +6,7 @@ function GoldResort() {
     return (
         <>
             <section className='px-5 pr-6 '>
-                <section className="max-w-[90rem]   mx-auto  bg-[url('/assets/images/Third/GoldHill.png')] bg-center bg-cover border-2 rounded-t-[3.5rem] rounded-bl-[3.5rem]  w-full ">
+                <section className="max-w-[80rem]   mx-auto  bg-[url('/assets/images/Third/GoldHill.png')] bg-center bg-cover border-2 rounded-t-[3.5rem] rounded-bl-[3.5rem]  w-full ">
                     <div className='grid md:grid-cols-5  md:gap-5 md:pl-14  '>
                         <div className='md:col-span-3 md:p-0 p-2'>
                             <img className=' xl:h-[450px] p-5' src="/assets/images/Third/Quality2.png" alt="" />

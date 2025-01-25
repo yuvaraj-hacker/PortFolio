@@ -5,8 +5,8 @@ function Kiranaa() {
     return (
         <>
             <section className='px-5 pr-6'>
-                <section className="max-w-[90rem] mx-auto overflow-hidden  bg-black relative border-2 rounded-t-[3.5rem] rounded-bl-[3.5rem]  w-full ">
-                    <div className='grid md:grid-cols-5  grid-cols-1 md:gap-5 md:pl-14  md:pt-10'>
+                <section className="max-w-[80rem] mx-auto overflow-hidden  bg-black relative border-2 rounded-t-[3.5rem] rounded-bl-[3.5rem]  w-full ">
+                    <div className='grid md:grid-cols-5  grid-cols-1 md:gap-5 md:pl-14  md:pt-5'>
                         <div className='md:col-span-3 md:p-0 p-2 z-10'>
                             <img className='mx-auto xl:h-[450px] md:p-0 p-5' src="/assets/images/one/Qulaity3.png" alt="" />
                         </div>
