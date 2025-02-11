@@ -3,13 +3,11 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import { Pagination, Mousewheel } from 'swiper/modules';
-import Kiranaa from '../Kiraana/Kiranaa';
 import Jobezzy from '../Jobezzy/Jobezzy';
 import GoldResort from '../GoldHill/GoldResort';
 import StarBackground from './StarBackground';
-import Folsumhome from '../Folsumhome/Folsumhome';
-import Vividhome from '../Commonhomecard/commoncard';
 import Commoncard from '../Commonhomecard/commoncard';
+import CommonTwo from '../Kiraana/commontwo';
 
 export default function HomePage(props) {
 
@@ -37,9 +35,20 @@ export default function HomePage(props) {
         to: '#0000',
 
     };
+    const kiranaa = {
+        bgImage: '/assets/images/Homepages/folbgimage.png',
+        imagebright: '/assets/images/one/Kiraana.png',
+        first: 'Community and Lifestyle Platform',
+        second: 'Folsom Pulse connects residents with local events, services, and news for a vibrant community experience.',
+        websitecate: 'Community App ',
+        tech1: 'Flutter',
+        tech2: 'Java',
+        from: '#ffff',
+        to: '#0000',
+
+    };
 
     const vivid = {
-
         imagebright: '/assets/images/Homepages/vividmainimage.png',
         bgImage: '/assets/images/Homepages/vividbgimages.png',
         first: 'Engineering Consultancy Services',
@@ -122,17 +131,18 @@ export default function HomePage(props) {
         <div className=' mt-[60px] relative ' >
             <Swiper direction={'vertical'} pagination={{ clickable: true, }} effect="fade" fadeEffect={{ crossFade: true }} speed={1400} centeredSlides={true} slidesPerView={1} mousewheel={true} modules={[Pagination, Mousewheel]} style={{ height: `${swiperHeight}px` }} className="mySwiper">
                 <SwiperSlide >
-                    <div className="  h-full flex justify-center items-center  bg-black  "   >
+                    <div className="  h-full flex justify-center items-center  bg-black" >
                         {/* <div className=' '>
                             <StarBackground />
                         </div> */}
                         <div className='z-10'>
-                            <Kiranaa />
+                            {/* <Kiranaa /> */}
+                            <CommonTwo imagebright={kiranaa.imagebright} first={kiranaa.first} second={kiranaa.second} bgImage={kiranaa.bgImage} techList={['Next Js', 'Tailwind css', 'AWS']} websitecate={kiranaa.websitecate} tech1={kiranaa.tech1} tech2={kiranaa.tech2} from='from-green-600' to='to-green-200' link='/kiranaa-bazaar' />
                         </div>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <div className=" h-full flex items-center justify-center  bg-black " >
+                    <div className=" h-full flex items-center justify-center  bg-black" >
                         {/* <div className=' '>
                             <StarBackground />
                         </div> */}
@@ -142,7 +152,7 @@ export default function HomePage(props) {
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <div className=" h-full flex items-center justify-center  bg-black  ">
+                    <div className=" h-full flex items-center justify-center  bg-black">
                         <div className=' '>
                             <StarBackground />
                         </div>

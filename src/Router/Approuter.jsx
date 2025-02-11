@@ -15,8 +15,6 @@ import SriKrishnaPage from "../Components/SriKrishnaPage/SriKrishnaPage";
 import DGLholidaysPage from "../Components/DGLPage/DGLholidaysPage";
 import GltfViewer from "../Components/GLTF/Gltfviewer";
 import ContactUsPage from "../Components/Contactus/ContactUsPage";
-
-
 import CarouselPage from "../Components/3dCarousel/CarouselPage";
 import PageFlip from "../Shared/Components/PageFlip/PageFlip";
 import ValluvasPage from "../Components/ValluvaPage/ValluvasPage";
@@ -50,7 +48,7 @@ function Approuter() {
                     <Route path="/malabar" element={<MalabarPage />} />
                     <Route path="/carous" element={<CarouselPage />} />
                     <Route path="/flip" element={<PageFlip />} />
-                </Route>    
+                </Route>
             </Routes>
         </BrowserRouter>
     );

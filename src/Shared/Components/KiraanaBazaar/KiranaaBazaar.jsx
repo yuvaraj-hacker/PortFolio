@@ -39,9 +39,7 @@ function KiranaaBazaar(props) {
                     </div>
                 </section>
 
-
                 <section className="bg-[url('/assets/images/KiranaaMain/Mainsec.png')] md:py-20 py-10 bg-center bg-cover w-full bg-no-repeat my-10  md:my-20">
-
                     <div className='max-w-[80rem] mx-auto px-5 '>
                         <div className='grid md:grid-cols-2  gap-5   '>
                             <div className="bg-[url('/assets/images/KiranaaMain/green.gif')]  flex justify-center items-center p-5 rounded-[3.5rem] bg-cover bg-center bg-no-repeat">
