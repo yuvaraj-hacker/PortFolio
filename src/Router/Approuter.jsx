@@ -20,6 +20,7 @@ import PageFlip from "../Shared/Components/PageFlip/PageFlip";
 import ValluvasPage from "../Components/ValluvaPage/ValluvasPage";
 import MalabarPage from "../Components/MalabarPage/MalabarPage"; 
 import KavinsAcademyPage from "../Components/KavinsAcademyPage/KavinsAcademyPage";
+import BodyRepairPage from "../Components/BodyRepairPage/BodyRepairPage";
 
 
 
@@ -50,6 +51,7 @@ function Approuter() {
                     <Route path="/carous" element={<CarouselPage />} />
                     <Route path="/flip" element={<PageFlip />} />
                     <Route path="/kavinsacademy" element={<KavinsAcademyPage />} />
+                    <Route path="/bodyrepair" element={<BodyRepairPage />} />
                 </Route>
             </Routes>
         </BrowserRouter>

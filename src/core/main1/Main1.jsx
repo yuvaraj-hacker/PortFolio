@@ -2,8 +2,7 @@
 
 import React, { useEffect, useRef, useState } from 'react'
 import Header from '../Header/Header'
-import { Outlet, useLocation } from 'react-router-dom'
-import Footer from '../Footer/Footer'
+import { Outlet, useLocation } from 'react-router-dom' 
 import { Link } from 'react-router-dom';
 
 function Main1() {
@@ -60,6 +59,8 @@ function Main1() {
                 return { bgColor: '#025450', textColor: 'text-white', name: 'VALLUVAS' };
             case '/kavinsacademy':
                 return { bgColor: '#2a2766', textColor: 'text-white', name: 'KAVINS ACADEMY' };
+            case '/bodyrepair':
+                return { bgColor: '#ca0303', textColor: 'text-white', name: 'ALL STATE AUTO & BODY REPAIR' };
             default:
                 return { bgColor: '#02AC4E', textColor: 'white' };
         }
@@ -79,8 +80,8 @@ function Main1() {
                 </span>
                 <Link to='/' >
                     <div className='   '>
-                        <button className='btn-6 custom-btn'>
-                            <i className="fi fi-ts-house-chimney font-bold text-sm   text-white flex justify-center items-center"></i>
+                        <button className='btn-6 custom-btn '>
+                            <i className={`fi fi-ts-house-chimney font-extrabold text-sm text-white flex justify-center items-center`}></i>
                         </button>
                     </div>
                 </Link>
@@ -88,8 +89,7 @@ function Main1() {
 
             <main>
                 <Outlet />
-            </main>
-            <Footer />
+            </main> 
         </div>
     );
 }

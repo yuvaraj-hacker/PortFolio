@@ -144,8 +144,35 @@ export default function HomePage(props) {
         websitecate: 'Indian Grocery Store',
         tech1: 'MySQL',
         tech2: 'Tailwind CSS',
-        tech3: 'PHP',
+        tech3: 'PHP', 
+    };
 
+    const kavins = {
+        bgImage: '/assets/images/one/cutimage.png',
+        bgStyle: '!bg-left !bg-no-repeat !bg-contain',
+        imagebright: '/assets/images/kavins/abtimg.png',
+        imageStyle: '!h-auto ',
+        first: 'Platform business model',
+        second: 'A convenient platform to buy fresh vegetables, fruits, flowers and essentials online.',
+        websitecate: 'Kavins Academy',
+        techList: ['MongoDB', 'Express.js', 'ReactJS', 'Tailwind CSS', 'AWS'],
+        from: 'from-yellow-600',
+        to: 'to-white',
+        link:'/kavinsacademy'
+    };
+
+    const bodyrepair = {
+        bgImage: '/assets/images/one/cutimage.png',
+        bgStyle: '!bg-left !bg-no-repeat !bg-contain',
+        imagebright: '/assets/images/bodyrepair/sec4img.png',
+        imageStyle: 'mx-auto',
+        first: 'Platform business model',
+        second: 'A convenient platform to buy fresh vegetables, fruits, flowers and essentials online.',
+        websitecate: 'ALL STATE AUTO & BODY REPAIR',
+        techList: ['MongoDB', 'Express.js', 'ReactJS', 'Tailwind CSS', 'AWS'],
+        from: 'from-red-600',
+        to: 'to-white',
+        link:'/bodyrepair'
     };
 
 
@@ -263,6 +290,26 @@ export default function HomePage(props) {
                         </div>
                         <div className='z-10'>
                             <Commoncard imagebright={malabar.imagebright} first={malabar.first} bgImage={malabar.bgImage} imageStyle={malabar.imageStyle} techList={['MySQL', 'Tailwind CSS', 'PHP']} second={malabar.second} websitecate={malabar.websitecate} tech1={malabar.tech1} tech2={malabar.tech2} tech3={malabar.tech3} from='from-[#FCCE38]' to='to-orange-100' link='/malabar' />
+                        </div>
+                    </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <div className="  h-full  flex items-center justify-center  bg-black ">
+                        <div className=' '>
+                            <StarBackground />
+                        </div>
+                        <div className='z-10'>
+                            <Commoncard imagebright={kavins.imagebright} first={kavins.first} second={kavins.second} bgImage={kavins.bgImage} websitecate={kavins.websitecate} techList={kavins.techList} from={kavins.from} to={kavins.to} bgStyle={kavins.bgStyle} imageStyle={kavins.imageStyle} link={kavins.link} />
+                        </div>
+                    </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <div className="  h-full  flex items-center justify-center  bg-black ">
+                        <div className=' '>
+                            <StarBackground />
+                        </div>
+                        <div className='z-10'>
+                            <Commoncard imagebright={bodyrepair.imagebright} first={bodyrepair.first} second={bodyrepair.second} bgImage={bodyrepair.bgImage} websitecate={bodyrepair.websitecate} techList={bodyrepair.techList} from={bodyrepair.from} to={bodyrepair.to} bgStyle={bodyrepair.bgStyle} imageStyle={bodyrepair.imageStyle} link={bodyrepair.link} />
                         </div>
                     </div>
                 </SwiperSlide>
