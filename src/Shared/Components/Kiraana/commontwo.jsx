@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom'
 function CommonTwo({ imagebright, first, second, websitecate, tech1, bgImage, tech2, tech3, techList = [], from = '#ffff', to = '#0000', link = '/folsum-pulse' }) {
     return (
         <>
+        {/* kiranaa home card */}
             <section className='px-5 pr-6'>
                 <section className="max-w-[80rem] mx-auto overflow-hidden  bg-black relative border-2 rounded-t-[3.5rem] rounded-bl-[3.5rem] w-full">
                     <div className='grid md:grid-cols-5  grid-cols-1 md:gap-5 md:pl-14  md:pt-5'>
@@ -16,11 +17,7 @@ function CommonTwo({ imagebright, first, second, websitecate, tech1, bgImage, te
                                 <p className="lg:block hidden text-sm">{second}</p>
                                 <p className="lg:text-4xl md:text-2xl text-lg font-bold">{websitecate}</p>
                                 <div className='flex gap-3 font-semibold flex-wrap text-xs lg:text-sm'>
-                                    {/* <div className='px-3 py-1  bg-white text-black w-fit rounded-2xl'>  Mongo DB </div>
-                                    <div className='px-3 py-1 bg-white text-black w-fit rounded-2xl'>   Express.js </div>
-                                    <div className='px-3 py-1 bg-white text-black w-fit rounded-2xl'>  ReactJS </div>
-                                    <div className='px-3 py-1 bg-white text-black w-fit rounded-2xl'>  Tailwind CSS  </div>
-                                    <div className='px-3 py-1 bg-white text-black w-fit rounded-2xl'>  AWS </div> */}
+                                   
                                     {techList.map((tech, index) => (
                                         <div key={index} className="px-3 py-1 bg-white text-black w-fit rounded-2xl" >
                                             {tech}

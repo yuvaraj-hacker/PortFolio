@@ -37,9 +37,21 @@ function YelagiriPage() {
             }
         };
     }, []);
+
+    const [key, setKey] = useState(0);
+
+useEffect(() => {
+    const interval = setInterval(() => {
+        setKey(prevKey => prevKey + 1); 
+    },40000 );  
+
+    return () => clearInterval(interval);
+}, []);
+
+
     return (
         <>
-            <YelagiriMain isInView={isInView} sectionRef={sectionRef} />
+            <YelagiriMain isInView={isInView} key={key} sectionRef={sectionRef} />
         </>
     )
 }

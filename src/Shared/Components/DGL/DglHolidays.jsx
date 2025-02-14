@@ -67,53 +67,24 @@ function DglHolidays(props) {
                     </div>
                 </section>
 
-                <section className="bg-[#F7F7F7]  md:py-20 py-10">
-                    <div className='max-w-[80rem]   mx-auto px-2'>
-                        <div className="grid grid-cols-2 md:gap-5 gap-3  items-center md:grid-cols-5 ">
-                            <motion.div variants={fadeIn("down", 0.1)}
-                                initial="hidden"
-                                whileInView="show"
-                                viewport={{ once: false, amount: 0.2 }}>
-                                <img src="/assets/images/nine/dgl1.png" alt="Mobile Screenshot 1" />
-                            </motion.div>
-                            <motion.div
-                                variants={fadeIn("down", 0.2)}
-                                initial="hidden"
-                                whileInView="show"
-                                viewport={{ once: false, amount: 0.2 }}>
-                                <img src="/assets/images/nine/dgl2.png" alt="Mobile Screenshot 2" />
-                            </motion.div>
-                            <motion.div
-                                variants={fadeIn("down", 0.3)}
-                                initial="hidden"
-                                whileInView="show"
-                                viewport={{ once: false, amount: 0.2 }} className='md:col-span-3 col-span-2 ml-auto'>
-                                <img src="/assets/images/nine/dgl3.png" alt="Tablet Screenshot 1" />
-                            </motion.div>
-                            <motion.div
-                                variants={fadeIn("up", 0.1)}
-                                initial="hidden"
-                                whileInView="show"
-                                viewport={{ once: false, amount: 0.2 }} className='md:col-span-3 col-span-2' >
-                                <img src="/assets/images/nine/dgl4.png" alt="Tablet Screenshot 2" />
-                            </motion.div>
-                            <motion.div
-                                variants={fadeIn("up", 0.2)}
-                                initial="hidden"
-                                whileInView="show"
-                                viewport={{ once: false, amount: 0.2 }}>
-                                <img src="/assets/images/nine/dgl5.png" alt="Mobile Screenshot 3" />
-                            </motion.div>
-                            <motion.div
-                                variants={fadeIn("up", 0.3)}
-                                initial="hidden"
-                                whileInView="show"
-                                viewport={{ once: false, amount: 0.2 }}>
-                                <img src="/assets/images/nine/dgl6.png" alt="Mobile Screenshot 4" />
-                            </motion.div>
+                <article>
+                    <div className='bg-[#F7F7F7]'>
+                        <div className=' py-5 2xl:py-10 2xl:pb-14 max-w-[78rem] mx-auto px-5 2xl:px-0' >
+                            <div className='flex flex-col gap-5 2xl:gap-12 mx-auto overflow-hidden 2xl:overflow-visible'>
+                                <div className='flex justify-center gap-5 2xl:gap-12 flex-wrap sm:flex-nowrap' >
+                                    <div className="sm:w-auto w-[calc(50%-10px)] "><img data-aos="fade-right" data-aos-delay="500" data-aos-anchor-placement="center-bottom" src="/assets/images/nine/dgl1.png" alt="" /></div>
+                                    <div className="sm:w-auto w-[calc(50%-10px)] place-items-end"><img data-aos="fade-right" data-aos-delay="200" data-aos-anchor-placement="center-bottom" src="/assets/images/nine/dgl2.png" alt="" /></div>
+                                    <div className="sm:w-auto w-full"><img data-aos="fade-left" data-aos-delay="800" data-aos-anchor-placement="center-bottom" src="/assets/images/nine/dgl3.png" alt="" /></div>
+                                </div>
+                                <div className='flex justify-center gap-5 2xl:gap-12 flex-wrap sm:flex-nowrap' >
+                                    <div className="sm:w-auto w-full"><img data-aos="fade-right" data-aos-delay="200" data-aos-anchor-placement="center-bottom" src="/assets/images/nine/dgl4.png" alt="" /></div>
+                                    <div className="sm:w-auto w-[calc(50%-10px)] "><img data-aos="fade-left" data-aos-delay="500" data-aos-anchor-placement="center-bottom" src="/assets/images/nine/dgl5.png" alt="" /></div>
+                                    <div className="sm:w-auto w-[calc(50%-10px)] place-items-end"><img data-aos="fade-left" data-aos-delay="800" data-aos-anchor-placement="center-bottom" src="/assets/images/nine/dgl6.png" alt="" /></div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </section>
+                </article>
 
 
                 <img className=' ' src="/assets/images/nine/Footerr.png" alt="" />

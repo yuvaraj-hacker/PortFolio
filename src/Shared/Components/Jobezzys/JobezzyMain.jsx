@@ -23,20 +23,24 @@ function JobezzyMain(props) {
 
             </section>
             <section className='md:my-20 my-10  md:space-y-10 space-y-5'>
+            <div className=' bg-[url(/assets/images/JobezzyMain/Vector.png)] bg-cover bg-no-repeat max-w-[90rem] mx-auto '>
 
-                <section className='max-w-[90rem]  mx-auto px-5'>
-                    <p className="text-[#FFC000] font-bold md:text-3xl">ABOUT THE PROJECT</p>
+                <section className='max-w-[90rem] mx-auto px-5'>
+                    <p className="text-[#FFC000] font-bold text-xl md:text-3xl pb-5">ABOUT THE PROJECT</p>
                 </section>
 
                 <section className='max-w-[60rem]  mx-auto px-5'>
+                    
                     <div className=' grid md:grid-cols-12 md:gap-10 gap-5    items-center'>
                         <div className='col-span-5'>
                             <img className=' ' src="/assets/images/JobezzyMain/twox.png" alt="" />
                         </div>
-                        <div className='rounded-full p-3 flex justify-center items-center bg-[#FFC000] col-span-1'>
-                            <img className='w-16' src="/assets/images/JobezzyMain/Stars.png" alt="" />
+                        <div className='hidden lg:block'>
+                            <div className='absolute -translate-x-1/3 rounded-full p-3 flex justify-center items-center bg-[#FFC000] max-w-none col-span-1'>
+                                <img className='w-16 animate-spin animate-duration-[4s]' src="/assets/images/JobezzyMain/Stars.png" alt="" />
+                            </div>
                         </div>
-                        <div className='col-span-6 md:space-y-5 md:text-base text-sm  space-y-2'>
+                        <div className='col-span-5 md:space-y-5 md:text-base text-sm  space-y-2'>
                             <p className="text-justify"> <span className='text-[#FFC000]'>JOBEZZY</span> is a dynamic job posting and recruitment platform designed
                                 to connect job seekers and employers seamlessly. This app, built with cutting-edge
                                 technologies like  <span className='text-[#FFC000]'>React Native, Express.js,</span> and <span className='text-[#FFC000]'>Tailwind CSS,</span> offers a smooth and
@@ -80,6 +84,7 @@ function JobezzyMain(props) {
                         </div>
                     </div>
                 </section>
+                </div>
             </section>
 
             <section className="bg-[url('/assets/images/JobezzyMain/backpage.png')] bg-cover bg-center bg-no-repeat ">
@@ -97,54 +102,51 @@ function JobezzyMain(props) {
                 </div>
             </section>
 
-            <div className=" flex justify-between md:my-10 my-5 md:px-0 px-2">
-                <div className="left-right-up-down up-down"  >
-                    <img src="/assets/images/Second/job1.png" alt="Image 1" />
+            <section className='max-w-[1920px] mx-auto bg-cover bg-no-repeat bg-[url(/assets/images/JobezzyMain/Vector.png)] ' >
+                <div className=" flex justify-between md:my-10 my-5 md:px-0  *:w-[17%] *:*:w-full ">
+                    <div className="left-right-up-down up-down"  >
+                        <img src="/assets/images/Second/img1.png" alt="Image 1" className='!w-[85%]'  />
+                    </div>
+                    <div className="left-right-up-down down-up"  >
+                        <img src="/assets/images/Second/img2.png" alt="Image 2" />
+                    </div>
+                    <div className="left-right-up-down up-down"  >
+                        <img src="/assets/images/Second/img3.png" alt="Image 3" />
+                    </div>
+                    <div className="left-right-up-down down-up"  >
+                        <img src="/assets/images/Second/img4.png" alt="Image 4" />
+                    </div>
+                    <div className="left-right-up-down up-down place-items-end"  >
+                        <img src="/assets/images/Second/img5.png" alt="Image 5"  className='!w-[85%]' />
+                    </div> 
                 </div>
-                <div className="left-right-up-down down-up"  >
-                    <img src="/assets/images/Second/job2.png" alt="Image 2" />
-                </div>
-                <div className="left-right-up-down up-down"  >
-                    <img src="/assets/images/Second/job3.png" alt="Image 3" />
-                </div>
-                <div className="left-right-up-down down-up"  >
-                    <img src="/assets/images/Second/job4.png" alt="Image 4" />
-                </div>
-                <div className="left-right-up-down up-down"  >
-                    <img src="/assets/images/Second/random.png" alt="Image 5" />
-                </div>
-                <div className="left-right-up-down down-up"  >
-                    <img src="/assets/images/Second/job8.png" alt="Image 6" />
-                </div>
-            </div>
 
-            <div className=" flex justify-between   my-20 md:px-0 px-2">
-                <div className="left-right-up-down up-down"  >
-                    <img src="/assets/images/Second/job7.png" alt="Image 1" />
+                <div className=" flex justify-between my-20 md:px-0  *:w-[17%] *:*:w-full">
+                    <div className="left-right-up-down up-down"  >
+                        <img src="/assets/images/Second/img6.png"  alt="Image 1" className='!w-[85%]'  />
+                    </div>
+                    <div className="left-right-up-down down-up"  >
+                        <img src="/assets/images/Second/img7.png" alt="Image 2" />
+                    </div>
+                    <div className="left-right-up-down up-down"  >
+                        <img src="/assets/images/Second/img8.png" alt="Image 3" />
+                    </div>
+                    <div className="left-right-up-down down-up"  >
+                        <img src="/assets/images/Second/img9.png" alt="Image 4" />
+                    </div>
+                    <div className="left-right-up-down up-down place-items-end"  >
+                        <img src="/assets/images/Second/img10.png" alt="Image 5" className='!w-[85%]'  />
+                    </div> 
                 </div>
-                <div className="left-right-up-down down-up"  >
-                    <img src="/assets/images/Second/job8.png" alt="Image 2" />
-                </div>
-                <div className="left-right-up-down up-down"  >
-                    <img src="/assets/images/Second/job9.png" alt="Image 3" />
-                </div>
-                <div className="left-right-up-down down-up"  >
-                    <img src="/assets/images/Second/job1.png" alt="Image 4" />
-                </div>
-                <div className="left-right-up-down up-down"  >
-                    <img src="/assets/images/Second/job2.png" alt="Image 5" />
-                </div>
-                <div className="left-right-up-down down-up"  >
-                    <img src="/assets/images/Second/job3.png" alt="Image 6" />
-                </div>
-            </div>
+            </section>
 
-            <section className="bg-[url('/assets/images/KiranaaMain/foot.png')]   bg-center bg-cover lg:py-20 py-10 w-full bg-no-repeat">
-                <div className='px-5'>
+            <section className="bg-[url('/assets/images/Second/footerbg.png')]   bg-center bg-cover lg:py-20 py-10 w-full bg-no-repeat relative">
+                <div className='absolute bg-black/40 h-full w-full inset-0'></div>
+                <div className='px-5 z-10 relative'>
                     <div className='max-w-[70rem] mx-auto text-center    border rounded-2xl p-5  ' >
                         <div className='  justify-center items-center   gap-5 text-white'>
                             <p className="md:text-3xl text-sm font-bold uppercase"> "Empower your hiring journey with our
-                                tech-driven solutions!"</p>
+                               <br className='2xl:block hidden'/> tech-driven solutions!"</p>
                             <div className='flex justify-center items-center gap-4'>
                                 <div className=' text-center md:mt-7 mt-5'>
                                     <button className='rounded-3xl text-center mx-auto  md:text-base text-xs bg-[#FEC000] p-1 px-4'>
@@ -155,7 +157,7 @@ function JobezzyMain(props) {
                                         </div>
                                     </button>
                                 </div>
-                                <img className=' md:w-36 w-14  md:h-14' src="/assets/images/JobezzyMain/Arrow-jobezzy.png" alt="" />
+                                <img className='absolute translate-x-full md:w-36 w-14  md:h-14' src="/assets/images/JobezzyMain/Arrow-jobezzy.png" alt="" />
                             </div>
                         </div>
                     </div>

@@ -14,6 +14,7 @@ body,
 html {
   font-family: 'Poppins', sans-serif;
   color: #000;
+  /* cursor: none; */
 }
 
 .swiper-pagination-bullet {
@@ -249,87 +250,69 @@ body {
 
 /* Left to right with up and down motion */
 .left-right-up-down {
-  animation: left-right-up-down 10s linear infinite;
+  animation: left-right-up-down 5s linear infinite;
   transform-origin: 50% 50%;
 }
-
-/* Keyframes for combined horizontal and vertical motion */
+ 
 @keyframes left-right-up-down {
   0% {
-    transform: translateX(-100%) translateY(40px);
-    /* Start off-screen left, slight down */
+    transform: translateX(-100%) translateY(40px); 
   }
 
   25% {
-    transform: translateX(25vw) translateY(60px);
-    /* Move right and slightly down */
+    transform: translateX(25vw) translateY(60px); 
   }
 
   50% {
-    transform: translateX(50vw) translateY(25px);
-    /* Center horizontally, move up */
+    transform: translateX(50vw) translateY(25px); 
   }
 
   75% {
-    transform: translateX(75vw) translateY(60px);
-    /* Move right and slightly down */
+    transform: translateX(75vw) translateY(60px); 
   }
 
   100% {
-    transform: translateX(100vw) translateY(40px);
-    /* End off-screen right, back to start height */
+    transform: translateX(100vw) translateY(40px); 
   }
 }
-
-/* Animation for moving opposite direction */
+ 
 .up-down {
-  animation: up-down 10s linear infinite;
+  animation: up-down 3s linear infinite;
 }
 
 @keyframes up-down {
   0% {
-    transform: translateY(40px);
-    /* Start down */
+    transform: translateY(-15px); 
   }
 
   50% {
-    transform: translateY(60px);
-    /* Move up */
+    transform: translateY(50px); 
   }
 
   100% {
-    transform: translateY(40px);
-    /* End down */
+    transform: translateY(-15px); 
   }
 }
 
 /* Animation for moving down to up */
 .down-up {
-  animation: down-up 10s linear infinite;
+  animation: down-up 3s linear infinite;
 }
 
 @keyframes down-up {
   0% {
-    transform: translateY(40px);
-    /* Start up */
+    transform: translateY(50px); 
   }
 
   50% {
-    transform: translateY(-5px);
+    transform: translateY(-15px);
   }
 
   100% {
-    transform: translateY(40px);
+    transform: translateY(50px);
   }
 }
-
-/* scrollbar */
-
-
-/* .kiranaa{
-  height:100vh;
-  overflow-y: auto;
-} */
+ 
 
 
 /* Customizing the scrollbar */

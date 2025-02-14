@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 function Jobezzy() {
     return (
         <>
-            <section className='px-5  pr-6'>
+            {/* <section className='px-5  pr-6'>
                 <section className="max-w-[80rem]   mx-auto  bg-[url('/assets/images/Second/jobezzy.png')] bg-center bg-cover border-2 rounded-t-[3.5rem] rounded-bl-[3.5rem]  w-full ">
                     <div className='grid md:grid-cols-5  md:gap-5 md:pl-14  '>
                         <div className='md:col-span-3 md:p-0 p-2'>
@@ -38,7 +38,7 @@ function Jobezzy() {
                         </div>
                     </div>
                 </section>
-            </section>
+            </section> */}
         </>
     )
 }

@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 function GoldResort() {
     return (
         <>
-            <section className='px-5 pr-6 '>
+            {/* <section className='px-5 pr-6 '>
                 <section className="max-w-[80rem]   mx-auto  bg-[url('/assets/images/Third/GoldHill.png')] bg-center bg-cover border-2 rounded-t-[3.5rem] rounded-bl-[3.5rem]  w-full ">
                     <div className='grid md:grid-cols-5  md:gap-5 md:pl-14  '>
                         <div className='md:col-span-3 md:p-0 p-2'>
@@ -22,14 +22,6 @@ function GoldResort() {
                                 </div>
                             </div>
                             <div>
-                                {/* <Link to='/yelagiri'>
-                                    <div className='flex w-fit p-2 rounded-t-2xl  rounded-bl-2xl px-5 ml-auto bg-gradient-to-r cursor-pointer relative left-[1px] top-[2px] from-green-600 to-green-100 items-center'>
-                                        <p className="text-black font-bold">  Read More</p>
-                                        <div>
-                                            <img src="/assets/images/one/Double Left.png" alt="" />
-                                        </div>
-                                    </div>
-                                </Link> */}
                                 <Link to='/yelagiri-gold-hill-resort'>
                                     <div className='flex w-fit p-2 rounded-t-2xl rounded-bl-2xl px-5 ml-auto bg-gradient-to-r cursor-pointer relative left-[1px] top-[2px] from-green-600 to-green-100 items-center group'>
                                         <p className="text-black font-bold group-hover:text-white transition-all duration-300 ease-in-out">Read More</p>
@@ -42,7 +34,7 @@ function GoldResort() {
                         </div>
                     </div>
                 </section>
-            </section>
+            </section> */}
         </>
     )
 }

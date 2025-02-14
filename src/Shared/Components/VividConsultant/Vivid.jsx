@@ -9,7 +9,7 @@ function Vivid() {
     return (
         <>
             <section className='bg-white'>
-                <section className="flex justify-center items-center bg-center bg-cover   bg-no-repeat rounded-br-[15rem] 3xl:h-[70vh] py-10  " style={{ backgroundImage: `url(${'/assets/images/Sixth/vivids.png'})` }}>
+                <section className="flex justify-center items-center bg-center bg-cover   bg-no-repeat md:rounded-br-[15rem] rounded-br-[8rem] 3xl:h-[70vh] py-10  " style={{ backgroundImage: `url(${'/assets/images/Sixth/vivids.png'})` }}>
                     <div className='max-w-[90rem] mx-auto px-5 '>
                         <div className='grid lg:grid-cols-2 grid-cols-1 md:gap-5 items-center' >
                             <div className=' '>
@@ -125,30 +125,24 @@ function Vivid() {
                     </div>
                 </section>
 
-                <section className="bg-[url('/assets/images/Sixth/bacccc.png')] bg-center bg-cover bg-no-repeat">
-                    <div className='max-w-[80rem] overflow-hidden mx-auto md:pt-36 md:pb-28 pt-28 pb-10  px-2'>
-                        <div className="grid grid-cols-2 md:gap-5 gap-3  items-center md:grid-cols-5 ">
-                            <div  >
-                                <img src="/assets/images/Sixth/vivid1.png" alt="Mobile Screenshot 1" />
-                            </div>
-                            <div  >
-                                <img src="/assets/images/Sixth/vivid2.png" alt="Mobile Screenshot 2" />
-                            </div>
-                            <div className='md:col-span-3 col-span-2 ml-auto'>
-                                <img src="/assets/images/Sixth/vivid3.png" alt="Tablet Screenshot 1" />
-                            </div>
-                            <div className='md:col-span-3 col-span-2' >
-                                <img src="/assets/images/Sixth/vivid4.png" alt="Tablet Screenshot 2" />
-                            </div>
-                            <div  >
-                                <img src="/assets/images/Sixth/vivid5.png" alt="Mobile Screenshot 3" />
-                            </div>
-                            <div  >
-                                <img src="/assets/images/Sixth/vivid6.png" alt="Mobile Screenshot 4" />
+                <article>
+                    <div className='mt-20'>
+                        <div className='bg-white py-5 2xl:py-10 2xl:pb-14 max-w-[78rem] mx-auto px-5 2xl:px-0' >
+                            <div className='flex flex-col gap-5 2xl:gap-12 mx-auto overflow-hidden 2xl:overflow-visible'>
+                                <div className='flex justify-center gap-5 2xl:gap-12 flex-wrap sm:flex-nowrap' >
+                                    <div className="sm:w-auto w-[calc(50%-10px)] "><img data-aos="fade-right" data-aos-delay="500" data-aos-anchor-placement="center-bottom" src="/assets/images/Sixth/vivid1.png" alt="" /></div>
+                                    <div className="sm:w-auto w-[calc(50%-10px)] place-items-end"><img data-aos="fade-right" data-aos-delay="200" data-aos-anchor-placement="center-bottom" src="/assets/images/Sixth/vivid2.png" alt="" /></div>
+                                    <div className="sm:w-auto w-full"><img data-aos="fade-left" data-aos-delay="800" data-aos-anchor-placement="center-bottom" src="/assets/images/Sixth/vivid3.png" alt="" /></div>
+                                </div>
+                                <div className='flex justify-center gap-5 2xl:gap-12 flex-wrap sm:flex-nowrap' >
+                                    <div className="sm:w-auto w-full"><img data-aos="fade-right" data-aos-delay="200" data-aos-anchor-placement="center-bottom" src="/assets/images/Sixth/vivid4.png" alt="" /></div>
+                                    <div className="sm:w-auto w-[calc(50%-10px)] "><img data-aos="fade-left" data-aos-delay="500" data-aos-anchor-placement="center-bottom" src="/assets/images/Sixth/vivid5.png" alt="" /></div>
+                                    <div className="sm:w-auto w-[calc(50%-10px)] place-items-end"><img data-aos="fade-left" data-aos-delay="800" data-aos-anchor-placement="center-bottom" src="/assets/images/Sixth/vivid6.png" alt="" /></div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </section>
+                </article>
 
 
                 <section className="bg-[#0F0F0F]   md:py-10 py-5 w-full bg-no-repeat">

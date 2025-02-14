@@ -39,7 +39,7 @@ function KiranaaBazaar(props) {
                     </div>
                 </section>
 
-                <section className="bg-[url('/assets/images/KiranaaMain/Mainsec.png')] md:py-20 py-10 bg-center bg-cover w-full bg-no-repeat my-10  md:my-20">
+                <section className="bg-[url('/assets/images/KiranaaMain/Mainsec.png')] md:py-20 py-10 bg-center bg-cover w-full bg-no-repeat my-10  md:my-20 md:mb-10">
                     <div className='max-w-[80rem] mx-auto px-5 '>
                         <div className='grid md:grid-cols-2  gap-5   '>
                             <div className="bg-[url('/assets/images/KiranaaMain/green.gif')]  flex justify-center items-center p-5 rounded-[3.5rem] bg-cover bg-center bg-no-repeat">
@@ -65,30 +65,25 @@ function KiranaaBazaar(props) {
                         </div>
                     </div>
                 </section>
-                <section className='max-w-[80rem] mx-auto  md:my-20 my-10 px-5'>
 
-                    <div className="grid grid-cols-2 gap-5  items-center md:grid-cols-5 ">
-
-                        <div>
-                            <img src="/assets/images/KiranaaMain/kiran10.png" alt="Mobile Screenshot 1" />
-                        </div>
-                        <div>
-                            <img src="/assets/images/KiranaaMain/kiran11.png" alt="Mobile Screenshot 2" />
-                        </div>
-                        <div className='md:col-span-3 col-span-2 ml-auto'>
-                            <img src="/assets/images/KiranaaMain/kiran12.png" alt="Tablet Screenshot 1" />
-                        </div>
-                        <div className='md:col-span-3 col-span-2' >
-                            <img src="/assets/images/KiranaaMain/kiran13.png" alt="Tablet Screenshot 2" />
-                        </div>
-                        <div  >
-                            <img src="/assets/images/KiranaaMain/kiran14.png" alt="Mobile Screenshot 3" />
-                        </div>
-                        <div className=''>
-                            <img src="/assets/images/KiranaaMain/kiran15.png" alt="Mobile Screenshot 4" />
+                <article>
+                    <div>
+                        <div className=' py-5 2xl:py-10 2xl:pb-14 max-w-[78rem] mx-auto px-5 2xl:px-0' >
+                            <div className='flex flex-col gap-5 2xl:gap-12 mx-auto overflow-hidden 2xl:overflow-visible'>
+                                <div className='flex justify-center gap-5 2xl:gap-12 flex-wrap sm:flex-nowrap' >
+                                    <div className="sm:w-auto w-[calc(50%-10px)] "><img data-aos="fade-right" data-aos-delay="500" data-aos-anchor-placement="center-bottom" src="/assets/images/KiranaaMain/kiran10.png" alt="" /></div>
+                                    <div className="sm:w-auto w-[calc(50%-10px)] place-items-end"><img data-aos="fade-right" data-aos-delay="200" data-aos-anchor-placement="center-bottom" src="/assets/images/KiranaaMain/kiran11.png" alt="" /></div>
+                                    <div className="sm:w-auto w-full"><img data-aos="fade-left" data-aos-delay="800" data-aos-anchor-placement="center-bottom" src="/assets/images/KiranaaMain/kiran12.png" alt="" /></div>
+                                </div>
+                                <div className='flex justify-center gap-5 2xl:gap-12 flex-wrap sm:flex-nowrap' >
+                                    <div className="sm:w-auto w-full"><img data-aos="fade-right" data-aos-delay="200" data-aos-anchor-placement="center-bottom" src="/assets/images/KiranaaMain/kiran13.png" alt="" /></div>
+                                    <div className="sm:w-auto w-[calc(50%-10px)] "><img data-aos="fade-left" data-aos-delay="500" data-aos-anchor-placement="center-bottom" src="/assets/images/KiranaaMain/kiran14.png" alt="" /></div>
+                                    <div className="sm:w-auto w-[calc(50%-10px)] place-items-end"><img data-aos="fade-left" data-aos-delay="800" data-aos-anchor-placement="center-bottom" src="/assets/images/KiranaaMain/kiran15.png" alt="" /></div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </section>
+                </article>
 
                 <section className="bg-[url('/assets/images/KiranaaMain/foot.png')]   bg-center bg-cover lg:py-20 py-10 w-full bg-no-repeat">
                     <div className='px-5'>

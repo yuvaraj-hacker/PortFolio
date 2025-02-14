@@ -9,7 +9,7 @@ function Valluvas() {
     return (
         <>
             <section className="bg-white ">
-                <section className="flex justify-center items-center bg-center bg-cover   bg-no-repeat rounded-br-[15rem] 3xl:h-[70vh] py-10  " style={{ backgroundImage: `url(${'/assets/images/Valluva/valluhero.png'})` }}>
+                <section className="flex justify-center items-center bg-center bg-cover   bg-no-repeat md:rounded-br-[15rem] rounded-br-[8rem] 3xl:h-[70vh] py-10  " style={{ backgroundImage: `url(${'/assets/images/Valluva/valluhero.png'})` }}>
                     <div className='max-w-[90rem] mx-auto px-5 '>
                         <div className='grid lg:grid-cols-2 grid-cols-1 gap-5 items-center' >
                             <div className=' '>

@@ -2,14 +2,49 @@ import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
-import { Pagination, Mousewheel } from 'swiper/modules';
-import Jobezzy from '../Jobezzy/Jobezzy';
-import GoldResort from '../GoldHill/GoldResort';
+import { Pagination, Mousewheel } from 'swiper/modules'; 
 import StarBackground from './StarBackground';
-import Commoncard from '../Commonhomecard/commoncard';
-import CommonTwo from '../Kiraana/commontwo';
+import Commoncard from '../Commonhomecard/commoncard'; 
 
 export default function HomePage(props) {
+
+    const kiranaa = {
+        bgImage: '/assets/images/one/cutimage.png',
+        bgStyle: '!bg-left !bg-no-repeat !bg-contain',
+        imagebright: '/assets/images/one/Kiranaa.png',
+        imageStyle: '!-mb-5',
+        first: 'Platform business model',
+        second: 'A convenient platform to buy fresh vegetables, fruits, flowers and essentials online.',
+        websitecate: 'E-commerce Web App',
+        techList: ['MongoDB', 'Express.js', 'ReactJS', 'Tailwind CSS', 'AWS'],
+        from: 'from-green-600',
+        to: 'to-green-200',
+        link:'/kiranaa-bazaar'
+    };
+    
+    const jobezzy = {
+        bgImage: '/assets/images/Second/jobezzy.png',
+        imagebright: '/assets/images/Second/Quality1.png',
+        first: 'Job Posting and Recruitment Platform',
+        second: 'A streamlined platform connecting job seekers with employers for diverse opportunities.',
+        websitecate: 'MOBILE WEB App',
+        techList: ['React Native', 'Express.js', 'Tailwind CSS'],
+        from: 'from-[#ffc105]',
+        to: 'to-[#fff]',
+        link:'/jobezzy'
+    };
+
+    const goldhillresort = {
+        bgImage: '/assets/images/Third/GoldHill.png',
+        imagebright: '/assets/images/Third/Quality2.png',
+        first: 'Premium Resort and Holiday Destination',
+        second: 'Gold Hill Resort offers a serene escape nestled amidst picturesque surroundings, perfect for relaxation and rejuvenation.',
+        websitecate: 'booking WEB App',
+        techList: ['Next.js','Tailwind CSS'],
+        from: 'from-[#05ab50]',
+        to:'to-[#fff]',
+        link:'/yelagiri-gold-hill-resort'
+    };
 
     const colors = {
         imagebright: '/assets/images/Homepages/colormainimage.png',
@@ -19,7 +54,6 @@ export default function HomePage(props) {
         websitecate: 'education website',
         tech1: 'React',
         tech2: 'Tailwind css',
-        // tech2: 'saas',
         from: '#ffff',
         to: '#0000',
     };
@@ -35,22 +69,11 @@ export default function HomePage(props) {
         to: '#0000',
 
     };
-    const kiranaa = {
-        bgImage: '/assets/images/Homepages/folbgimage.png',
-        imagebright: '/assets/images/one/Kiraana.png',
-        first: 'Community and Lifestyle Platform',
-        second: 'Folsom Pulse connects residents with local events, services, and news for a vibrant community experience.',
-        websitecate: 'Community App ',
-        tech1: 'Flutter',
-        tech2: 'Java',
-        from: '#ffff',
-        to: '#0000',
-
-    };
 
     const vivid = {
         imagebright: '/assets/images/Homepages/vividmainimage.png',
         bgImage: '/assets/images/Homepages/vividbgimages.png',
+        imageStyle: '!-mb-5 ',
         first: 'Engineering Consultancy Services',
         second: 'VIVID Engineering Consultant offers innovative and comprehensive engineering, architectural, and design solutions adhering to top industry standards.',
         websitecate: 'Engineering Consultants ',
@@ -115,6 +138,7 @@ export default function HomePage(props) {
     const malabar = {
         bgImage: '/assets/images/Homepages/malabarbgimages.png',
         imagebright: '/assets/images/Homepages/malabarmainimage.png',
+        imageStyle: '!-mb-5 ',
         first: 'Indian Grocery Store',
         second: 'Your one-stop shop for authentic Indian groceries, fresh produce, and spices in Folsom.',
         websitecate: 'Indian Grocery Store',
@@ -130,34 +154,34 @@ export default function HomePage(props) {
     return (
         <div className=' mt-[60px] relative ' >
             <Swiper direction={'vertical'} pagination={{ clickable: true, }} effect="fade" fadeEffect={{ crossFade: true }} speed={1400} centeredSlides={true} slidesPerView={1} mousewheel={true} modules={[Pagination, Mousewheel]} style={{ height: `${swiperHeight}px` }} className="mySwiper">
-                <SwiperSlide >
-                    <div className="  h-full flex justify-center items-center  bg-black" >
-                        {/* <div className=' '>
-                            <StarBackground />
-                        </div> */}
-                        <div className='z-10'>
-                            {/* <Kiranaa /> */}
-                            <CommonTwo imagebright={kiranaa.imagebright} first={kiranaa.first} second={kiranaa.second} bgImage={kiranaa.bgImage} techList={['Next Js', 'Tailwind css', 'AWS']} websitecate={kiranaa.websitecate} tech1={kiranaa.tech1} tech2={kiranaa.tech2} from='from-green-600' to='to-green-200' link='/kiranaa-bazaar' />
-                        </div>
-                    </div>
-                </SwiperSlide>
+
                 <SwiperSlide>
-                    <div className=" h-full flex items-center justify-center  bg-black" >
-                        {/* <div className=' '>
-                            <StarBackground />
-                        </div> */}
-                        <div className='z-10'>
-                            <Jobezzy />
-                        </div>
-                    </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                    <div className=" h-full flex items-center justify-center  bg-black">
+                    <div className="  h-full  flex items-center justify-center  bg-black ">
                         <div className=' '>
                             <StarBackground />
                         </div>
                         <div className='z-10'>
-                            <GoldResort />
+                            <Commoncard imagebright={kiranaa.imagebright} first={kiranaa.first} second={kiranaa.second} bgImage={kiranaa.bgImage} websitecate={kiranaa.websitecate} techList={kiranaa.techList} from={kiranaa.from} to={kiranaa.to} bgStyle={kiranaa.bgStyle} imageStyle={kiranaa.imageStyle} link={kiranaa.link} />
+                        </div>
+                    </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <div className="  h-full  flex items-center justify-center  bg-black ">
+                        <div className=' '>
+                            <StarBackground />
+                        </div>
+                        <div className='z-10'>
+                            <Commoncard imagebright={jobezzy.imagebright} first={jobezzy.first} second={jobezzy.second} bgImage={jobezzy.bgImage} websitecate={jobezzy.websitecate} techList={jobezzy.techList} from={jobezzy.from} to={jobezzy.to} link={jobezzy.link} />
+                        </div>
+                    </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <div className="  h-full  flex items-center justify-center  bg-black ">
+                        <div className=' '>
+                            <StarBackground />
+                        </div>
+                        <div className='z-10'>
+                            <Commoncard imagebright={goldhillresort.imagebright} first={goldhillresort.first} second={goldhillresort.second} bgImage={goldhillresort.bgImage} websitecate={goldhillresort.websitecate} techList={goldhillresort.techList} from={goldhillresort.from} to={goldhillresort.to} bgStyle={goldhillresort.bgStyle} imageStyle={goldhillresort.imageStyle} link={goldhillresort.link} />
                         </div>
                     </div>
                 </SwiperSlide>
@@ -187,7 +211,7 @@ export default function HomePage(props) {
                             <StarBackground />
                         </div>
                         <div className='z-10'>
-                            <Commoncard imagebright={vivid.imagebright} first={vivid.first} second={vivid.second} bgImage={vivid.bgImage} techList={['HTML', 'Tailwind CSS', 'PHP', 'Javascript']} websitecate={vivid.websitecate} tech1={vivid.tech1} tech2={vivid.tech2} from='from-[#FF0000]' to='to-red-200' link='/vivid-engineering-consultants' />
+                            <Commoncard imagebright={vivid.imagebright} first={vivid.first} second={vivid.second} bgImage={vivid.bgImage} techList={['HTML', 'Tailwind CSS', 'PHP', 'Javascript']} websitecate={vivid.websitecate} tech1={vivid.tech1} tech2={vivid.tech2} imageStyle={vivid.imageStyle} from='from-[#FF0000]' to='to-red-200' link='/vivid-engineering-consultants' />
                         </div>
                     </div>
                 </SwiperSlide>
@@ -238,7 +262,7 @@ export default function HomePage(props) {
                             <StarBackground />
                         </div>
                         <div className='z-10'>
-                            <Commoncard imagebright={malabar.imagebright} first={malabar.first} bgImage={malabar.bgImage} techList={['MySQL', 'Tailwind CSS', 'PHP']} second={malabar.second} websitecate={malabar.websitecate} tech1={malabar.tech1} tech2={malabar.tech2} tech3={malabar.tech3} from='from-[#FCCE38]' to='to-orange-100' link='/malabar' />
+                            <Commoncard imagebright={malabar.imagebright} first={malabar.first} bgImage={malabar.bgImage} imageStyle={malabar.imageStyle} techList={['MySQL', 'Tailwind CSS', 'PHP']} second={malabar.second} websitecate={malabar.websitecate} tech1={malabar.tech1} tech2={malabar.tech2} tech3={malabar.tech3} from='from-[#FCCE38]' to='to-orange-100' link='/malabar' />
                         </div>
                     </div>
                 </SwiperSlide>

@@ -58,6 +58,8 @@ function Main1() {
                 return { bgColor: '#FCCE38', textColor: 'text-white', name: 'DGL HOLIDAYS' };
             case '/valluvas':
                 return { bgColor: '#025450', textColor: 'text-white', name: 'VALLUVAS' };
+            case '/kavinsacademy':
+                return { bgColor: '#2a2766', textColor: 'text-white', name: 'KAVINS ACADEMY' };
             default:
                 return { bgColor: '#02AC4E', textColor: 'white' };
         }
